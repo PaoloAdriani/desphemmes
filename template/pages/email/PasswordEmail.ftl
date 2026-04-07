@@ -26,12 +26,12 @@ under the License.
   
   <br />
   <div>
-    <#assign webapp = "fi_eu">
-    <#if webSiteId == "fisicoSiteItaly">
+    <#assign webapp = "dp_eu">
+    <#if webSiteId == "desphemmesSiteItaly">
       <#assign webapp = "dp_it">
     </#if>
 
-    <#assign resetUrl = "https://desphemmes.local:8443/" + webapp
+    <#assign resetUrl = "https://desphemmes.test.mpstyle.it:8445/" + webapp
               + "/control/passwordChange"
               + "?USERNAME=${userLogin.userLoginId!}"
               + "&TOKEN=" + token!

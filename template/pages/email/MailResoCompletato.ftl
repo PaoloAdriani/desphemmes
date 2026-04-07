@@ -1054,7 +1054,8 @@
         }
     </style>
 </head>
-
+<#assign serverUrl = "https://desphemmes.test.mpstyle.it:8445"/>
+<#assign assetspath = "/dp_it/assets"/>
 <body>
     <center>
         <table align="center" border="0" cellpadding="0" cellspacing="0" height="100%" width="100%" id="bodyTable">
@@ -1096,7 +1097,7 @@
                                                             <td class="mcnImageContent" style="padding-right: 9px; padding-left: 9px; padding-top: 0; padding-bottom: 0; text-align:center;" valign="top">
 
 
-                                                                <img alt="" src="https://gallery.mailchimp.com/2f6a0b8d6c6510cfdd528e073/images/8acb88f0-c530-4352-8a05-e1a0c25bf270.jpg" style="max-width:730px; padding-bottom: 0; display: inline !important; vertical-align: bottom;" class="mcnImage" width="365" align="middle">
+                                                                <img alt="" src="${serverUrl}${assetspath}/images/logo.png" style="max-width:730px; padding-bottom: 0; display: inline !important; vertical-align: bottom;" class="mcnImage" width="365" align="middle">
 
 
                                                             </td>
@@ -1163,7 +1164,7 @@
                                                                 </p>
                                                                 <div class="text" id="u5">
                                                                     <p style="font-family: &quot;Montserrat&quot;, Arial, sans-serif; font-size: 12px; text-align: center;">${emailLabelMap.OrderConfirmationNeedHelp} <#-- LABEL -->
-                                                                        <br> ${emailLabelMap.OrderConfirmationAtAddress} <a href="mailto:customercare@abrahamindustries.it">customercare@abrahamindustries.it</a>
+                                                                        <br> ${emailLabelMap.OrderConfirmationAtAddress} <a href="mailto:customercare@desphemmes.it">customercare@desphemmes.it</a>
                                                                     </p>
 
                                                                     <#-- @giulio INfo on MODA Code
@@ -1255,7 +1256,7 @@
                                                                           <tr>
                                                                               <td class="mcnCaptionRightImageContent" valign="top" align="center" style="width:160px;">
 
-                                                                                  <img alt="" src="www.livianaconti.com/${productImageUrl?if_exists}" style="max-width:90px;" class="mcnImage" width="120">
+                                                                                  <img alt="" src="${serverUrl}${productImageUrl?if_exists}" style="max-width:90px;" class="mcnImage" width="120">
 
                                                                               </td>
                                                                           </tr>
@@ -1319,7 +1320,7 @@
 
 
                                                                 <p style="font-family: &quot;Montserrat&quot;, Arial, sans-serif; font-size: 12px; text-align: left;">${emailLabelMap.OrderConfirmationBye},
-                                                                    <br> ${emailLabelMap.NewsletterLivianaTeam}</p>
+                                                                    <br> ${emailLabelMap.NewsletterTeam}</p>
 
                                                             </td>
                                                         </tr>
@@ -1331,7 +1332,7 @@
                                     </tbody>
                                 </table>
 
-                                <!-- LOGO LIVIANA_CONTI_FOOTER -->
+                                <!-- LOGO FOOTER -->
                                 <table class="mcnImageBlock" style="min-width:100%;" width="100%" cellspacing="0" cellpadding="0" border="0">
                                     <tbody class="mcnImageBlockOuter">
                                         <tr>
@@ -1341,7 +1342,7 @@
                                                         <tr>
                                                             <td class="mcnImageContent" style="padding-right: 0px; padding-left: 0px; padding-top: 0; padding-bottom: 0; text-align:center;" valign="top">
 
-                                                                <img alt="" src="https://gallery.mailchimp.com/2f6a0b8d6c6510cfdd528e073/images/de2450a8-561c-4e15-bc96-93a20a413d6f.png" style="max-width:620px; padding-bottom: 0; display: inline !important; vertical-align: bottom;" class="mcnImage" width="600" align="middle">
+                                                                <img alt="" src="" style="max-width:620px; padding-bottom: 0; display: inline !important; vertical-align: bottom;" class="mcnImage" width="600" align="middle">
 
                                                             </td>
                                                         </tr>
@@ -1402,7 +1403,7 @@
                                                                                                                                     <tbody>
                                                                                                                                         <tr>
                                                                                                                                             <td class="mcnFollowIconContent" width="24" valign="middle" align="center">
-                                                                                                                                                <a href="https://www.facebook.com/LivianaConti/" target="_blank"><img src="http://www.livianaconti.com/images/eshop/img/facebook.png" style="display:block;" class="" height="24" width="24">
+                                                                                                                                                <a href="#" target="_blank"><img src="<@ofbizContentUrl>/dp_it/assets/images/facebook.png</@ofbizContentUrl>" style="display:block;" class="" height="24" width="24">
                                                                                                                                                 </a>
                                                                                                                                             </td>
                                                                                                                                         </tr>
@@ -1428,7 +1429,7 @@
                                                                                                                                     <tbody>
                                                                                                                                         <tr>
                                                                                                                                             <td class="mcnFollowIconContent" width="24" valign="middle" align="center">
-                                                                                                                                                <a href="https://www.instagram.com/livianacontiofficial/" target="_blank"><img src="http://www.livianaconti.com/images/eshop/img/instagram.png" style="display:block;" class="" height="24" width="24">
+                                                                                                                                                <a href="" target="_blank"><img src="<@ofbizContentUrl>/dp_it/assets/images/instagram.png</@ofbizContentUrl>" style="display:block;" class="" height="24" width="24">
                                                                                                                                                 </a>
                                                                                                                                             </td>
                                                                                                                                         </tr>
@@ -1486,9 +1487,9 @@
                                                             <td class="mcnTextContent" style="padding-top:0; padding-right:18px; padding-bottom:9px; padding-left:18px;" valign="top">
                                                                 <div class="ax_paragraph" id="u18">
                                                                     <div class="text" id="u19">
-                                                                        <p><span>© 2016 Abraham Industries Srl - P.IVA 01729810406</span>
+                                                                        <p><span>Olmar and Mirta spa - P.IVA 01817070202</span>
                                                                             <br>
-                                                                            <span>Via Fosse Incrociate, 284 - 47822 Santarcangelo di Romagna (RN) - Italy</span>
+                                                                            <span>Via Cocapana, 9 - 46026 Quistello (MN) - Italy</span>
                                                                         </p>
                                                                     </div>
                                                                 </div>

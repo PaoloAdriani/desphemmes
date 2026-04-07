@@ -656,6 +656,10 @@
 
                             }
                             </style></head>
+
+    <#assign serverUrl = "https://desphemmes.test.mpstyle.it:8445"/>
+    <#assign assetspath = "/dp_it/assets"/>
+
                         <body>
                             <center>
                                 <table align="center" border="0" cellpadding="0" cellspacing="0" height="100%" width="100%" id="bodyTable">
@@ -698,7 +702,7 @@
                                                                             <tbody><tr>
                                                                                     <td class="mcnImageContent" style="padding-right: 9px; padding-left: 9px; padding-top: 0; padding-bottom: 0; text-align:center;" valign="top">
 
-                                                                                        <img alt="" src="https://www.fisico.it/images/fsasset/img/fisico/logo.png" style="max-width:730px; padding-bottom: 0; display: inline !important; vertical-align: bottom;" class="mcnImage" width="365" align="middle">
+                                                                                        <img alt="" src="${serverUrl}${assetspath}/images/logo.png" style="max-width:730px; padding-bottom: 0; display: inline !important; vertical-align: bottom;" class="mcnImage" width="365" align="middle">
 
                                                                                         </td>
                                                                                     </tr>
@@ -753,7 +757,7 @@
                                                                                         <p>${password}</p>
                                                                                         <br>
                                                                                         <p>${emailLabelMap.PasswordChangeText2}</p>
-                                                                                        <p>${emailLabelMap.PasswordChangeSeeYouSoon},<br>${emailLabelMap.NewsletterFisicoTeam}</p>
+                                                                                        <p>${emailLabelMap.PasswordChangeSeeYouSoon},<br>${emailLabelMap.NewsletterTeam}</p>
                                                                                         </td>
                                                                                     </tr>
                                                                             </tbody></table>

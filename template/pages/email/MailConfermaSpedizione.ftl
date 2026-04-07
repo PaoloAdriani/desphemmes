@@ -1083,6 +1083,9 @@
 
 </#macro>
 
+<#assign serverUrl = "https://desphemmes.test.mpstyle.it:8445"/>
+<#assign assetspath = "/dp_it/assets"/>
+
 <body>
     <center>
         <table align="center" border="0" cellpadding="0" cellspacing="0" height="100%" width="100%" id="bodyTable">
@@ -1121,7 +1124,7 @@
                                                         <tr>
                                                             <td class="mcnImageContent" style="padding-right: 9px; padding-left: 9px; padding-top: 0; padding-bottom: 0; text-align:center;" valign="top">
 
-                                                                <img alt="" src="https://www.fisico.it/images/fsasset/img/fisico/logo.png" style="max-width:730px; padding-bottom: 0; display: inline !important; vertical-align: bottom;" class="mcnImage" width="365" align="middle">
+                                                                <img alt="" src="${serverUrl}${assetspath}/images/logo.png" style="max-width:730px; padding-bottom: 0; display: inline !important; vertical-align: bottom;" class="mcnImage" width="365" align="middle">
 
                                                             </td>
                                                         </tr>
@@ -1188,7 +1191,7 @@
 
                                                                 <div class="text" id="u5">
                                                                     <p style="font-family: &quot;Montserrat&quot;, Arial, sans-serif; font-size: 12px; text-align: center;">${emailLabelMap.OrderConfirmationNeedHelp} <#-- LABEL -->
-                                                                        <br> ${emailLabelMap.OrderConfirmationAtAddress} <a href="mailto:customercare@fisico.it">customercare@fisico.it</a>
+                                                                        <br> ${emailLabelMap.OrderConfirmationAtAddress} <a href="mailto:customercare@desphemmes.it">customercare@desphemmes.it</a>
                                                                     </p>
                                                                 </div>
                                                             </td>
@@ -1310,7 +1313,7 @@
                                                                         <tr>
                                                                             <td class="mcnCaptionRightImageContent" valign="top" align="center" style="width:160px;">
 
-                                                                                <img alt="" src="https://www.fisico.it/${productImageUrl?if_exists}" style="max-width:90px;" class="mcnImage" width="120">
+                                                                                <img alt="" src="${serverUrl}/${productImageUrl?if_exists}" style="max-width:90px;" class="mcnImage" width="120">
 
                                                                             </td>
                                                                         </tr>
@@ -1617,7 +1620,7 @@
                                                         <tr>
                                                             <td class="mcnTextContent" style="padding: 0px 18px 40px 40px; font-family: &quot;Montserrat&quot;, Arial, sans-serif; font-size: 12px; text-align: left;" valign="top">
                                                                 <p style="font-family: &quot;Montserrat&quot;, Arial, sans-serif; font-size: 12px; text-align: left;">${emailLabelMap.OrderConfirmationBye},
-                                                                    <br> ${emailLabelMap.NewsletterFisicoTeam}</p>
+                                                                    <br> ${emailLabelMap.NewsletterTeam}</p>
                                                             </td>
                                                         </tr>
                                                     </tbody>
@@ -1697,7 +1700,7 @@
                                                                                                                                     <tbody>
                                                                                                                                         <tr>
                                                                                                                                             <td class="mcnFollowIconContent" width="24" valign="middle" align="center">
-                                                                                                                                                <a href="https://www.facebook.com/FisicoOfficial/" target="_blank"><img src="<@ofbizContentUrl>/dp_it/assets/images/facebook.png</@ofbizContentUrl>" style="display:block;" class="" height="24" width="24">
+                                                                                                                                                <a href="#" target="_blank"><img src="<@ofbizContentUrl>/dp_it/assets/images/facebook.png</@ofbizContentUrl>" style="display:block;" class="" height="24" width="24">
                                                                                                                                                 </a>
                                                                                                                                             </td>
                                                                                                                                         </tr>
@@ -1723,7 +1726,7 @@
                                                                                                                                     <tbody>
                                                                                                                                         <tr>
                                                                                                                                             <td class="mcnFollowIconContent" width="24" valign="middle" align="center">
-                                                                                                                                                <a href="https://www.instagram.com/fisico_official/" target="_blank"><img src="<@ofbizContentUrl>/dp_it/assets/images/instagram.png</@ofbizContentUrl>" style="display:block;" class="" height="24" width="24">
+                                                                                                                                                <a href="#" target="_blank"><img src="<@ofbizContentUrl>/dp_it/assets/images/instagram.png</@ofbizContentUrl>" style="display:block;" class="" height="24" width="24">
                                                                                                                                                 </a>
                                                                                                                                             </td>
                                                                                                                                         </tr>

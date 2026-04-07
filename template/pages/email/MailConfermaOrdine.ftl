@@ -1085,6 +1085,9 @@
 
 </#macro>
 
+<#assign serverUrl = "https://desphemmes.test.mpstyle.it:8445"/>
+<#assign assetspath = "/dp_it/assets"/>
+
 
 
 <body>
@@ -1128,7 +1131,7 @@
                                                             <td class="mcnImageContent" style="padding-right: 9px; padding-left: 9px; padding-top: 0; padding-bottom: 0; text-align:center;" valign="top">
 
 
-                                                                <img alt="" src="https://www.fisico.it/images/fsasset/img/fisico/logo.png" style="max-width:730px; padding-bottom: 0; display: inline !important; vertical-align: bottom;" class="mcnImage" width="365" align="middle">
+                                                                <img alt="" src="${serverUrl}${assetspath}/images/logo.png" style="max-width:730px; padding-bottom: 0; display: inline !important; vertical-align: bottom;" class="mcnImage" width="365" align="middle">
 
 
                                                             </td>
@@ -1202,19 +1205,12 @@
 
                                                             <td class="mcnTextContent" style="text-align: center; padding: 0px 18px 9px; font-family: &quot;Montserrat&quot;, Arial, sans-serif; font-size: 12px; " valign="top">
 
-                                                                <h1 style="text-align: center;">${emailLabelMap.OrderConfirmationThankyou}<br>FISICO.IT!</h1> <#-- @giulio LABEL -->
+                                                                <h1 style="text-align: center;">${emailLabelMap.OrderConfirmationThankyou}<br>DESPHEMMES.IT!</h1> <#-- @giulio LABEL -->
 
                                                                 <p style="text-align: center">
                                                                     ${emailLabelMap.OrderConfirmationOrderReceived} <strong>${orderHeader.orderId?if_exists}</strong> ${emailLabelMap.OrderConfirmationOrderOf} <strong>${orderDate?if_exists}</strong>
                                                                 </p>
 
-                                                                <#--
-                                                                <div class="text" id="u5">
-                                                                    <p style="font-family: &quot;Montserrat&quot;, Arial, sans-serif; font-size: 12px; text-align: center;">${emailLabelMap.OrderConfirmationNeedHelp}
-                                                                        <br> ${emailLabelMap.OrderConfirmationAtAddress} <a href="mailto:customercare@abrahamindustries.it">customercare@abrahamindustries.it</a> ${emailLabelMap.OrderConfirmationCallUs} <strong>+39-0541-32771</strong>
-                                                                    </p>
-                                                                </div>
-                                                              -->
                                                             </td>
                                                         </tr>
                                                     </tbody>
@@ -1334,7 +1330,7 @@
                                                                         <tr>
                                                                             <td class="mcnCaptionRightImageContent" valign="top" align="center" style="width:160px;">
 
-																				<img alt="Product Image" src="https://www.fisico.it/${productImageUrl?if_exists}" style="max-width:90px;" class="mcnImage" width="120">
+																				<img alt="Product Image" src="${serverUrl}${productImageUrl?if_exists}" style="max-width:90px;" class="mcnImage" width="120">
 
                                                                             </td>
                                                                         </tr>
@@ -1681,9 +1677,9 @@
                                                             <td class="mcnTextContent" style="padding: 0px 18px 40px 0px; font-family: &quot;Montserrat&quot;, Arial, sans-serif; font-size: 12px; text-align: left;" valign="top">
 
                                                               <p style="font-family: &quot;Montserrat&quot;, sans-serif; font-size: 12px;">${emailLabelMap.PerQualsiasiRichiesta}</p>
-                                                              <a href="mailto:customercare@fisico.it" >customercare@fisico.it</a>
+                                                              <a href="mailto:customercare@desphemmes.it" >customercare@desphemmes.it</a>
                                                                 <p style="font-family: &quot;Montserrat&quot;, Arial, sans-serif; font-size: 12px; text-align: left;">${emailLabelMap.OrderConfirmationBye},
-                                                                    <br> ${emailLabelMap.NewsletterFisicoTeam}</p>
+                                                                    <br> ${emailLabelMap.NewsletterTeam}</p>
 
                                                             </td>
                                                         </tr>
@@ -1765,7 +1761,7 @@
                                                                                                                                     <tbody>
                                                                                                                                         <tr>
                                                                                                                                             <td class="mcnFollowIconContent" width="24" valign="middle" align="center">
-                                                                                                                                                <a href="#" target="_blank"><img src="https://www.fisico.it/images/fsasset/img/facebook.png" style="display:block;" class="" height="24" width="24">
+                                                                                                                                                <a href="#" target="_blank"><img src="<@ofbizContentUrl>/dp_it/assets/images/facebook.png</@ofbizContentUrl>" style="display:block;" class="" height="24" width="24">
                                                                                                                                                 </a>
                                                                                                                                             </td>
                                                                                                                                         </tr>
@@ -1791,7 +1787,7 @@
                                                                                                                                     <tbody>
                                                                                                                                         <tr>
                                                                                                                                             <td class="mcnFollowIconContent" width="24" valign="middle" align="center">
-                                                                                                                                                <a href="#" target="_blank"><img src="https://www.fisico.it/images/fsasset/img/instagram.png" style="display:block;" class="" height="24" width="24">
+                                                                                                                                                <a href="#" target="_blank"><img src="<@ofbizContentUrl>/dp_it/assets/images/instagram.png</@ofbizContentUrl>" style="display:block;" class="" height="24" width="24">
                                                                                                                                                 </a>
                                                                                                                                             </td>
                                                                                                                                         </tr>

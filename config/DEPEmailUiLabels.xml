@@ -1,26 +1,26 @@
 <resource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 			
 <property key="NewsletterConfirmEmailTitle">
-        <value xml:lang="it">Benvenuto in Fisico</value>
-	<value xml:lang="en">Welcome in Fisico</value>
+        <value xml:lang="it">Benvenuto in DES_PHEMMES</value>
+	<value xml:lang="en">Welcome in DES_PHEMMES</value>
 </property>
 <property key="NewsletterConfirmThanksMsg">
-        <value xml:lang="it">Grazie per esserti iscritto alla newsletter di Fisico!</value>
-	<value xml:lang="en">Thank you for subscribing to Fisico newsletter!</value>
+        <value xml:lang="it">Grazie per esserti iscritto alla newsletter di DES_PHEMMES!</value>
+	<value xml:lang="en">Thank you for subscribing to DES_PHEMMES newsletter!</value>
 </property>
 <property key="NewsletterGreetings">
 	<value xml:lang="it">A presto</value>
 	<value xml:lang="en">Kind Regards</value>
 </property>
-<property key="NewsletterFisicoTeam">
-	<value xml:lang="it">Il Team di Fisico</value>
-	<value xml:lang="en">The Fisico Team</value>
+<property key="NewsletterTeam">
+	<value xml:lang="it">Il Team di DES_PHEMMES</value>
+	<value xml:lang="en">The DES_PHEMMES Team</value>
 </property>
     
 <!-- Order Notifications Labels -->
 <property key="OrderConfirmationHeadTitle">
-        <value xml:lang="it">FISICO - Conferma Ordine</value>
-	<value xml:lang="en">FISICO - Order Confirmation</value>
+        <value xml:lang="it">DES_PHEMMES - Conferma Ordine</value>
+	<value xml:lang="en">DES_PHEMMES - Order Confirmation</value>
 </property>
 
 <property key="orderConfirmationMailObject">
@@ -124,8 +124,8 @@
         
 <!-- Retail Return Labels -->
 <property key="RetailReturnReserved">
-        <value xml:lang="it">Hai prenotato il reso presso lo store Fisico di</value>
-	<value xml:lang="en">Your return request has been reserved and forwarded to the Fisico store in</value>
+        <value xml:lang="it">Hai prenotato il reso presso lo store DES_PHEMMES di</value>
+	<value xml:lang="en">Your return request has been reserved and forwarded to the DES_PHEMMES store in</value>
 </property>
         
 <property key="RequestReturnNumber">
@@ -194,8 +194,8 @@
  </property>
 
  <property key="PasswordChangeMailObject">
-   <value xml:lang="it">Fisico - Reimpostazione Password</value>
-   <value xml:lang="en">Fisico - Temporary Password</value>
+   <value xml:lang="it">DES_PHEMMES - Reimpostazione Password</value>
+   <value xml:lang="en">DES_PHEMMES - Temporary Password</value>
  </property>
  
  <property key="PasswordChangeTitle">
@@ -250,8 +250,8 @@
         
         <!-- @giulio ########## RETURN PROMO CODE LABELS -->
 <property key="PromoCodeEmailSubject">
-    <value xml:lang="it">FISICO - Il tuo Promocode</value>
-    <value xml:lang="en">FISICO - Your Promocode</value>
+    <value xml:lang="it">DES_PHEMMES - Il tuo Promocode</value>
+    <value xml:lang="en">DES_PHEMMES - Your Promocode</value>
  </property>        
         
 <property key="PromoCodeTitle">
@@ -309,33 +309,33 @@
 </property>      
         
 <property key="PromoCodeFisicoTeam">
-    <value xml:lang="it">il Team di FISICO</value>
-    <value xml:lang="en">FISICO Team</value>
+    <value xml:lang="it">il Team di DES_PHEMMES</value>
+    <value xml:lang="en">DES_PHEMMES Team</value>
 </property>        
     
 <!-- ########### END PROMO CODE LABELS ########### -->
      
 <property key="NewsletterConfirmEmailTitle">
-        <value xml:lang="it">Benvenuto in Fisico</value>
-	<value xml:lang="en">Welcome in Fisico</value>
+        <value xml:lang="it">Benvenuto in DES_PHEMMES</value>
+	<value xml:lang="en">Welcome in DES_PHEMMES</value>
 </property>
 <property key="NewsletterConfirmThanksMsg">
-        <value xml:lang="it">Grazie per esserti iscritto alla newsletter di Fisico!</value>
-	<value xml:lang="en">Thank you for subscribing to Fisico newsletter!</value>
+        <value xml:lang="it">Grazie per esserti iscritto alla newsletter di DES_PHEMMES!</value>
+	<value xml:lang="en">Thank you for subscribing to DES_PHEMMES newsletter!</value>
 </property>
 <property key="NewsletterGreetings">
 	<value xml:lang="it">A presto</value>
 	<value xml:lang="en">Kind Regards</value>
 </property>
 <property key="NewsletterFisicoTeam">
-	<value xml:lang="it">Il Team di Fisico</value>
-	<value xml:lang="en">The Fisico Team</value>
+	<value xml:lang="it">Il Team di DES_PHEMMES</value>
+	<value xml:lang="en">The DES_PHEMMES Team</value>
 </property>
         
 <!-- @giulio ########### NEW ACCOUNT LABELS ########### -->
 <property key="newCustomerRegTitle">
-        <value xml:lang="it">Fisico - Nuovo account creato</value>
-	<value xml:lang="en">Fisico - New Account Created</value>
+        <value xml:lang="it">DES_PHEMMES - Nuovo account creato</value>
+	<value xml:lang="en">DES_PHEMMES - New Account Created</value>
 </property> 
 <property key="newCustomerRegEmailSubject">
 	<value xml:lang="it">Benvenuta su FisicoConti.com</value>
@@ -371,7 +371,7 @@
 <property key="newCustomerNewsletterInfo">
 	<value xml:lang="it">
                 Iscrivendoti alla nostra newsletter riceverai in anteprima tutti gli aggiornamenti sulle iniziative
-                speciali, sulle nuove collezioni e sui nuovi prodotti FISICO.
+                speciali, sulle nuove collezioni e sui nuovi prodotti DES_PHEMMES.
         </value>
 	<value xml:lang="en">We recommend you to sign up to our newsletter to hear about special offers and the latest collections.</value>
 </property>
@@ -386,8 +386,8 @@
 	<value xml:lang="en">Regards</value>
 </property>
 <property key="livianaContiTeam">
-	<value xml:lang="it">il Team di FISICO</value>
-	<value xml:lang="en">FISICO Team</value>
+	<value xml:lang="it">il Team di DES_PHEMMES</value>
+	<value xml:lang="en">DES_PHEMMES Team</value>
 </property>
 
 <property key="MailNoReply">
