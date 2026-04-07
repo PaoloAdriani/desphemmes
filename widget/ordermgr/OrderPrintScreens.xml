@@ -32,7 +32,7 @@ under the License.
                 <property-map resource="AccountingUiLabels" map-name="uiLabelMap" global="true" />
                 <property-map resource="ProductUiLabels" map-name="uiLabelMap" global="true" />
 
-                <script location="component://desphemmes/src/main/groovy/order/OrderView.groovy" />
+                <script location="component://desphemmes/src/main/groovy/desphemmes/order/OrderView.groovy" />
                 <script location="component://order/src/main/groovy/org/apache/ofbiz/order/order/OrderViewWebSecure.groovy" />
             </actions>
             <widgets>
@@ -96,7 +96,7 @@ under the License.
     <screen name="CompanyLogo">
         <section>
             <actions>
-                <script location="component://desphemmes/src/main/groovy/order/CompanyHeader.groovy"/>
+                <script location="component://desphemmes/src/main/groovy/desphemmes/order/CompanyHeader.groovy"/>
             </actions>
             <widgets>
                 <platform-specific><xsl-fo><html-template location="component://desphemmes/template/prints/order/CompanyHeader.fo.ftl"/></xsl-fo></platform-specific>
