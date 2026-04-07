@@ -1,0 +1,400 @@
+<resource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+			
+<property key="NewsletterConfirmEmailTitle">
+        <value xml:lang="it">Benvenuto in Fisico</value>
+	<value xml:lang="en">Welcome in Fisico</value>
+</property>
+<property key="NewsletterConfirmThanksMsg">
+        <value xml:lang="it">Grazie per esserti iscritto alla newsletter di Fisico!</value>
+	<value xml:lang="en">Thank you for subscribing to Fisico newsletter!</value>
+</property>
+<property key="NewsletterGreetings">
+	<value xml:lang="it">A presto</value>
+	<value xml:lang="en">Kind Regards</value>
+</property>
+<property key="NewsletterFisicoTeam">
+	<value xml:lang="it">Il Team di Fisico</value>
+	<value xml:lang="en">The Fisico Team</value>
+</property>
+    
+<!-- Order Notifications Labels -->
+<property key="OrderConfirmationHeadTitle">
+        <value xml:lang="it">FISICO - Conferma Ordine</value>
+	<value xml:lang="en">FISICO - Order Confirmation</value>
+</property>
+
+<property key="orderConfirmationMailObject">
+        <value xml:lang="it"> Conferma Ordine</value>
+	<value xml:lang="en"> Order Confirmation</value>
+</property>
+
+<property key="FreeShipping">
+    <value xml:lang="it"> Spedizione gratuita</value>
+    <value xml:lang="en"> Free shipping</value>
+</property>
+
+<property key="shippingConfirmationMailObject">
+        <value xml:lang="it"> Conferma presa in carico ordine </value>
+	<value xml:lang="en"> Order Processing Confirmation </value>
+</property>
+
+<property key="OrderConfirmationThankyou">
+        <value xml:lang="it">Grazie per aver acquistato su </value>
+	<value xml:lang="en">Thank you for purchasing at </value>
+</property>
+
+<property key="OrderConfirmationOrderReceived">
+        <value xml:lang="it">Abbiamo ricevuto il tuo ordine, numero</value>
+	<value xml:lang="en">We received your order, number</value>
+</property>
+
+<property key="OrderConfirmationOrderOf">
+        <value xml:lang="it">del</value>
+	<value xml:lang="en">placed in date</value>
+</property>
+
+<property key="OrderConfirmationNeedHelp">
+        <value xml:lang="it">Se hai bisogno di assistenza, scrivici</value>
+	<value xml:lang="en">If you need help, contact us</value>
+</property>
+
+<property key="OrderConfirmationAtAddress">
+        <value xml:lang="it">all'indirizzo</value>
+	<value xml:lang="en">at</value>
+</property>
+
+<property key="OrderConfirmationCallUs">
+        <value xml:lang="it">o chiamaci al</value>
+	<value xml:lang="en">or call us at the number</value>
+</property>
+
+<property key="OrderConfirmationYourOrder">
+        <value xml:lang="it">IL TUO ORDINE</value>
+	<value xml:lang="en">YOUR ORDER</value>
+</property>
+
+<property key="OrderConfirmationDetail">
+        <value xml:lang="it">Dettaglio dell'ordine</value>
+        <value xml:lang="en">Order details</value>
+</property>
+
+<property key="OrderConfirmationOrderSubtotal">
+        <value xml:lang="it">Totale Merce</value>
+	<value xml:lang="en">Value of the goods</value>
+</property>
+
+<property key="OrderConfirmationShipEst">
+        <value xml:lang="it">Spese di spedizione</value>
+	<value xml:lang="en">Shipping estimates</value>
+</property>
+
+<property key="OrderConfirmationOrderTotal">
+        <value xml:lang="it">TOTALE ORDINE</value>
+	<value xml:lang="en">TOTAL AMOUNT</value>
+</property>
+
+<property key="OrderConfirmationShippingAddrTitle">
+        <value xml:lang="it">INDIRIZZO DI SPEDIZIONE</value>
+	<value xml:lang="en">SHIPPING ADDRESS</value>
+</property>
+
+<property key="OrderConfirmationShippingAddr">
+        <value xml:lang="it">Indirizzo di spedizione</value>
+	<value xml:lang="en">Shipping address</value>
+</property>
+        
+<property key="PerQualsiasiRichiesta">
+    <value xml:lang="it">Per qualsiasi richiesta in merito al tuo ordine puoi contattarci all'indirizzo</value>
+    <value xml:lang="en">For any information about your order, please contact us at </value>
+</property>
+
+<property key="PromoCodeApplicati">
+    <value xml:lang="it">Promo Code applicati:</value>
+    <value xml:lang="en">Promo Code:</value>
+</property>
+	<property key="AltrePromozioni">
+    <value xml:lang="it">Altre promozioni:</value>
+    <value xml:lang="en">Other Promotions:</value>
+</property>
+
+<property key="OrderConfirmationBye">
+        <value xml:lang="it">Cordiali Saluti</value>
+	<value xml:lang="en">Regards</value>
+</property>
+        
+<!-- Retail Return Labels -->
+<property key="RetailReturnReserved">
+        <value xml:lang="it">Hai prenotato il reso presso lo store Fisico di</value>
+	<value xml:lang="en">Your return request has been reserved and forwarded to the Fisico store in</value>
+</property>
+        
+<property key="RequestReturnNumber">
+        <value xml:lang="it">Richiesta di reso numero</value>
+	<value xml:lang="en">Request return number</value>
+</property>
+        
+<property key="ModaCodeAvailable">
+        <value xml:lang="it">A disposizione un buono acquisto, codice</value>
+	<value xml:lang="en">Promo code at disposal, id</value>
+</property>  
+        
+<property key="ModaCodeAmount">
+        <value xml:lang="it">del valore di</value>
+	<value xml:lang="en">total amount</value>
+</property>
+        
+<property key="RetailReturnYourItems">
+        <value xml:lang="it">IL TUO RESO</value>
+	<value xml:lang="en">YOUR RETURN</value>
+</property>
+        
+<property key="StoreRetailReturnReserved">
+        <value xml:lang="it">PRENOTAZIONE RICHIESTA DI RESO PRESSO IL VOSTRO STORE DI</value>
+	<value xml:lang="en">RETURN REQUEST RESERVATION FORWARDED TO YOUR STORE IN</value>
+</property>
+        
+<property key="StoreRetailReturnFromCustomer">
+        <value xml:lang="it">dal cliente</value>
+	<value xml:lang="en">placed by customer</value>
+</property>
+  
+<property key="StoreRetailReturnCusPartyId">
+        <value xml:lang="it">id cliente</value>
+	<value xml:lang="en">customer id</value>
+</property>  
+        
+<property key="StoreRetailReturnYourItems">
+        <value xml:lang="it">RICHIESTA RESO DEI PRODOTTI</value>
+	<value xml:lang="en">REQUEST RETURN FOR PRODUCTS</value>
+</property>
+
+ <property key="ShippingConfirmationTitleMsg">
+ 	<value xml:lang="it">IL TUO ORDINE E' STATO PRESO IN CARICO!</value>
+   <value xml:lang="en">YOUR ORDER IS BEING PROCESSED!</value>
+ </property>
+ 
+ <property key="ShippingConfirmationOrderNumMsg">
+ 	<value xml:lang="it">L'ordine numero </value>
+ 	<value xml:lang="en">The order number </value>
+ </property>
+ 
+ <property key="ShippingConfirmationOrderShipped">
+ 	<value xml:lang="it"> è stato preso in carico e lo riceverai tra pochi giorni.</value>
+ 	<value xml:lang="en"> has been processed and it will be delivered to you in few days.</value>
+</property>
+
+ <property key="ShippingConfirmationShippingAddr">
+ 	<value xml:lang="it">INDIRIZZO DI CONSEGNA</value>
+ 	<value xml:lang="en">DELIVERY ADDRESS</value>
+ </property>
+        
+ <property key="PasswordChangeSeeYouSoon">
+   <value xml:lang="it">A presto</value>
+   <value xml:lang="en">See you soon</value>
+ </property>
+
+ <property key="PasswordChangeMailObject">
+   <value xml:lang="it">Fisico - Reimpostazione Password</value>
+   <value xml:lang="en">Fisico - Temporary Password</value>
+ </property>
+ 
+ <property key="PasswordChangeTitle">
+   <value xml:lang="it">CAMBIO PASSWORD</value>
+   <value xml:lang="en">CHANGE PASSWORD</value>
+ </property>
+ 
+ <property key="PasswordChangeText">
+   <value xml:lang="it">La tua password provvisoria</value>
+   <value xml:lang="en">Your temporary password</value>
+ </property>
+ 
+  <property key="PasswordChangeText2">
+   <value xml:lang="it">Per reimpostare correttamente la password ti suggeriamo di copiare e incollare il codice qui sopra nel riquadro dedicato alla "Password temporanea"; scegli la tua nuova password e inseriscila nei campi "Password" e "Conferma Nuova Password"; infine clicca sul pulsante "Accedi".</value>
+   <value xml:lang="en">To set correctly the password we suggest you to copy-paste the above code in the box "Temporary Password"; choose your new password and enter it in the fields "Password" and "Confirm New Password"; then click on the button "Login".</value>
+ </property>
+ 
+ <property key="Copyright">
+   <value>Olmar and Mirta spa</value>
+ </property>
+ 
+ <property key="indirizzo">
+   <value>Via Cocapana, 9 - 46026 Quistello (MN) - Italy</value>
+ </property>
+ 
+ <!--@ste label mail reso rifiutato  -->
+ <property key="ResoRifiutatoTitle">
+    <value xml:lang="it">LA SUA RICHIESTA DI RESO È STATA RESPINTA</value>
+    <value xml:lang="en">YOUR RETURN REQUEST HAS BEEN REJECTED</value>
+ </property>
+ 
+ <property key="ResoRifiutatoText">
+     <value xml:lang="it">Siamo spiacenti di informarla che la sua richiesta di reso del prodotto</value>
+     <value xml:lang="en">We are sorry to inform you that your return request for the product</value>
+ </property>
+ 
+ <property key="ResoRifiutatoTextB">
+     <value xml:lang="it">è stata respinta.</value>
+     <value xml:lang="en">has been rejected.</value>
+ </property>
+	
+<!-- @giulio label mail reso accettato -->
+ <property key="ReturnAcceptedTitle">
+    <value xml:lang="it">LA SUA RICHIESTA DI RESO È STATA ACCETTATA</value>
+    <value xml:lang="en">YOUR RETURN REQUEST HAS BEEN ACCEPTED</value>
+ </property>
+
+ <property key="ReturnCompletedTitle">
+    <value xml:lang="it">LA SUA PROCEDURA DI RESO È STATA COMPLETATA</value>
+    <value xml:lang="en">YOUR RETURN REQUEST HAS BEEN COMPLETED</value>
+ </property>
+        
+        <!-- @giulio ########## RETURN PROMO CODE LABELS -->
+<property key="PromoCodeEmailSubject">
+    <value xml:lang="it">FISICO - Il tuo Promocode</value>
+    <value xml:lang="en">FISICO - Your Promocode</value>
+ </property>        
+        
+<property key="PromoCodeTitle">
+    <value xml:lang="it">IL TUO PROMOCODE E'</value>
+    <value xml:lang="en">YOUR PROMOCODE IS</value>
+ </property>
+        
+<property key="PromoCodeReturnAccepted">
+    <value xml:lang="it">Ti confermiamo che il tuo reso è stato accettato</value>
+    <value xml:lang="en">Please be advised that your return has been accepted</value>
+ </property>
+        
+<property key="PromoCodeReturnRef">
+    <value xml:lang="it">riferimento reso numero</value>
+    <value xml:lang="en">Return request No.</value>
+ </property>     
+        
+ <property key="PromoCodeReturnDate">
+    <value xml:lang="it">del</value>
+    <value xml:lang="en">placed in date</value>
+ </property> 
+        
+<property key="PromoCodeUse">
+    <value xml:lang="it">Ora puoi utilizzare il tuo Promocode del valore di</value>
+    <value xml:lang="en">Now you can use your Promocode</value>
+ </property> 
+        
+<property key="PromoCodeUseOnSite">
+    <value xml:lang="it">sul nostro sito, inserendo il codice nel box dedicato al 
+            "Buono Acquisto" e cliccando successivamente su "Applica"
+    </value>
+	<value xml:lang="en">on our website: enter the code in the provided box, then click on "Apply"</value>
+</property>  
+
+
+<property key="PromoCodeReadTerms">
+
+    <value xml:lang="it">Per maggiori informazioni consulta i nostri </value>
+    <value xml:lang="en">For further informations please read our </value>
+</property>
+
+<property key="PromoCodeTermsCond">
+    <value xml:lang="it">Termini e Condizioni</value>
+    <value xml:lang="en">Terms&#38;Conditions</value>
+</property>
+        
+<property key="PromoCodeNeedHelp">
+    <value xml:lang="it">Se hai bisogno di assistenza, scrivici all'indirizzo</value>
+    <value xml:lang="en">If you need help, please contact us at</value>
+</property>
+        
+<property key="PromoCodeBye">
+    <value xml:lang="it">A presto</value>
+    <value xml:lang="en">Regards</value>
+</property>      
+        
+<property key="PromoCodeFisicoTeam">
+    <value xml:lang="it">il Team di FISICO</value>
+    <value xml:lang="en">FISICO Team</value>
+</property>        
+    
+<!-- ########### END PROMO CODE LABELS ########### -->
+     
+<property key="NewsletterConfirmEmailTitle">
+        <value xml:lang="it">Benvenuto in Fisico</value>
+	<value xml:lang="en">Welcome in Fisico</value>
+</property>
+<property key="NewsletterConfirmThanksMsg">
+        <value xml:lang="it">Grazie per esserti iscritto alla newsletter di Fisico!</value>
+	<value xml:lang="en">Thank you for subscribing to Fisico newsletter!</value>
+</property>
+<property key="NewsletterGreetings">
+	<value xml:lang="it">A presto</value>
+	<value xml:lang="en">Kind Regards</value>
+</property>
+<property key="NewsletterFisicoTeam">
+	<value xml:lang="it">Il Team di Fisico</value>
+	<value xml:lang="en">The Fisico Team</value>
+</property>
+        
+<!-- @giulio ########### NEW ACCOUNT LABELS ########### -->
+<property key="newCustomerRegTitle">
+        <value xml:lang="it">Fisico - Nuovo account creato</value>
+	<value xml:lang="en">Fisico - New Account Created</value>
+</property> 
+<property key="newCustomerRegEmailSubject">
+	<value xml:lang="it">Benvenuta su FisicoConti.com</value>
+	<value xml:lang="en">Welcome to FisicoConti.com</value>
+</property> 
+<property key="newCustomerRegWelcome">
+	<value xml:lang="it">Benvenuta</value>
+	<value xml:lang="en">Welcome</value>
+</property>
+<property key="newCustomerRegThanks">
+	<value xml:lang="it">Ti ringraziamo per esserti registrata al nostro sito.</value>
+	<value xml:lang="en">Thank you for subscribing to FisicoConti.com</value>
+</property>
+<property key="newCustomerRegEmailUse">
+	<value xml:lang="it">&#160;</value><!-- @giulio hex value for html entity nbsp; -->
+	<value xml:lang="en">You can use</value>
+</property>
+<property key="newCustomerRegLoginDataInfo">
+	<value xml:lang="it">
+                è l'email utilizzata per la tua registrazione e, insieme alla tua password, ti servirà per effettuare 
+                l'accesso su FisicoConti.com ed effettuare acquisti.
+                Potrai anche consultare i dettagli dei tuoi ordini attraverso la sezione
+        </value>
+	<value xml:lang="en">
+                with your password, to access FisicoConti.com, shop online and check the details of your
+                orders under the section
+        </value>
+</property>
+<property key="newCustomerRegMyOrders">
+	<value xml:lang="it">I miei ordini</value>
+	<value xml:lang="en">My orders</value>
+</property>
+<property key="newCustomerNewsletterInfo">
+	<value xml:lang="it">
+                Iscrivendoti alla nostra newsletter riceverai in anteprima tutti gli aggiornamenti sulle iniziative
+                speciali, sulle nuove collezioni e sui nuovi prodotti FISICO.
+        </value>
+	<value xml:lang="en">We recommend you to sign up to our newsletter to hear about special offers and the latest collections.</value>
+</property>
+<property key="newCustomerRegCustomerCareInfo">
+	<value xml:lang="it">
+                Per qualsiasi richiesta ti ricordiamo che il nostro servizio clienti è sempre disponibile all'indirizzo email
+        </value>
+	<value xml:lang="en">For any questions or concerns, please contact</value>
+</property>
+<property key="newCustomerRegBye">
+	<value xml:lang="it">A presto</value>
+	<value xml:lang="en">Regards</value>
+</property>
+<property key="livianaContiTeam">
+	<value xml:lang="it">il Team di FISICO</value>
+	<value xml:lang="en">FISICO Team</value>
+</property>
+
+<property key="MailNoReply">
+    <value xml:lang="it">La presente e-mail è stata generata automaticamente da un indirizzo di posta elettronica di solo invio; si chiede pertanto di non rispondere al messaggio.</value>
+    <value xml:lang="en">This is an automated message. Please do not reply.</value>
+</property>
+        
+<!-- ######################################## -->
+
+</resource>

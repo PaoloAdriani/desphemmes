@@ -1,0 +1,1381 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Licensed to the Apache Software Foundation (ASF) under one
+or more contributor license agreements.  See the NOTICE file
+distributed with this work for additional information
+regarding copyright ownership.  The ASF licenses this file
+to you under the Apache License, Version 2.0 (the
+"License"); you may not use this file except in compliance
+with the License.  You may obtain a copy of the License at
+
+http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+
+<!-- Keep only English language here because of OFBIZ-13095 -->
+
+<resource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://ofbiz.apache.org/dtds/ofbiz-properties.xsd">
+    <property key="DesphemmesApplication">
+        <value xml:lang="en">Desphemmes Application</value>
+    </property>
+    <property key="DesphemmesCompanyName">
+        <value xml:lang="en">OFBiz: Desphemmes</value>
+    </property>
+    <property key="DesphemmesCompanySubtitle">
+        <value xml:lang="en">Part of the Apache OFBiz Family of Open Source Software</value>
+    </property>
+    <property key="DesphemmesViewPermissionError">
+        <value xml:lang="en">You are not allowed to view this page.</value>
+    </property>
+
+
+    <!-- HOME PAGE -->
+
+    <property key="Login">
+        <value xml:lang="it">Login</value>
+        <value xml:lang="en">Sign up</value>
+    </property>
+
+    <!--  START MENU VOICES -->
+    <property key="Home">
+        <value xml:lang="it">Home</value>
+        <value xml:lang="en">Home</value>
+    </property>
+
+    <property key="Beachwear">
+        <value xml:lang="it">Beachwear</value>
+        <value xml:lang="en">Beachwear</value>
+    </property>
+
+    <property key="TopBikini">
+        <value xml:lang="it">Reggiseni</value>
+        <value xml:lang="en">Bikini Top</value>
+    </property>
+
+    <property key="SlipBikini">
+        <value xml:lang="it">Slip</value>
+        <value xml:lang="en">Bikini Slip</value>
+    </property>
+
+    <property key="Swimsuit">
+        <value xml:lang="it">Interi</value>
+        <value xml:lang="en">Swimsuit</value>
+    </property>
+
+    <property key="Crystals">
+        <value xml:lang="it">Crystals</value>
+        <value xml:lang="en">Crystals</value>
+    </property>
+
+    <property key="Fitness">
+        <value xml:lang="it">Fitness</value>
+        <value xml:lang="en">Fitness</value>
+    </property>
+    <!-- END MENU VOICES -->
+
+    <property key="Campaign">
+        <value xml:lang="it">Campaign</value>
+        <value xml:lang="en">Campaign</value>
+    </property>
+
+    <property key="History">
+        <value xml:lang="it">History</value>
+        <value xml:lang="en">History</value>
+    </property>
+
+    <property key="Stores">
+        <value xml:lang="it">Stores</value>
+        <value xml:lang="en">Stores</value>
+    </property>
+
+    <!-- LOGIN MODAL -->
+    <property key="WelcomeBack">
+        <value xml:lang="it">Hello, Welcome Back</value>
+        <value xml:lang="en">Hello, Welcome Back</value>
+    </property>
+
+
+    <!-- START FOOTER LABELS -->
+    <property key="Shipping">
+        <value xml:lang="it">Spedizioni</value>
+        <value xml:lang="en">Shipping</value>
+    </property>
+
+    <property key="Returns">
+        <value xml:lang="it">Resi e rimborsi</value>
+        <value xml:lang="en">Returns and refunds</value>
+    </property>
+
+    <property key="SizeGuide">
+        <value xml:lang="it">Guida alle taglie</value>
+        <value xml:lang="en">Size guide</value>
+    </property>
+
+    <property key="Contacts">
+        <value xml:lang="it">Contatti</value>
+        <value xml:lang="en">Contacts</value>
+    </property>
+
+    <property key="SalesConditions">
+        <value xml:lang="it">Condizioni di vendita</value>
+        <value xml:lang="en">Sales conditions</value>
+    </property>
+
+    <property key="Faq">
+        <value xml:lang="it">Domande frequenti&#47;FAQ</value>
+        <value xml:lang="en">FAQ</value>
+    </property>
+
+    <property key="PrivacyPolicy">
+        <value xml:lang="it">Privacy policy</value>
+        <value xml:lang="en">Privacy policy</value>
+    </property>
+
+    <property key="CookieManagement">
+        <value xml:lang="it">Gestione cookie</value>
+        <value xml:lang="en">Cookie management</value>
+    </property>
+
+    <property key="History">
+        <value xml:lang="it">History</value>
+        <value xml:lang="en">History</value>
+    </property>
+
+    <property key="Campaign">
+        <value xml:lang="it">Campaign</value>
+        <value xml:lang="en">Campaign</value>
+    </property>
+
+    <property key="Stores">
+        <value xml:lang="it">Stores</value>
+        <value xml:lang="en">Stores</value>
+    </property>
+
+    <!-- START Product Detail Labels -->
+
+    <property key="Color">
+        <value xml:lang="it">Colore</value>
+        <value xml:lang="en">Color</value>
+    </property>
+
+    <property key="Size">
+        <value xml:lang="it">Taglia</value>
+        <value xml:lang="en">Size</value>
+    </property>
+
+    <property key="ApplyFilter">
+        <value xml:lang="it">Applica filtri</value>
+        <value xml:lang="en">Apply filter</value>
+    </property>
+
+    <property key="UnavailableFilter">
+        <value xml:lang="it">Nessun filtro disponibile</value>
+        <value xml:lang="en">Unavailable filters</value>
+    </property>
+
+    <property key="RemoveFilter">
+        <value xml:lang="it">Azzera filtri</value>
+        <value xml:lang="en">Remove filters</value>
+    </property>
+
+    <property key="Category">
+        <value xml:lang="it">Azzera filtri</value>
+        <value xml:lang="en">Remove filters</value>
+    </property>
+
+    <property key="SizeGuide">
+        <value xml:lang="it">Guida alle taglie</value>
+        <value xml:lang="en">Size guide</value>
+    </property>
+
+    <property key="OutOfStock">
+        <value xml:lang="it">Out of stock</value>
+        <value xml:lang="en">Out of stock</value>
+    </property>
+
+    <property key="SizeTableImage">
+        <value xml:lang="it">tabella-taglie_ITA.jpg</value>
+        <value xml:lang="en">tabella-taglie_ENG.jpg</value>
+    </property>
+
+    <property key="AttentionMessage">
+        <value xml:lang="it">Attenzione</value>
+        <value xml:lang="en">Attention</value>
+    </property>
+
+    <property key="AttentionMessageSize">
+        <value xml:lang="it">Selezionare una taglia.</value>
+        <value xml:lang="en">Select a size</value>
+    </property>
+
+    <property key="AttentionMessageSize">
+        <value xml:lang="it">Selezionare una taglia.</value>
+        <value xml:lang="en">Select a size</value>
+    </property>
+
+    <property key="ArticleInfo">
+        <value xml:lang="it">Info articolo</value>
+        <value xml:lang="en">Article information</value>
+    </property>
+
+    <property key="ModelInfo">
+        <value xml:lang="it">Info modella</value>
+        <value xml:lang="en">Model information</value>
+    </property>
+
+    <property key="ModelInfoDescription">
+        <value xml:lang="it">La modella indossa una taglia small</value>
+        <value xml:lang="en">The model is wearing a size small</value>
+    </property>
+
+    <property key="ProductCare">
+        <value xml:lang="it">Cura del prodotto</value>
+        <value xml:lang="en">Product care</value>
+    </property>
+
+    <property key="ProductCareOne">
+        <value xml:lang="it">SCIACQUATELO SEMPRE DOPO L’USO</value>
+        <value xml:lang="en">ALWAYS RINSE IT AFTER USE</value>
+    </property>
+
+    <property key="ProductCareOneDescription">
+        <value xml:lang="it">Immergere il costume in acqua fredda, strizzatelo bene e rimuovete tutto il sale e il cloro, perché altrimenti, con il tempo, il tessuto si scolorisce.</value>
+        <value xml:lang="en">Soak the swimsuit in cold water, wring it out well, and remove all the salt and chlorine, otherwise the fabric will fade over time.</value>
+    </property>
+
+    <property key="ProductCareTwo">
+        <value xml:lang="it">LAVATELO IN ACQUA FREDDA</value>
+        <value xml:lang="en">WASH IT IN COLD WATER</value>
+    </property>
+
+    <property key="ProductCareTwoDescription">
+        <value xml:lang="it">L’acqua molto calda danneggia il tessuto e può causare sbiadimento e stiramento. Il lavaggio in acqua fredda è il migliore per mantenere il colore. E’ consigliato lavarlo sempre a mano. Non mettetelo mai in asciugatrice!</value>
+        <value xml:lang="en">Very hot water damages the fabric and can cause fading and stretching. Washing in cold water is best for maintaining color. It's recommended to always hand wash. Never tumble dry!</value>
+    </property>
+
+    <property key="ProductCareThree">
+        <value xml:lang="it">ASCIUGATELO SENZA ESPORLO ALLA LUCE DEL SOLE PER MOLTE ORE</value>
+        <value xml:lang="en">DRY IT WITHOUT EXPOSING IT TO SUNLIGHT FOR MANY HOURS</value>
+    </property>
+
+    <property key="ProductCareThreeDescription">
+        <value xml:lang="it">Se lo esponete al sole per troppe ore, il vostro costume finirà per bruciarsi. Mettetelo ad asciugare in un luogo dove non riceve la luce diretta del sole, soprattutto nelle ore più calde della giornata. In questo modo eviterete che gli elastici si brucino e che il colore perda intensità.</value>
+        <value xml:lang="en">If you expose it to the sun for too long, your swimsuit will eventually burn. Dry it somewhere out of direct sunlight, especially during the hottest hours of the day. This will prevent the elastic from burning and the color from fading.</value>
+    </property>
+
+    <property key="ProductCareFour">
+        <value xml:lang="it">NON CONSERVARE MAI IN UN SACCHETTO DI PLASTICA, SOPRATTUTTO SE BAGNATO</value>
+        <value xml:lang="en">NEVER STORE IN A PLASTIC BAG, ESPECIALLY IF WET</value>
+    </property>
+
+    <property key="ProductCareFourDescription">
+        <value xml:lang="it">Se non volete che il vostro costume abbia un odore di muffa, conservatelo in un sacchetto completamente asciutto, preferibilmente di tessuto.</value>
+        <value xml:lang="en">If you don't want your costume to smell musty, store it in a completely dry bag, preferably a fabric one.</value>
+    </property>
+
+    <property key="ProductCareFive">
+        <value xml:lang="it">QUANDO L’ESTATE E’ FINITA, CONSERVATELO IN UNA BORSA DI STOFFA PER L’ANNO PROSSIMO</value>
+        <value xml:lang="en">WHEN SUMMER IS OVER, KEEP IT IN A CLOTH BAG FOR NEXT YEAR</value>
+    </property>
+
+    <property key="ProductCareFiveDescription">
+        <value xml:lang="it">Alla fine della stagione, prima di riporre il costume, lavatelo senza ammorbidente. Lasciatelo asciugare accuratamente e riponetelo in un sacchetto di tessuto. Riponetelo se possibile, singolarmente per evitare che i tessuti si attacchino l’uno all’altro, soprattutto se si vive in una zona calda.</value>
+        <value xml:lang="en">At the end of the season, before storing your swimsuit, wash it without fabric softener. Let it dry thoroughly and store it in a fabric bag. If possible, store it individually to prevent the fabrics from sticking together, especially if you live in a warm area.</value>
+    </property>
+
+    <property key="ShippingReturns">
+        <value xml:lang="it">Spedizioni e resi</value>
+        <value xml:lang="en">Shipping and returns</value>
+    </property>
+
+    <property key="ShippingReturnsOneDescription">
+        <value xml:lang="it">Spedizione gratuita per ordini superiori a 150€ in Italia ed Europa - Diritto di reso entro 15 giorni lavorativi.</value>
+        <value xml:lang="en">Free shipping on orders over €150 in Italy and Europe - 15-day return policy.</value>
+    </property>
+
+    <property key="ShippingReturnsTwoDescription">
+        <value xml:lang="it">Italia: Spedizione 5€. Consegna stimata in 5 giorni lavorativi (7 giorni lavorativi per isole e zone remote).</value>
+        <value xml:lang="en">Italy: Shipping €5. Estimated delivery time: 5 business days (7 business days for islands and remote areas).</value>
+    </property>
+
+    <property key="ShippingReturnsThreeDescription">
+        <value xml:lang="it">Europa (22 Paesi eurozona): Spedizione 9€. Consegna stimata in 5 giorni lavorativi.</value>
+        <value xml:lang="en">Europe (22 Eurozone countries): Shipping €9. Estimated delivery time: 5 business days.</value>
+    </property>
+
+    <property key="AlsoBought">
+        <value xml:lang="it">Spesso acquistati insieme</value>
+        <value xml:lang="en">Also bought together</value>
+    </property>
+
+    <property key="CrossSell">
+        <value xml:lang="it">Potrebbero piacerti anche</value>
+        <value xml:lang="en">You may also like</value>
+    </property>
+
+    <property key="ProductItemOutOfStock">
+        <value xml:lang="it">Questo articolo non è in giacenza</value>
+        <value xml:lang="en">This item is out of stock</value>
+    </property>
+
+    <property key="AddToCart">
+        <value xml:lang="it">Aggiungi al carrello</value>
+        <value xml:lang="en">Add to cart</value>
+    </property>
+
+    <property key="ShoppingCart">
+        <value xml:lang="it">Carrello</value>
+        <value xml:lang="en">Shopping cart</value>
+    </property>
+
+    <property key="ShoppingCartEmpty">
+        <value xml:lang="it">Il Carrello è vuoto</value>
+        <value xml:lang="en">Shopping cart is empty</value>
+    </property>
+
+    <property key="TotalPrice">
+        <value xml:lang="it">Totale</value>
+        <value xml:lang="en">Total</value>
+    </property>
+
+    <property key="ShowCart">
+        <value xml:lang="it">Vis.carrello</value>
+        <value xml:lang="en">Show cart</value>
+    </property>
+
+
+    <!-- START CHECKOUT LABELS -->
+
+    <property key="PartyAddNewAddress">
+        <value xml:lang="it">Nuovo Indirizzo</value>
+        <value xml:lang="en">New Address</value>
+    </property>
+
+    <property key="CommonUpdateAddress">
+        <value xml:lang="it">Aggiorna Indirizzo</value>
+        <value xml:lang="en">Update Address</value>
+    </property>
+
+    <property key="CommonNext">
+        <value xml:lang="it">Successivo</value>
+        <value xml:lang="en">Next</value>
+    </property>
+
+    <property key="OrderBacktoShoppingCart">
+        <value xml:lang="it">Torna al carrello</value>
+        <value xml:lang="en">Back to Shopping Cart</value>
+    </property>
+
+    <property key="OrderWhereShallWeShipIt">
+        <value xml:lang="it">Scegli l'indirizzo di spedizione</value>
+        <value xml:lang="en">Choose a delivery address</value>
+    </property>
+
+    <property key="PartyEditContactInfo">
+        <value xml:lang="it">Aggiornare informazioni contatto</value>
+        <value xml:lang="en">Edit Contact Information</value>
+    </property>
+
+    <property key="PartyCreateNewContactInfo">
+        <value xml:lang="it">Crea nuova informazione contatto</value>
+        <value xml:lang="en">Create New Contact Information</value>
+    </property>
+
+    <property key="PartyToName">
+        <value xml:lang="it">Nome e Cognome</value>
+        <value xml:lang="en">Name and Surname</value>
+    </property>
+
+    <property key="PartyAddressLine1">
+        <value xml:lang="it">Indirizzo</value>
+        <value xml:lang="en">Address</value>
+    </property>
+
+    <property key="PartyCity">
+        <value xml:lang="it">Città</value>
+        <value xml:lang="en">City</value>
+    </property>
+
+    <property key="PartyState">
+        <value xml:lang="it">Stato/Provincia</value>
+        <value xml:lang="en">State/Province</value>
+    </property>
+
+    <property key="PartyZipCode">
+        <value xml:lang="it">CAP</value>
+        <value xml:lang="en">Zip/Postal Code</value>
+    </property>
+
+    <property key="CommonCountry">
+        <value xml:lang="it">Paese</value>
+        <value xml:lang="en">Country</value>
+    </property>
+
+    <property key="CommonProvince">
+        <value xml:lang="it">Provincia</value>
+        <value xml:lang="en">Province</value>
+    </property>
+
+    <property key="PartyPhoneNumber">
+        <value xml:lang="it">Numero di telefono</value>
+        <value xml:lang="en">Phone Number</value>
+    </property>
+
+    <property key="CommonSubject">
+        <value xml:lang="it">Oggetto</value>
+        <value xml:lang="en">Subject</value>
+    </property>
+
+    <property key="PartyEmailAddress">
+        <value xml:lang="it">Indirizzo email</value>
+        <value xml:lang="en">E-Mail Address</value>
+    </property>
+
+    <property key="Headquarters">
+        <value xml:lang="it">Headquarters</value>
+        <value xml:lang="en">Headquarters</value>
+    </property>
+
+    <property key="OrderHowShallWeShipIt">
+        <value xml:lang="it">Scegli il metodo di spedizione</value>
+        <value xml:lang="en">Choose a shipping method</value>
+    </property>
+
+    <property key="OrderCalculatedOffline">
+        <value xml:lang="it">Calcolate Offline</value>
+        <value xml:lang="en">Calculated Offline</value>
+    </property>
+
+    <property key="OrderUseDefault">
+        <value xml:lang="it">Usare default: nessun altro metodo di spedizione disponibile</value>
+        <value xml:lang="en">Use Default: No other shipping methods available</value>
+    </property>
+
+    <property key="CommonTo">
+        <value xml:lang="it">A</value>
+        <value xml:lang="en">To</value>
+    </property>
+
+    <property key="PartyAddrAttnName">
+        <value xml:lang="it">Attenzione</value>
+        <value xml:lang="en">Attn</value>
+    </property>
+
+    <property key="OrderHowShallYouPay">
+        <value xml:lang="it">Scegli il metodo di pagamento</value>
+        <value xml:lang="en">Choose a payment method</value>
+    </property>
+
+    <property key="AccountingPayWithUnicredit">
+        <value xml:lang="it">Carta di credito</value>
+        <value xml:lang="en">Credit card</value>
+    </property>
+
+    <property key="AccountingPayWithPayPal">
+        <value xml:lang="it">PayPal</value>
+        <value xml:lang="en">PayPal</value>
+    </property>
+
+    <property key="OrderContinueToFinalOrderReview">
+        <value xml:lang="it">Revisione finale ordine</value>
+        <value xml:lang="en">Final Order Review</value>
+    </property>
+
+    <property key="CommonSelect">
+        <value xml:lang="it">Seleziona</value>
+        <value xml:lang="en">Select</value>
+    </property>
+
+    <property key="OrderMoneyOrder">
+        <value xml:lang="it">Vaglia postale/Bonifico bancario</value>
+        <value xml:lang="en">Mail Check/Money Order</value>
+    </property>
+
+    <property key="ProceedToCheckout">
+        <value xml:lang="it">Vai al checkout</value>
+        <value xml:lang="en">Proceed to Checkout</value>
+    </property>
+
+    <property key="UpdateCart">
+        <value xml:lang="it">Aggiorna il carrello</value>
+        <value xml:lang="en">Update cart</value>
+    </property>
+
+    <property key="OrderAddCode">
+        <value xml:lang="it">Aggiungi codice</value>
+        <value xml:lang="en">Add Code</value>
+    </property>
+
+    <property key="EnterCouponCode">
+        <value xml:lang="it">Inserisci un codice</value>
+        <value xml:lang="en">Enter Coupon Code</value>
+    </property>
+
+    <property key="Product">
+        <value xml:lang="it">Articolo</value>
+        <value xml:lang="en">Article</value>
+    </property>
+
+    <property key="Price">
+        <value xml:lang="it">Prezzo</value>
+        <value xml:lang="en">Price</value>
+    </property>
+
+    <property key="Adjustments">
+        <value xml:lang="it">Aggiustamenti</value>
+        <value xml:lang="en">Adjustments</value>
+    </property>
+
+    <property key="Quantity">
+        <value xml:lang="it">Quantità</value>
+        <value xml:lang="en">Quantity</value>
+    </property>
+
+    <property key="Total">
+        <value xml:lang="it">Totale</value>
+        <value xml:lang="en">Total</value>
+    </property>
+
+    <property key="CartTotal">
+        <value xml:lang="it">Totale Carrello</value>
+        <value xml:lang="en">Cart Total</value>
+    </property>
+
+    <property key="CartSubtotal">
+        <value xml:lang="it">Subtotale Carrello</value>
+        <value xml:lang="en">Cart Subtotal</value>
+    </property>
+
+    <property key="EcommerceAdjustment">
+        <value xml:lang="it">Aggiustamento</value>
+        <value xml:lang="en">Adjustment</value>
+    </property>
+
+    <property key="DiscountAndPromotions">
+        <value xml:lang="it">Sconti e promozioni</value>
+        <value xml:lang="en">Discount and promotions</value>
+    </property>
+
+    <property key="CommonDetails">
+        <value xml:lang="it">Dettagli</value>
+        <value xml:lang="en">Details</value>
+    </property>
+
+    <property key="CommonGoBack">
+        <value xml:lang="it">Indietro</value>
+        <value xml:lang="en">Go Back</value>
+    </property>
+
+    <property key="CommonSave">
+        <value xml:lang="it">Salva</value>
+        <value xml:lang="en">Save</value>
+    </property>
+
+    <property key="ApplyCodes">
+        <value xml:lang="it">Applicati questi promocodes</value>
+        <value xml:lang="en">Apply these promocodes</value>
+    </property>
+
+    <property key="BackToShopping">
+        <value xml:lang="it">Continua con lo shopping</value>
+        <value xml:lang="en">Back to shopping</value>
+    </property>
+
+    <property key="CommonStateProvince">
+        <value xml:lang="it">Stato/Provincia</value>
+        <value xml:lang="en">State/Province</value>
+    </property>
+
+    <property key="OrderFinalCheckoutReview">
+        <value xml:lang="it">Revisione finale ordine</value>
+        <value xml:lang="en">Final Checkout Review</value>
+    </property>
+
+    <property key="OrderSubmitOrder">
+        <value xml:lang="it">Invia ordine</value>
+        <value xml:lang="en">Submit Order</value>
+    </property>
+
+    <property key="OrderErrorShoppingCartEmpty">
+        <value xml:lang="it">ERRORE: Il carrello è vuoto</value>
+        <value xml:lang="en">ERROR: Shopping cart empty, please start over</value>
+    </property>
+
+    <property key="OrderSubmittingOrder">
+        <value xml:lang="it">Attendere prego, elaborazione ordine...</value>
+        <value xml:lang="en">Please Wait, Processing Order...</value>
+    </property>
+
+    <property key="CommonErrorMessage2">
+        <value xml:lang="it">I seguenti campi obbligatori sono trovati vuoti</value>
+        <value xml:lang="en">The following required fields where found empty</value>
+    </property>
+
+    <property key="YoureOrderIsBeingProcessed">
+        <value xml:lang="it">Il tuo ordine è in fase di elaborazione</value>
+        <value xml:lang="en">Your order is being processed</value>
+    </property>
+
+    <property key="OrderOrder">
+        <value xml:lang="it">Ordine</value>
+        <value xml:lang="en">Order</value>
+    </property>
+
+    <property key="CommonMessage">
+        <value xml:lang="it">Messaggio</value>
+        <value xml:lang="en">Message</value>
+    </property>
+
+    <property key="CommonNbr">
+        <value xml:lang="it">n°</value>
+        <value xml:lang="en">Nbr</value>
+    </property>
+
+    <property key="CommonInformation">
+        <value xml:lang="it">Informazione</value>
+        <value xml:lang="en">Information</value>
+    </property>
+
+    <property key="PartyName">
+        <value xml:lang="it">Nome</value>
+        <value xml:lang="en">Name</value>
+    </property>
+
+    <property key="CommonStatus">
+        <value xml:lang="it">Stato</value>
+        <value xml:lang="en">Status</value>
+    </property>
+
+    <property key="OrderNotYetOrdered">
+        <value xml:lang="it">Non ancora ordinato</value>
+        <value xml:lang="en">Not Yet Ordered</value>
+    </property>
+
+    <property key="CommonDate">
+        <value xml:lang="it">Data</value>
+        <value xml:lang="en">Date</value>
+    </property>
+
+    <property key="OrderDistributor">
+        <value xml:lang="it">Distributore</value>
+        <value xml:lang="en">Distributor</value>
+    </property>
+
+    <property key="AccountingPaymentInformation">
+        <value xml:lang="it">Informazione Pagamento</value>
+        <value xml:lang="en">Payment Information</value>
+    </property>
+
+    <property key="AccountingOfflinePayment">
+        <value xml:lang="it">Pagamento offline</value>
+        <value xml:lang="en">Offline Payment</value>
+    </property>
+
+    <property key="OrderSendPaymentTo">
+        <value xml:lang="it">Prego inviare pagamento a</value>
+        <value xml:lang="en">Please Send Payment To</value>
+    </property>
+
+    <property key="EcommerceBeSureToIncludeYourOrderNb">
+        <value xml:lang="it">Assicurati di specificare il tuo ordine n°</value>
+        <value xml:lang="en">Be sure to include your order #</value>
+    </property>
+
+    <property key="AccountingPaymentVia">
+        <value xml:lang="it">Con pagamento</value>
+        <value xml:lang="en">Payment Via</value>
+    </property>
+
+    <property key="AccountingBillingAccount">
+        <value xml:lang="it">Conto Fatturazione</value>
+        <value xml:lang="en">Billing Account</value>
+    </property>
+
+    <property key="OrderPurchaseOrderNumber">
+        <value xml:lang="it">N° ordine acquisto</value>
+        <value xml:lang="en">Purchase Order Number</value>
+    </property>
+
+    <property key="OrderSalesOrderNumber">
+        <value xml:lang="it">Ordine #</value>
+        <value xml:lang="en">Sales Order #</value>
+    </property>
+
+    <property key="OrderShippingInformation">
+        <value xml:lang="it">Spedizione</value>
+        <value xml:lang="en">Shipping Information</value>
+    </property>
+
+    <property key="OrderDestination">
+        <value xml:lang="it">Destinazione</value>
+        <value xml:lang="en">Destination</value>
+    </property>
+
+    <property key="OrderMethod">
+        <value xml:lang="it">Metodo</value>
+        <value xml:lang="en">Method</value>
+    </property>
+
+    <property key="AccountingUseAccount">
+        <value xml:lang="it">Usa conto</value>
+        <value xml:lang="en">Use Account</value>
+    </property>
+
+    <property key="OrderOrderItems">
+        <value xml:lang="it">Articoli ordinati</value>
+        <value xml:lang="en">Order Items</value>
+    </property>
+
+    <property key="OrderAddAllToCart">
+        <value xml:lang="it">Aggiungi Tutto al Carrello</value>
+        <value xml:lang="en">Add All to Cart</value>
+    </property>
+
+    <property key="OrderAddCheckedToCart">
+        <value xml:lang="it">Aggiungi Scelte al Carrello</value>
+        <value xml:lang="en">Add Checked to Cart</value>
+    </property>
+
+    <property key="OrderProduct">
+        <value xml:lang="it">Prodotto</value>
+        <value xml:lang="en">Product</value>
+    </property>
+
+    <property key="OrderQtyOrdered">
+        <value xml:lang="it">Qnt ordinata</value>
+        <value xml:lang="en">Qty Ordered</value>
+    </property>
+
+    <property key="OrderQtyPicked">
+        <value xml:lang="it">Qnt scelta</value>
+        <value xml:lang="en">Qty Picked</value>
+    </property>
+
+    <property key="OrderQtyShipped">
+        <value xml:lang="it">Qnt spedita</value>
+        <value xml:lang="en">Qty Shipped</value>
+    </property>
+
+    <property key="OrderQtyCanceled">
+        <value xml:lang="it">Qnt annullata</value>
+        <value xml:lang="en">Qty Cancelled</value>
+    </property>
+
+    <property key="OrderQtyOrdered">
+        <value xml:lang="it">Qnt ordinata</value>
+        <value xml:lang="en">Qty Ordered</value>
+    </property>
+
+    <property key="EcommerceUnitPrice">
+        <value xml:lang="it">Prezzo unitario</value>
+        <value xml:lang="en">Unit Price</value>
+    </property>
+
+    <property key="OrderAdjustments">
+        <value xml:lang="it">Aggiustamenti</value>
+        <value xml:lang="en">Adjustments</value>
+    </property>
+
+    <property key="CommonSubTotal">
+        <value xml:lang="it">Sub-totale</value>
+        <value xml:lang="en">Sub Total</value>
+    </property>
+
+    <property key="OrderShippingAndHandling">
+        <value xml:lang="it">Spedizione ed imballaggio</value>
+        <value xml:lang="en">Shipping and Handling</value>
+    </property>
+
+    <property key="OrderGrandTotal">
+        <value xml:lang="it">Totale generale</value>
+        <value xml:lang="en">Grand Total</value>
+    </property>
+
+    <property key="OrderSalesOrderLookupFailed">
+        <value xml:lang="it">Ricerca ordini di vendita fallita</value>
+        <value xml:lang="en">Sales Order Lookup Failed</value>
+    </property>
+
+    <property key="SelectPaymentMethodType">
+        <value xml:lang="it">Selezionare un metodo di pagamento</value>
+        <value xml:lang="en">Select a payment method</value>
+    </property>
+
+    <property key="EcommerceOrderConfirmation">
+        <value xml:lang="it">Conferma ordine</value>
+        <value xml:lang="en">Order Confirmation</value>
+
+    </property><property key="EcommerceOrderError">
+    <value xml:lang="it">Errore elaborazione ordine</value>
+    <value xml:lang="en">Order Process Error</value>
+</property>
+
+    <property key="EcommerceOrderErrorMsg">
+        <value xml:lang="it">L' elaborazione del suo ordine non è andata a buon fine. Si prega di contattare l'assistenza clienti.</value>
+        <value xml:lang="en">Some problems occured during the processing of your order. Please contact customercare.</value>
+    </property>
+
+    <property key="EcommerceContinueShopping">
+        <value xml:lang="it">Continua acquisto</value>
+        <value xml:lang="en">Continue Shopping</value>
+    </property>
+
+    <property key="OrderSpecifiedNotFound">
+        <value xml:lang="it">L'ordine specificato non è stato trovato, riprovare prego</value>
+        <value xml:lang="en">The specified order was not found, please try again</value>
+    </property>
+
+
+    <!-- START LOGIN labels -->
+    <property key="WelcomeBack">
+        <value xml:lang="it">Benvenuto/a</value>
+        <value xml:lang="en">Welcome Back</value>
+    </property>
+
+    <property key="Username">
+        <value xml:lang="it">Username</value>
+        <value xml:lang="en">Username</value>
+    </property>
+
+    <property key="Password">
+        <value xml:lang="it">Password</value>
+        <value xml:lang="en">Password</value>
+    </property>
+
+    <property key="CommonForgotYourPassword">
+        <value xml:lang="it">Password dimenticata</value>
+        <value xml:lang="en">Forgot Your Password</value>
+    </property>
+
+    <property key="DontHaveAccount">
+        <value xml:lang="it">Non hai un account</value>
+        <value xml:lang="en">Don't have an account</value>
+    </property>
+
+    <property key="SignUp">
+        <value xml:lang="it">Iscriviti</value>
+        <value xml:lang="en">Sign up</value>
+    </property>
+
+
+    <!-- START PROFILE CUSTOMER -->
+    <property key="CommonProfile">
+        <value xml:lang="it">Profilo</value>
+        <value xml:lang="en">Profile</value>
+    </property>
+
+    <property key="CommonReturns">
+        <value xml:lang="it">Resi</value>
+        <value xml:lang="en">Returns</value>
+    </property>
+
+    <property key="OrderOrderHistory">
+        <value xml:lang="it">Storia ordine</value>
+        <value xml:lang="en">Order History</value>
+    </property>
+
+    <property key="CommonLogout">
+        <value xml:lang="it">Logout</value>
+        <value xml:lang="en">Logout</value>
+    </property>
+
+    <property key="PartyTheProfileOf">
+        <value xml:lang="it">Il profilo di</value>
+        <value xml:lang="en">The Profile of</value>
+    </property>
+
+    <property key="PartyNewUser">
+        <value xml:lang="it">Nuovo utente</value>
+        <value xml:lang="en">New User</value>
+    </property>
+
+    <property key="PartyPersonalInformation">
+        <value xml:lang="it">Informazioni personali</value>
+        <value xml:lang="en">Personal Information</value>
+    </property>
+
+    <property key="CommonCreate">
+        <value xml:lang="it">Creare</value>
+        <value xml:lang="en">Create</value>
+    </property>
+
+    <property key="PartyPersonalInformationNotFound">
+        <value xml:lang="it">Informazioni personali non trovate</value>
+        <value xml:lang="en">Personal Information Not Found</value>
+    </property>
+
+    <property key="PartyContactInformation">
+        <value xml:lang="it">Informazioni contatto</value>
+        <value xml:lang="en">Contact Information</value>
+    </property>
+
+    <property key="PartyContactType">
+        <value xml:lang="it">Tipo contatto</value>
+        <value xml:lang="en">Contact Type</value>
+    </property>
+
+    <property key="PartyNoContactInformation">
+        <value xml:lang="it">Nessuna informazione per contatto in archivio</value>
+        <value xml:lang="en">No contact information on file</value>
+    </property>
+
+    <property key="PartyPhoneNumberInfoNotFound">
+        <value xml:lang="it">Numeri di telefono non trovate</value>
+        <value xml:lang="en">Phone Number Information Not Found</value>
+    </property>
+
+    <property key="EcommerceDefaultShipmentMethod">
+        <value xml:lang="it">Metodo di spedizione di default</value>
+        <value xml:lang="en">Default Shipment Method</value>
+    </property>
+
+    <property key="CommonDelete">
+        <value xml:lang="it">Cancella</value>
+        <value xml:lang="en">Delete</value>
+    </property>
+
+    <property key="EcommerceSetDefault">
+        <value xml:lang="it">Imposta come predefinito</value>
+        <value xml:lang="en">Set Default</value>
+    </property>
+
+    <property key="EcommerceIsDefault">
+        <value xml:lang="it">E' predefinito</value>
+        <value xml:lang="en">Is Default</value>
+    </property>
+
+    <property key="PartyPurposeTypeNotFound">
+        <value xml:lang="it">Tipo funzione contatto non trovate con codice</value>
+        <value xml:lang="en">Contact Purpose Type Not Found with ID</value>
+    </property>
+
+    <property key="PartyContactNumber">
+        <value xml:lang="it">Contatto numero</value>
+        <value xml:lang="en">Contact Number</value>
+    </property>
+
+    <property key="CommonUpdate">
+        <value xml:lang="it">Aggiorna</value>
+        <value xml:lang="en">Update</value>
+    </property>
+
+    <property key="OrderSalesHistory">
+        <value xml:lang="it">Storia ordini inseriti da te</value>
+        <value xml:lang="en">Order history for orders entered by you</value>
+    </property>
+
+    <property key="CommonAmount">
+        <value xml:lang="it">Importo</value>
+        <value xml:lang="en">Amount</value>
+    </property>
+
+    <property key="OrderInvoices">
+        <value xml:lang="it">Fatture</value>
+        <value xml:lang="en">Invoices</value>
+    </property>
+
+    <property key="CommonPdf">
+        <value xml:lang="it">PDF</value>
+        <value xml:lang="en">PDF</value>
+    </property>
+
+    <property key="CommonView">
+        <value xml:lang="it">Mostra</value>
+        <value xml:lang="en">View</value>
+    </property>
+
+    <property key="EcommerceRequestHistory">
+        <value xml:lang="it">Storia richieste</value>
+        <value xml:lang="en">Request History</value>
+    </property>
+
+    <property key="OrderRequest">
+        <value xml:lang="it">Richiesta</value>
+        <value xml:lang="en">Request</value>
+    </property>
+
+    <property key="CommonType">
+        <value xml:lang="it">Tipo</value>
+        <value xml:lang="en">Type</value>
+    </property>
+
+    <property key="CommonName">
+        <value xml:lang="pt">Nome</value>
+        <value xml:lang="en">Name</value>
+    </property>
+
+    <property key="CommonDescription">
+        <value xml:lang="it">Descrizione</value>
+        <value xml:lang="en">Description</value>
+    </property>
+
+    <property key="OrderRequestDate">
+        <value xml:lang="it">Data richiesta</value>
+        <value xml:lang="en">Request Date</value>
+    </property>
+
+    <property key="OrderRequestCreatedDate">
+        <value xml:lang="it">Data Creazione</value>
+        <value xml:lang="en">Created Date</value>
+    </property>
+
+    <property key="OrderRequestLastModifiedDate">
+        <value xml:lang="it">Data ultima modifica</value>
+        <value xml:lang="en">Last Modified Date</value>
+    </property>
+
+    <property key="OrderNoRequestFound">
+        <value xml:lang="it">Nessuna richiesta trovata</value>
+        <value xml:lang="en">No Request Found</value>
+    </property>
+
+    <property key="PartyNoPartyForCurrentUserName">
+        <value xml:lang="it">Nessun soggetto associato al nome dell'utente</value>
+        <value xml:lang="en">No party found for current user with user name</value>
+    </property>
+
+    <property key="CommonUsername">
+        <value xml:lang="it">Nome utente</value>
+        <value xml:lang="en">User Name</value>
+    </property>
+
+    <property key="CommonNot">
+        <value xml:lang="it">Non</value>
+        <value xml:lang="en">Not</value>
+    </property>
+
+    <property key="CommonClickHere">
+        <value xml:lang="it">Clicca qui</value>
+        <value xml:lang="en">Click Here</value>
+    </property>
+
+    <property key="PartyChangePassword">
+        <value xml:lang="it">Cambio password</value>
+        <value xml:lang="en">Change Password</value>
+    </property>
+
+    <property key="CommonPassword">
+        <value xml:lang="it">Password</value>
+        <value xml:lang="en">Password</value>
+    </property>
+
+    <property key="CommonNewPassword">
+        <value xml:lang="it">Nuova password</value>
+        <value xml:lang="en">New Password</value>
+    </property>
+
+    <property key="CommonNewPasswordVerify">
+        <value xml:lang="it">Verifica nuova password</value>
+        <value xml:lang="en">New Password Verify</value>
+    </property>
+
+    <property key="PartyPostalInformationNotFound">
+        <value xml:lang="it">Indirizzo non trovato</value>
+        <value xml:lang="en">Postal Information Not Found</value>
+    </property>
+
+    <property key="CommonExpire">
+        <value xml:lang="it">Scade</value>
+        <value xml:lang="en">Expire</value>
+    </property>
+
+    <property key="PartyEditPersonalInformation">
+        <value xml:lang="it">Aggiornare informazioni personali</value>
+        <value xml:lang="en">Edit Personal Information</value>
+    </property>
+
+    <property key="PartyAddNewPersonalInformation">
+        <value xml:lang="it">Aggiungi nuove informazioni personali</value>
+        <value xml:lang="en">Add New Personal Information</value>
+    </property>
+
+    <property key="PartyFirstName">
+        <value xml:lang="it">Nome</value>
+        <value xml:lang="en">First name</value>
+    </property>
+
+    <property key="PartyLastName">
+        <value xml:lang="it">Cognome</value>
+        <value xml:lang="en">Last name</value>
+    </property>
+
+    <property key="PartySelectContactType">
+        <value xml:lang="it">Seleziona tipo di contatto</value>
+        <value xml:lang="en">Select Contact Type</value>
+    </property>
+
+    <property key="PartyOldPassword">
+        <value xml:lang="it">Password precedente</value>
+        <value xml:lang="en">Current (Old) Password</value>
+    </property>
+
+    <property key="PartyNewPassword">
+        <value xml:lang="it">Nuova password</value>
+        <value xml:lang="en">New Password</value>
+    </property>
+
+    <property key="PartyNewPasswordVerify">
+        <value xml:lang="it">Verifica nuova password</value>
+        <value xml:lang="en">New Password Verify</value>
+    </property>
+
+    <property key="PartyPasswordHint">
+        <value xml:lang="it">Suggerimento password</value>
+        <value xml:lang="en">Password Hint</value>
+    </property>
+
+    <property key="CommonFieldsMarkedAreRequired">
+        <value xml:lang="it">Campi marcati con (*) sono richiesti.</value>
+        <value xml:lang="en">Fields marked with (*) are required.</value>
+    </property>
+
+    <property key="PartyCreateAccount">
+        <value xml:lang="it">Creazione account</value>
+        <value xml:lang="en">Create account</value>
+    </property>
+
+    <property key="EcommerceUseEmailAddress">
+        <value xml:lang="it">Usa indirizzo Email</value>
+        <value xml:lang="en">Use Email Address</value>
+    </property>
+
+    <property key="CommonCancel">
+        <value xml:lang="it">Annulla</value>
+        <value xml:lang="en">Cancel</value>
+    </property>
+
+    <property key="CommonEmailPassword">
+        <value xml:lang="it">Invia password per email</value>
+        <value xml:lang="en">Email Password</value>
+    </property>
+
+    <property key="CommonPage">
+        <value xml:lang="it">Pagina</value>
+        <value xml:lang="en">Page</value>
+    </property>
+
+    <property key="CommonOf">
+        <value xml:lang="it">di</value>
+        <value xml:lang="en">of</value>
+    </property>
+
+    <property key="CommonPasswordChange">
+        <value xml:lang="it">Per favore modifica la tua password</value>
+        <value xml:lang="en">Please Change Your Password</value>
+    </property>
+
+    <property key="CommonPrevious">
+        <value xml:lang="it">Precedente</value>
+        <value xml:lang="en">Previous</value>
+    </property>
+
+    <property key="SendMessage">
+        <value xml:lang="it">Invia messaggio</value>
+        <value xml:lang="en">Send message</value>
+    </property>
+
+    <property key="CommonNext">
+        <value xml:lang="it">Successivo</value>
+        <value xml:lang="en">Next</value>
+    </property>
+
+    <property key="PartyRepeatPassword">
+        <value xml:lang="it">Ripeti password per conferma</value>
+        <value xml:lang="en">Repeat password to confirm</value>
+    </property>
+
+    <property key="OrderNoOrderFound">
+        <value xml:lang="it">Nessun ordine trovato</value>
+        <value xml:lang="en">No Orders Found</value>
+    </property>
+
+
+    <!-- RETRIEVE PASSWORD -->
+    <property key="SecurityExtANew">
+        <value xml:lang="it">una nuova</value>
+        <value xml:lang="en">a new</value>
+    </property>
+
+    <property key="SecurityExtIgnoreEmail">
+        <value xml:lang="it">Ignora questa email se non hai richiesto un cambio della password.</value>
+        <value xml:lang="en">Please ignore this email if you did not request a password change.</value>
+    </property>
+
+    <property key="SecurityExtLinkOnce">
+        <value xml:lang="it">Questo link può essere utilizzato una volta soltanto.</value>
+        <value xml:lang="en">This link can be used only once</value>
+    </property>
+
+    <property key="SecurityExtPasswordSentToYou">
+        <value xml:lang="it">password inviata a te</value>
+        <value xml:lang="en">password</value>
+    </property>
+
+    <property key="SecurityExtThisEmailIsInResponseToYourRequestToHave">
+        <value xml:lang="it">Questa email ti è stata inviata in seguito alla tua richiesta.</value>
+        <value xml:lang="en">This email is in response to your request to have</value>
+    </property>
+
+    <property key="SecurityExtYour">
+        <value xml:lang="it">tuo</value>
+        <value xml:lang="en">your</value>
+    </property>
+
+    <property key="ResetPassword">
+        <value xml:lang="fr">Clicca qui per creare una nuova password</value>
+        <value xml:lang="en">Click Here To Reset Password</value>
+    </property>
+
+    <!-- START Return labels -->
+
+    <property key="OrderRequestReturn">
+        <value xml:lang="it">Motivazione Reso</value>
+        <value xml:lang="en">Request Return</value>
+    </property>
+
+    <property key="OrderReturnItems">
+        <value xml:lang="it">Restituire articoli</value>
+        <value xml:lang="en">Return Items</value>
+    </property>
+
+    <property key="OrderReturnItemsFromOrder">
+        <value xml:lang="it">Restituire gli articoli dell'ordine</value>
+        <value xml:lang="en">Return Item(s) From Order</value>
+    </property>
+
+    <property key="CommonSelectAll">
+        <value xml:lang="it">Seleziona tutto</value>
+        <value xml:lang="en">Select All</value>
+    </property>
+
+    <property key="OrderReason">
+        <value xml:lang="it">Motivazione</value>
+        <value xml:lang="en">Reason</value>
+    </property>
+
+    <property key="OrderRequestedResponse">
+        <value xml:lang="it">Risposta richiesta</value>
+        <value xml:lang="en">Requested Response</value>
+    </property>
+
+    <property key="OrderSelectShipFromAddress">
+        <value xml:lang="it">Per favore seleziona un indirizzo di spedizione</value>
+        <value xml:lang="en">Please select a ship from address</value>
+    </property>
+
+    <property key="OrderReturnSelectedItems">
+        <value xml:lang="it">Restituire gli articoli selezionati</value>
+        <value xml:lang="en">Return Selected Item(s)</value>
+    </property>
+
+    <property key="OrderNoReturnableItems">
+        <value xml:lang="it">Nessuna riga reso trovata per l'ordine</value>
+        <value xml:lang="en">No returnable items found for order</value>
+    </property>
+
+    <property key="OrderReturn">
+        <value xml:lang="it">Reso</value>
+        <value xml:lang="en">Return</value>
+    </property>
+
+    <property key="OrderReference">
+        <value xml:lang="it">Rif.Ordine</value>
+        <value xml:lang="en">Num.Order</value>
+    </property>
+
+    <property key="ReturnReceived">
+        <value xml:lang="it">Reso ricevuto</value>
+        <value xml:lang="en">Return received</value>
+    </property>
+
+    <property key="ReturnRequested">
+        <value xml:lang="it">Reso richiesto</value>
+        <value xml:lang="en">Return requested</value>
+    </property>
+
+    <property key="ReturnAccepted">
+        <value xml:lang="it">Reso accettato</value>
+        <value xml:lang="en">Return accepted</value>
+    </property>
+
+    <property key="ReturnCancelled">
+        <value xml:lang="it">Reso cancellato</value>
+        <value xml:lang="en">Return cancelled</value>
+    </property>
+
+    <property key="InsertDate">
+        <value xml:lang="it">Data inserimento</value>
+        <value xml:lang="en">Inserted date</value>
+    </property>
+
+    <property key="OrderReturnReason">
+        <value xml:lang="it">Motivo</value>
+        <value xml:lang="en">Reason</value>
+    </property>
+
+    <property key="CommonComments">
+        <value xml:lang="it">Commenti</value>
+        <value xml:lang="en">Comments</value>
+    </property>
+
+    <property key="ProductNoProductsInThisCategory">
+        <value xml:lang="it">Non ci sono prodotti in questa categoria</value>
+        <value xml:lang="en">There are no products in this category</value>
+    </property>
+
+    <property key="ProductErrorProductNotFound">
+        <value xml:lang="it">ERRORE: Prodotto non trovato</value>
+        <value xml:lang="en">ERROR: Product not found</value>
+    </property>
+
+    <property key="ShippingAddressNotExists">
+        <value xml:lang="it">Non è presente alcun indirizzo di spedizione. Crea un nuovo indirizzo oppure modifica la nazione di spedizione.</value>
+        <value xml:lang="en">There is no shipping address. Create a new address or change the shipping country.</value>
+    </property>
+
+    <property key="ShippingAddressTitle">
+        <value xml:lang="it">I costi di spedizione</value>
+        <value xml:lang="en">Shipping estimates</value>
+    </property>
+
+    <property key="ShippingAddressCalculate">
+        <value xml:lang="it">saranno calcolati nei passaggi successivi</value>
+        <value xml:lang="en">will be calculated in the next steps</value>
+    </property>
+
+    <!-- END Return labels -->
+
+
+    <!-- START GEOLOCATION labels-->
+    <property key="ShipTo">
+        <value xml:lang="it">Spedisci in</value>
+        <value xml:lang="en">Ship to</value>
+    </property>
+
+    <property key="ShippingCountryReminderTitle">
+        <value xml:lang="it">Nazione di spedizione</value>
+        <value xml:lang="en">Shipping country</value>
+    </property>
+
+    <property key="ShippingCountryReminderMessage">
+        <value xml:lang="it">La nazione di spedizione predefinita è l'Italia. Puoi cambiarla in qualsiasi momento dal selettore nel menu in alto (icona camion).</value>
+        <value xml:lang="en">The default shipping country is Italy. You can change it at any time from the selector in the top menu (truck icon).</value>
+    </property>
+
+    <property key="ShippingCountryReminderOk">
+        <value xml:lang="it">OK, continua con Italia</value>
+        <value xml:lang="en">OK, continue with Italy</value>
+    </property>
+
+    <property key="ShippingCountryReminderChange">
+        <value xml:lang="it">Cambia nazione</value>
+        <value xml:lang="en">Change country</value>
+    </property>
+
+</resource>

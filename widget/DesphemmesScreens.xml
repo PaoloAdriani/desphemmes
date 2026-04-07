@@ -1,0 +1,1146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Licensed to the Apache Software Foundation (ASF) under one
+or more contributor license agreements.  See the NOTICE file
+distributed with this work for additional information
+regarding copyright ownership.  The ASF licenses this file
+to you under the Apache License, Version 2.0 (the
+"License"); you may not use this file except in compliance
+with the License.  You may obtain a copy of the License at
+
+http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+
+<screens xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns="http://ofbiz.apache.org/Widget-Screen" xsi:schemaLocation="http://ofbiz.apache.org/Widget-Screen http://ofbiz.apache.org/dtds/widget-screen.xsd">
+
+    <screen name="main">
+        <section>
+            <actions>
+                <set field="templatename" value="homepage"/>
+                <property-map resource="DesphemmesUiLabels" map-name="SystemLabelMap" global="true"/>
+
+                <script location="component://desphemmes/src/main/groovy/desphemmes/ecommerce/EcommerceSetup.groovy"/>
+                <script location="component://desphemmes/src/main/groovy/desphemmes/ecommerce/DynamicMenu.groovy"/>
+                <script location="component://desphemmes/src/main/groovy/desphemmes/ecommerce/Main.groovy"/>
+                <script location="component://desphemmes/src/main/groovy/desphemmes/ecommerce/cart/ShowCart.groovy"/>
+                <script location="component://desphemmes/src/main/groovy/desphemmes/ecommerce/cart/ShowPromoText.groovy"/>
+            </actions>
+            <widgets>
+                <decorator-screen name="DesphemmesUiConfigDecorator" location="${parameters.mainDecoratorLocation}">
+                    <decorator-section name="body">
+                        <platform-specific>
+                            <html>
+                                <html-template location="component://desphemmes/template/pages/index.ftl"/>
+                            </html>
+                        </platform-specific>
+                    </decorator-section>
+                </decorator-screen>
+            </widgets>
+        </section>
+    </screen>
+
+    <screen name="login">
+        <section>
+            <actions>
+                <property-map resource="DesphemmesUiLabels" map-name="SystemLabelMap" global="true"/>
+
+                <script location="component://desphemmes/src/main/groovy/desphemmes/ecommerce/EcommerceSetup.groovy"/>
+                <script location="component://desphemmes/src/main/groovy/desphemmes/ecommerce/DynamicMenu.groovy"/>
+                <script location="component://desphemmes/src/main/groovy/desphemmes/ecommerce/Login.groovy"/>
+                <script location="component://desphemmes/src/main/groovy/desphemmes/ecommerce/cart/ShowCart.groovy"/>
+                <script location="component://desphemmes/src/main/groovy/desphemmes/ecommerce/cart/ShowPromoText.groovy"/>
+            </actions>
+            <widgets>
+                <decorator-screen name="DesphemmesUiConfigDecorator" location="${parameters.mainDecoratorLocation}">
+                    <decorator-section name="body">
+                <platform-specific>
+                    <html>
+                        <html-template location="component://desphemmes/template/pages/login.ftl"/>
+                    </html>
+                </platform-specific>
+                    </decorator-section>
+                </decorator-screen>
+            </widgets>
+        </section>
+    </screen>
+
+    <!-- Start footer screens -->
+
+    <!-- Start Customer services screens -->
+    <screen name="shipping">
+        <section>
+            <actions>
+                <property-map resource="DesphemmesUiLabels" map-name="SystemLabelMap" global="true"/>
+                <property-map resource="ShippingUiLabels" map-name="ShippingLabelMap" global="true"/>
+
+                <script location="component://desphemmes/src/main/groovy/desphemmes/ecommerce/DynamicMenu.groovy"/>
+                <script location="component://desphemmes/src/main/groovy/desphemmes/ecommerce/cart/ShowCart.groovy"/>
+                <script location="component://desphemmes/src/main/groovy/desphemmes/ecommerce/cart/ShowPromoText.groovy"/>
+            </actions>
+            <widgets>
+                <decorator-screen name="DesphemmesUiConfigDecorator" location="${parameters.mainDecoratorLocation}">
+                <decorator-section name="body">
+                <platform-specific>
+                    <html>
+                        <html-template location="component://desphemmes/template/pages/footer/shipping.ftl"/>
+                    </html>
+                </platform-specific>
+                </decorator-section>
+                </decorator-screen>
+            </widgets>
+        </section>
+    </screen>
+
+    <screen name="returns">
+        <section>
+            <actions>
+                <property-map resource="DesphemmesUiLabels" map-name="SystemLabelMap" global="true"/>
+                <property-map resource="ReturnsUiLabels" map-name="ReturnsLabelMap" global="true"/>
+
+                <script location="component://desphemmes/src/main/groovy/desphemmes/ecommerce/DynamicMenu.groovy"/>
+                <script location="component://desphemmes/src/main/groovy/desphemmes/ecommerce/cart/ShowCart.groovy"/>
+                <script location="component://desphemmes/src/main/groovy/desphemmes/ecommerce/cart/ShowPromoText.groovy"/>
+            </actions>
+            <widgets>
+                <decorator-screen name="DesphemmesUiConfigDecorator" location="${parameters.mainDecoratorLocation}">
+                <decorator-section name="body">
+                <platform-specific>
+                    <html>
+                        <html-template location="component://desphemmes/template/pages/footer/returns.ftl"/>
+                    </html>
+                </platform-specific>
+                </decorator-section>
+                </decorator-screen>
+            </widgets>
+        </section>
+    </screen>
+
+    <screen name="sizeguide">
+        <section>
+            <actions>
+                <property-map resource="DesphemmesUiLabels" map-name="SystemLabelMap" global="true"/>
+
+                <script location="component://desphemmes/src/main/groovy/desphemmes/ecommerce/DynamicMenu.groovy"/>
+                <script location="component://desphemmes/src/main/groovy/desphemmes/ecommerce/cart/ShowCart.groovy"/>
+                <script location="component://desphemmes/src/main/groovy/desphemmes/ecommerce/cart/ShowPromoText.groovy"/>
+            </actions>
+            <widgets>
+                <decorator-screen name="DesphemmesUiConfigDecorator" location="${parameters.mainDecoratorLocation}">
+                <decorator-section name="body">
+                <platform-specific>
+                    <html>
+                        <html-template location="component://desphemmes/template/pages/footer/sizeguide.ftl"/>
+                    </html>
+                </platform-specific>
+                </decorator-section>
+                </decorator-screen>
+            </widgets>
+        </section>
+    </screen>
+
+    <screen name="contacts">
+        <section>
+            <actions>
+                <property-map resource="DesphemmesUiLabels" map-name="SystemLabelMap" global="true"/>
+
+                <script location="component://desphemmes/src/main/groovy/desphemmes/ecommerce/DynamicMenu.groovy"/>
+                <script location="component://desphemmes/src/main/groovy/desphemmes/ecommerce/cart/ShowCart.groovy"/>
+                <script location="component://desphemmes/src/main/groovy/desphemmes/ecommerce/cart/ShowPromoText.groovy"/>
+            </actions>
+            <widgets>
+                <decorator-screen name="DesphemmesUiConfigDecorator" location="${parameters.mainDecoratorLocation}">
+                <decorator-section name="body">
+                <platform-specific>
+                    <html>
+                        <html-template location="component://desphemmes/template/pages/footer/contacts.ftl"/>
+                    </html>
+                </platform-specific>
+                </decorator-section>
+                </decorator-screen>
+            </widgets>
+        </section>
+    </screen>
+
+    <screen name="faq">
+        <section>
+            <actions>
+                <set field="templatename" value="faq"/>
+                <property-map resource="DesphemmesUiLabels" map-name="SystemLabelMap" global="true"/>
+                <property-map resource="FaqUiLabels" map-name="FaqLabelMap" global="true"/>
+
+                <script location="component://desphemmes/src/main/groovy/desphemmes/ecommerce/DynamicMenu.groovy"/>
+                <script location="component://desphemmes/src/main/groovy/desphemmes/ecommerce/cart/ShowCart.groovy"/>
+                <script location="component://desphemmes/src/main/groovy/desphemmes/ecommerce/cart/ShowPromoText.groovy"/>
+            </actions>
+            <widgets>
+                <decorator-screen name="DesphemmesUiConfigDecorator" location="${parameters.mainDecoratorLocation}">
+                <decorator-section name="body">
+                <platform-specific>
+                    <html>
+                        <html-template location="component://desphemmes/template/pages/footer/faq.ftl"/>
+                    </html>
+                </platform-specific>
+                </decorator-section>
+                </decorator-screen>
+            </widgets>
+        </section>
+    </screen>
+    <!-- End Customer services screens -->
+
+    <!-- Start legal area screens -->
+    <screen name="salesconditions">
+        <section>
+            <actions>
+                <property-map resource="DesphemmesUiLabels" map-name="SystemLabelMap" global="true"/>
+                <property-map resource="SalesConditionsUiLabels" map-name="SalesConditionsLabelMap" global="true"/>
+
+                <script location="component://desphemmes/src/main/groovy/desphemmes/ecommerce/DynamicMenu.groovy"/>
+                <script location="component://desphemmes/src/main/groovy/desphemmes/ecommerce/cart/ShowCart.groovy"/>
+                <script location="component://desphemmes/src/main/groovy/desphemmes/ecommerce/cart/ShowPromoText.groovy"/>
+            </actions>
+            <widgets>
+                <decorator-screen name="DesphemmesUiConfigDecorator" location="${parameters.mainDecoratorLocation}">
+                <decorator-section name="body">
+                <platform-specific>
+                    <html>
+                        <html-template location="component://desphemmes/template/pages/footer/salesconditions.ftl"/>
+                    </html>
+                </platform-specific>
+                </decorator-section>
+                </decorator-screen>
+            </widgets>
+        </section>
+    </screen>
+
+    <screen name="privacy">
+        <section>
+            <actions>
+                <property-map resource="DesphemmesUiLabels" map-name="SystemLabelMap" global="true"/>
+
+
+                <script location="component://desphemmes/src/main/groovy/desphemmes/ecommerce/DynamicMenu.groovy"/>
+                <script location="component://desphemmes/src/main/groovy/desphemmes/ecommerce/cart/ShowCart.groovy"/>
+                <script location="component://desphemmes/src/main/groovy/desphemmes/ecommerce/cart/ShowPromoText.groovy"/>
+            </actions>
+            <widgets>
+                <decorator-screen name="DesphemmesUiConfigDecorator" location="${parameters.mainDecoratorLocation}">
+                <decorator-section name="body">
+                <platform-specific>
+                    <html>
+                        <html-template location="component://desphemmes/template/pages/footer/privacy.ftl"/>
+                    </html>
+                </platform-specific>
+                </decorator-section>
+                </decorator-screen>
+            </widgets>
+        </section>
+    </screen>
+
+    <screen name="cookie">
+        <section>
+            <actions>
+                <property-map resource="DesphemmesUiLabels" map-name="SystemLabelMap" global="true"/>
+                <property-map resource="CookieUiLabels" map-name="CookieLabelMap" global="true"/>
+
+                <script location="component://desphemmes/src/main/groovy/desphemmes/ecommerce/DynamicMenu.groovy"/>
+                <script location="component://desphemmes/src/main/groovy/desphemmes/ecommerce/cart/ShowCart.groovy"/>
+                <script location="component://desphemmes/src/main/groovy/desphemmes/ecommerce/cart/ShowPromoText.groovy"/>
+            </actions>
+            <widgets>
+                <decorator-screen name="DesphemmesUiConfigDecorator" location="${parameters.mainDecoratorLocation}">
+                <decorator-section name="body">
+                <platform-specific>
+                    <html>
+                        <html-template location="component://desphemmes/template/pages/footer/cookie.ftl"/>
+                    </html>
+                </platform-specific>
+                </decorator-section>
+                </decorator-screen>
+            </widgets>
+        </section>
+    </screen>
+    <!-- End legal area screens -->
+
+    <!-- Start corporate screens -->
+    <screen name="history">
+        <section>
+            <actions>
+                <property-map resource="DesphemmesUiLabels" map-name="SystemLabelMap" global="true"/>
+                <property-map resource="HistoryUiLabels" map-name="HistoryLabelMap" global="true"/>
+
+                <script location="component://desphemmes/src/main/groovy/desphemmes/ecommerce/DynamicMenu.groovy"/>
+                <script location="component://desphemmes/src/main/groovy/desphemmes/ecommerce/cart/ShowCart.groovy"/>
+                <script location="component://desphemmes/src/main/groovy/desphemmes/ecommerce/cart/ShowPromoText.groovy"/>
+            </actions>
+            <widgets>
+                <decorator-screen name="DesphemmesUiConfigDecorator" location="${parameters.mainDecoratorLocation}">
+                <decorator-section name="body">
+                <platform-specific>
+                    <html>
+                        <html-template location="component://desphemmes/template/pages/footer/history.ftl"/>
+                    </html>
+                </platform-specific>
+                </decorator-section>
+                </decorator-screen>
+            </widgets>
+        </section>
+    </screen>
+
+    <screen name="campaign">
+        <section>
+            <actions>
+                <property-map resource="DesphemmesUiLabels" map-name="SystemLabelMap" global="true"/>
+
+                <script location="component://desphemmes/src/main/groovy/desphemmes/ecommerce/DynamicMenu.groovy"/>
+                <script location="component://desphemmes/src/main/groovy/desphemmes/ecommerce/cart/ShowCart.groovy"/>
+                <script location="component://desphemmes/src/main/groovy/desphemmes/ecommerce/cart/ShowPromoText.groovy"/>
+            </actions>
+            <widgets>
+                <decorator-screen name="DesphemmesUiConfigDecorator" location="${parameters.mainDecoratorLocation}">
+                <decorator-section name="body">
+                <platform-specific>
+                    <html>
+                        <html-template location="component://desphemmes/template/pages/footer/campaign.ftl"/>
+                    </html>
+                </platform-specific>
+                </decorator-section>
+                </decorator-screen>
+            </widgets>
+        </section>
+    </screen>
+
+    <screen name="stores">
+        <section>
+            <actions>
+                <property-map resource="DesphemmesUiLabels" map-name="SystemLabelMap" global="true"/>
+                <property-map resource="StoresUiLabels" map-name="StoresLabelMap" global="true"/>
+
+                <script location="component://desphemmes/src/main/groovy/desphemmes/ecommerce/DynamicMenu.groovy"/>
+                <script location="component://desphemmes/src/main/groovy/desphemmes/ecommerce/cart/ShowCart.groovy"/>
+                <script location="component://desphemmes/src/main/groovy/desphemmes/ecommerce/cart/ShowPromoText.groovy"/>
+            </actions>
+            <widgets>
+                <decorator-screen name="DesphemmesUiConfigDecorator" location="${parameters.mainDecoratorLocation}">
+                <decorator-section name="body">
+                <platform-specific>
+                    <html>
+                        <html-template location="component://desphemmes/template/pages/footer/stores.ftl"/>
+                    </html>
+                </platform-specific>
+                </decorator-section>
+                </decorator-screen>
+            </widgets>
+        </section>
+    </screen>
+    <!-- End corporate screens -->
+
+    <!-- Start campaign screens -->
+    <screen name="fisicoadv25">
+        <section>
+            <actions>
+                <property-map resource="DesphemmesUiLabels" map-name="SystemLabelMap" global="true"/>
+
+                <script location="component://desphemmes/src/main/groovy/desphemmes/ecommerce/DynamicMenu.groovy"/>
+                <script location="component://desphemmes/src/main/groovy/desphemmes/ecommerce/cart/ShowCart.groovy"/>
+                <script location="component://desphemmes/src/main/groovy/desphemmes/ecommerce/cart/ShowPromoText.groovy"/>
+            </actions>
+            <widgets>
+                <decorator-screen name="DesphemmesUiConfigDecorator" location="${parameters.mainDecoratorLocation}">
+                <decorator-section name="body">
+                <platform-specific>
+                    <html>
+                        <html-template location="component://desphemmes/template/pages/campaign/fisicoadv25.ftl"/>
+                    </html>
+                </platform-specific>
+                </decorator-section>
+                </decorator-screen>
+            </widgets>
+        </section>
+    </screen>
+
+    <screen name="fisicoadv24">
+        <section>
+            <actions>
+                <property-map resource="DesphemmesUiLabels" map-name="SystemLabelMap" global="true"/>
+
+                <script location="component://desphemmes/src/main/groovy/desphemmes/ecommerce/DynamicMenu.groovy"/>
+                <script location="component://desphemmes/src/main/groovy/desphemmes/ecommerce/cart/ShowCart.groovy"/>
+                <script location="component://desphemmes/src/main/groovy/desphemmes/ecommerce/cart/ShowPromoText.groovy"/>
+            </actions>
+            <widgets>
+                <decorator-screen name="DesphemmesUiConfigDecorator" location="${parameters.mainDecoratorLocation}">
+                <decorator-section name="body">
+                <platform-specific>
+                    <html>
+                        <html-template location="component://desphemmes/template/pages/campaign/fisicoadv24.ftl"/>
+                    </html>
+                </platform-specific>
+                </decorator-section>
+                </decorator-screen>
+            </widgets>
+        </section>
+    </screen>
+
+    <screen name="fisicoadv23">
+        <section>
+            <actions>
+                <property-map resource="DesphemmesUiLabels" map-name="SystemLabelMap" global="true"/>
+
+                <script location="component://desphemmes/src/main/groovy/desphemmes/ecommerce/DynamicMenu.groovy"/>
+                <script location="component://desphemmes/src/main/groovy/desphemmes/ecommerce/cart/ShowCart.groovy"/>
+                <script location="component://desphemmes/src/main/groovy/desphemmes/ecommerce/cart/ShowPromoText.groovy"/>
+            </actions>
+            <widgets>
+                <decorator-screen name="DesphemmesUiConfigDecorator" location="${parameters.mainDecoratorLocation}">
+                <decorator-section name="body">
+                <platform-specific>
+                    <html>
+                        <html-template location="component://desphemmes/template/pages/campaign/fisicoadv23.ftl"/>
+                    </html>
+                </platform-specific>
+                </decorator-section>
+                </decorator-screen>
+            </widgets>
+        </section>
+    </screen>
+
+    <screen name="fisicoadv22">
+        <section>
+            <actions>
+                <property-map resource="DesphemmesUiLabels" map-name="SystemLabelMap" global="true"/>
+
+                <script location="component://desphemmes/src/main/groovy/desphemmes/ecommerce/DynamicMenu.groovy"/>
+                <script location="component://desphemmes/src/main/groovy/desphemmes/ecommerce/cart/ShowCart.groovy"/>
+                <script location="component://desphemmes/src/main/groovy/desphemmes/ecommerce/cart/ShowPromoText.groovy"/>
+            </actions>
+            <widgets>
+                <decorator-screen name="DesphemmesUiConfigDecorator" location="${parameters.mainDecoratorLocation}">
+                <decorator-section name="body">
+                <platform-specific>
+                    <html>
+                        <html-template location="component://desphemmes/template/pages/campaign/fisicoadv22.ftl"/>
+                    </html>
+                </platform-specific>
+                </decorator-section>
+                </decorator-screen>
+            </widgets>
+        </section>
+    </screen>
+
+    <screen name="fisicoadv21">
+        <section>
+            <actions>
+                <property-map resource="DesphemmesUiLabels" map-name="SystemLabelMap" global="true"/>
+
+                <script location="component://desphemmes/src/main/groovy/desphemmes/ecommerce/DynamicMenu.groovy"/>
+                <script location="component://desphemmes/src/main/groovy/desphemmes/ecommerce/cart/ShowCart.groovy"/>
+                <script location="component://desphemmes/src/main/groovy/desphemmes/ecommerce/cart/ShowPromoText.groovy"/>
+            </actions>
+            <widgets>
+                <decorator-screen name="DesphemmesUiConfigDecorator" location="${parameters.mainDecoratorLocation}">
+                <decorator-section name="body">
+                <platform-specific>
+                    <html>
+                        <html-template location="component://desphemmes/template/pages/campaign/fisicoadv21.ftl"/>
+                    </html>
+                </platform-specific>
+                </decorator-section>
+                </decorator-screen>
+            </widgets>
+        </section>
+    </screen>
+
+    <screen name="fisicoadv20">
+        <section>
+            <actions>
+                <property-map resource="DesphemmesUiLabels" map-name="SystemLabelMap" global="true"/>
+
+                <script location="component://desphemmes/src/main/groovy/desphemmes/ecommerce/DynamicMenu.groovy"/>
+                <script location="component://desphemmes/src/main/groovy/desphemmes/ecommerce/cart/ShowCart.groovy"/>
+                <script location="component://desphemmes/src/main/groovy/desphemmes/ecommerce/cart/ShowPromoText.groovy"/>
+            </actions>
+            <widgets>
+                <decorator-screen name="DesphemmesUiConfigDecorator" location="${parameters.mainDecoratorLocation}">
+                <decorator-section name="body">
+                <platform-specific>
+                    <html>
+                        <html-template location="component://desphemmes/template/pages/campaign/fisicoadv20.ftl"/>
+                    </html>
+                </platform-specific>
+                </decorator-section>
+                </decorator-screen>
+            </widgets>
+        </section>
+    </screen>
+    <!-- End campaign screens -->
+
+    <!-- End footer screens -->
+
+    <!-- Category Screens -->
+    <screen name="productCategoryList">
+        <section>
+
+            <actions>
+                <property-map resource="DesphemmesUiLabels" map-name="SystemLabelMap" global="true"/>
+
+                <script location="component://desphemmes/src/main/groovy/desphemmes/ecommerce/DynamicMenu.groovy"/>
+                <script location="component://desphemmes/src/main/groovy/desphemmes/ecommerce/Category.groovy"/>
+                <script location="component://desphemmes/src/main/groovy/desphemmes/ecommerce/cart/ShowCart.groovy"/>
+                <script location="component://desphemmes/src/main/groovy/desphemmes/ecommerce/cart/ShowPromoText.groovy"/>
+
+            </actions>
+            <widgets>
+
+                <section>
+
+                    <widgets>
+                        <include-screen name="category"/>
+                    </widgets>
+
+                </section>
+
+            </widgets>
+            <fail-widgets>
+                <section>
+                    <widgets>
+                        <include-screen name="category"/>
+                    </widgets>
+                </section>
+            </fail-widgets>
+
+        </section>
+
+    </screen>
+
+    <screen name="category">
+        <section>
+            <actions>
+                <property-map resource="DesphemmesUiLabels" map-name="SystemLabelMap" global="true"/>
+                <script location="component://desphemmes/src/main/groovy/desphemmes/ecommerce/Category.groovy"/>
+                <script location="component://desphemmes/src/main/groovy/desphemmes/ecommerce/DynamicMenu.groovy"/>
+                <script location="component://desphemmes/src/main/groovy/desphemmes/ecommerce/cart/ShowCart.groovy"/>
+                <script location="component://desphemmes/src/main/groovy/desphemmes/ecommerce/cart/ShowPromoText.groovy"/>
+                <script location="component://mpstyle/src/main/groovy/ecommerce/catalog/ProductCategoryFilters.groovy"/>
+
+            </actions>
+            <widgets>
+                <decorator-screen name="DesphemmesUiConfigDecorator" location="${parameters.mainDecoratorLocation}">
+                <decorator-section name="body">
+
+                <include-screen name="${detailScreen}"/>
+
+                </decorator-section>
+                </decorator-screen>
+            </widgets>
+        </section>
+    </screen>
+
+    <screen name="category-include">
+        <section>
+            <widgets>
+                <section>
+                    <condition>
+                        <not>
+                            <if-empty field="productCategory"/>
+                        </not>
+                    </condition>
+                    <widgets>
+                        <include-screen name="${detailScreen}"/>
+                    </widgets>
+                    <fail-widgets>
+                        <label style="head2">${uiLabelMap.ProductCategoryNotFoundForCategoryID} ${productCategoryId}!
+                        </label>
+                    </fail-widgets>
+                </section>
+            </widgets>
+        </section>
+    </screen>
+
+    <screen name="categorydetail">
+        <section>
+            <actions>
+                <set field="templatename" value="categorydetail"/>
+                <property-map resource="DesphemmesUiLabels" map-name="SystemLabelMap" global="true"/>
+                <set field="productsummaryScreen" value="component://desphemmes/widget/DesphemmesScreens.xml#productsummary"/>
+                <!--set field="productCategoryLinkScreen" value="component://ecommerce/widget/CatalogScreens.xml#ProductCategoryLink"/-->
+                <script location="component://desphemmes/src/main/groovy/desphemmes/ecommerce/DynamicMenu.groovy"/>
+                <script location="component://desphemmes/src/main/groovy/desphemmes/ecommerce/CategoryDetail.groovy"/>
+                <script location="component://desphemmes/src/main/groovy/desphemmes/ecommerce/cart/ShowCart.groovy"/>
+                <script location="component://desphemmes/src/main/groovy/desphemmes/ecommerce/cart/ShowPromoText.groovy"/>
+                <!--entity-and entity-name="ProductCategoryLink" list="productCategoryLinks" use-cache="true" filter-by-date="true">
+                    <field-map field-name="productCategoryId" from-field="productCategoryId"/>
+                    <order-by field-name="sequenceNum"/>
+                </entity-and>
+                <set field="paginateEcommerceStyle" value="Y"/-->
+            </actions>
+            <widgets>
+
+                <platform-specific>
+                    <html>
+                        <html-template location="component://desphemmes/template/pages/listing.ftl"/>
+                    </html>
+                </platform-specific>
+            </widgets>
+        </section>
+    </screen>
+
+    <screen name="productsummary">
+        <section>
+            <actions>
+                <set field="templatename" value="productsummary"/>
+                <property-map resource="DesphemmesUiLabels" map-name="SystemLabelMap" global="true"/>
+                <property-map resource="CommonUiLabels" map-name="uiLabelMap" global="true"/>
+
+                <script location="component://desphemmes/src/main/groovy/desphemmes/ecommerce/DynamicMenu.groovy"/>
+                <script location="component://desphemmes/src/main/groovy/desphemmes/ecommerce/product/ProductSummary.groovy"/>
+                <script location="component://desphemmes/src/main/groovy/desphemmes/ecommerce/cart/ShowCart.groovy"/>
+                <script location="component://desphemmes/src/main/groovy/desphemmes/ecommerce/cart/ShowPromoText.groovy"/>
+            </actions>
+            <widgets>
+                <decorator-screen name="DesphemmesUiConfigDecorator" location="${parameters.mainDecoratorLocation}">
+                <decorator-section name="body">
+                <platform-specific>
+                    <html>
+                        <html-template location="component://desphemmes/template/pages/product/productSummary.ftl"/>
+                    </html>
+                </platform-specific>
+                </decorator-section>
+                </decorator-screen>
+            </widgets>
+        </section>
+    </screen>
+
+    <screen name="product">
+        <section>
+            <actions>
+                <!--set field="MainColumnStyle" value="center"/>
+                <set field="titleProperty" value="PageTitleProductPage"/-->
+                <!--set field="layoutSettings.javaScripts[]" value="/ecommerce/images/productAdditionalView.js"
+                     global="true"/-->
+                <!--set field="configproductdetailScreen" value="component://ecommerce/widget/CatalogScreens.xml#configproductdetail"/-->
+                <script location="component://desphemmes/src/main/groovy/desphemmes/ecommerce/DynamicMenu.groovy"/>
+                <script location="component://desphemmes/src/main/groovy/desphemmes/ecommerce/product/Product.groovy"/>
+                <script location="component://desphemmes/src/main/groovy/desphemmes/ecommerce/cart/ShowCart.groovy"/>
+                <script location="component://desphemmes/src/main/groovy/desphemmes/ecommerce/cart/ShowPromoText.groovy"/>
+            </actions>
+            <widgets>
+                <decorator-screen name="DesphemmesUiConfigDecorator" location="${parameters.mainDecoratorLocation}">
+                <decorator-section name="body">
+
+                <include-screen name="${detailScreen}"/>
+                </decorator-section>
+                </decorator-screen>
+            </widgets>
+        </section>
+    </screen>
+
+    <screen name="productdetail">
+        <section>
+            <actions>
+                <set field="templatename" value="productdetail"/>
+                <set field="productsummaryScreen" value="component://desphemmes/widget/DesphemmesScreens.xml#productsummary"/>
+
+                <property-map resource="DesphemmesUiLabels" map-name="SystemLabelMap" global="true"/>
+
+                <script location="component://desphemmes/src/main/groovy/desphemmes/ecommerce/DynamicMenu.groovy"/>
+                <script location="component://desphemmes/src/main/groovy/desphemmes/ecommerce/Category.groovy"/>
+                <script location="component://desphemmes/src/main/groovy/desphemmes/ecommerce/product/ProductDetail.groovy"/>
+                <script location="component://desphemmes/src/main/groovy/desphemmes/ecommerce/cart/ShowCart.groovy"/>
+                <script location="component://desphemmes/src/main/groovy/desphemmes/ecommerce/cart/ShowPromoText.groovy"/>
+            </actions>
+            <widgets>
+                <platform-specific>
+                    <html>
+                        <html-template location="component://desphemmes/template/pages/product/productDetail.ftl"/>
+                    </html>
+                </platform-specific>
+            </widgets>
+        </section>
+    </screen>
+
+    <!-- @mpstyle Filter search result screen -->
+    <screen name="filterSearchResult">
+        <section>
+            <actions>
+                <set field="templatename" value="filterSearch"/>
+                <property-map resource="DesphemmesUiLabels" map-name="SystemLabelMap" global="true"/>
+                <set field="productsummaryScreen" value="component://desphemmes/widget/DesphemmesScreens.xml#productsummary"/>
+
+                <script location="component://desphemmes/src/main/groovy/desphemmes/ecommerce/DynamicMenu.groovy"/>
+                <script location="component://desphemmes/src/main/groovy/desphemmes/ecommerce/cart/ShowCart.groovy"/>
+                <script location="component://desphemmes/src/main/groovy/desphemmes/ecommerce/cart/ShowPromoText.groovy"/>
+                <script location="component://mpstyle/src/main/groovy/ecommerce/catalog/PerformFilterSearch.groovy"/>
+            </actions>
+            <widgets>
+                <decorator-screen name="DesphemmesUiConfigDecorator" location="${parameters.mainDecoratorLocation}">
+                <decorator-section name="body">
+                <platform-specific>
+                    <html>
+                        <html-template location="component://desphemmes/template/pages/filterSearchResult.ftl"/>
+                    </html>
+                </platform-specific>
+                </decorator-section>
+                </decorator-screen>
+            </widgets>
+        </section>
+    </screen>
+
+
+    <screen name="newCustomer">
+        <section>
+            <actions>
+                <set field="templatename" value="newCustomer"/>
+                <property-map resource="DesphemmesUiLabels" map-name="SystemLabelMap" global="true"/>
+
+                <script location="component://desphemmes/src/main/groovy/desphemmes/ecommerce/DynamicMenu.groovy"/>
+                <script location="component://desphemmes/src/main/groovy/desphemmes/ecommerce/customer/NewCustomer.groovy"/>
+            </actions>
+            <widgets>
+                <decorator-screen name="DesphemmesUiConfigDecorator" location="${parameters.mainDecoratorLocation}">
+                <decorator-section name="body">
+                <platform-specific>
+                    <html>
+                        <html-template location="component://desphemmes/template/pages/customer/newCustomer.ftl"/>
+                    </html>
+                </platform-specific>
+                </decorator-section>
+                </decorator-screen>
+            </widgets>
+        </section>
+    </screen>
+
+    <screen name="viewprofile">
+        <section>
+            <actions>
+
+                <set field="partyId" from-field="userLogin.partyId"/>
+                <entity-one entity-name="Party" value-field="party"/>
+                <entity-one entity-name="Person" value-field="person"/>
+                <entity-one entity-name="PartyGroup" value-field="partyGroup"/>
+                <property-map resource="DesphemmesUiLabels" map-name="SystemLabelMap" global="true"/>
+
+                <script location="component://desphemmes/src/main/groovy/desphemmes/ecommerce/DynamicMenu.groovy"/>
+                <script location="component://desphemmes/src/main/groovy/desphemmes/ecommerce/customer/ViewProfile.groovy"/>
+            </actions>
+            <widgets>
+                <decorator-screen name="DesphemmesUiConfigDecorator" location="${parameters.mainDecoratorLocation}">
+                <decorator-section name="body">
+                <platform-specific>
+                    <html>
+                        <html-template location="component://desphemmes/template/pages/customer/ViewProfile.ftl"/>
+                    </html>
+                </platform-specific>
+                </decorator-section>
+                </decorator-screen>
+            </widgets>
+        </section>
+    </screen>
+
+
+    <screen name="editcontactmech">
+        <section>
+            <actions>
+                <script location="component://desphemmes/src/main/groovy/desphemmes/ecommerce/DynamicMenu.groovy"/>
+                <script location="component://desphemmes/src/main/groovy/desphemmes/ecommerce/EditContactMech.groovy"/>
+                <set field="reqName" from-field="requestName"/>
+            </actions>
+            <widgets>
+                <decorator-screen name="DesphemmesUiConfigDecorator" location="${parameters.mainDecoratorLocation}">
+                <decorator-section name="body">
+                <platform-specific>
+                    <html>
+                        <html-template
+                                location="component://desphemmes/template/pages/customer/EditContactMech.ftl"/>
+                    </html>
+                </platform-specific>
+                </decorator-section>
+                </decorator-screen>
+            </widgets>
+        </section>
+    </screen>
+
+    <screen name="passwordChange">
+        <section>
+            <actions>
+                <property-map resource="DesphemmesUiLabels" map-name="SystemLabelMap" global="true"/>
+
+                <script location="component://desphemmes/src/main/groovy/desphemmes/ecommerce/DynamicMenu.groovy"/>
+                <script location="component://desphemmes/src/main/groovy/desphemmes/ecommerce/ChangePassword.groovy"/>
+            </actions>
+            <widgets>
+                <decorator-screen name="DesphemmesUiConfigDecorator" location="${parameters.mainDecoratorLocation}">
+                <decorator-section name="body">
+                <platform-specific>
+                    <html>
+                        <html-template location="component://desphemmes/template/pages/customer/ChangePassword.ftl"/>
+                    </html>
+                </platform-specific>
+                </decorator-section>
+                </decorator-screen>
+            </widgets>
+        </section>
+    </screen>
+
+
+    <screen name="orderhistory">
+        <section>
+            <actions>
+                <property-map resource="DesphemmesUiLabels" map-name="SystemLabelMap" global="true"/>
+
+                <script location="component://desphemmes/src/main/groovy/desphemmes/ecommerce/DynamicMenu.groovy"/>
+                <script location="component://desphemmes/src/main/groovy/desphemmes/ecommerce/order/OrderHistory.groovy"/>
+            </actions>
+            <widgets>
+                <decorator-screen name="DesphemmesUiConfigDecorator" location="${parameters.mainDecoratorLocation}">
+                <decorator-section name="body">
+                <platform-specific>
+                    <html>
+                        <html-template location="component://desphemmes/template/pages/order/OrderHistory.ftl"/>
+                    </html>
+                </platform-specific>
+                </decorator-section>
+                </decorator-screen>
+            </widgets>
+        </section>
+    </screen>
+
+    <screen name="miniCart">
+        <section>
+            <actions>
+                <property-map resource="DesphemmesUiLabels" map-name="SystemLabelMap" global="true"/>
+                <property-map resource="CommonUiLabels" map-name="uiLabelMap" global="true"/>
+                <property-map resource="OrderUiLabels" map-name="uiLabelMap" global="true"/>
+                <property-map resource="ContentUiLabels" map-name="uiLabelMap" global="true"/>
+                <property-map resource="EcommerceUiLabels" map-name="uiLabelMap" global="true"/>
+                <property-map resource="ProductUiLabels" map-name="uiLabelMap" global="true"/>
+
+                <script location="component://desphemmes/src/main/groovy/desphemmes/ecommerce/DynamicMenu.groovy"/>
+                <script location="component://ecommerce/src/main/groovy/org/apache/ofbiz/ecommerce/cart/ShowCart.groovy"/>
+                <script location="component://ecommerce/src/main/groovy/org/apache/ofbiz/ecommerce/cart/ShowPromoText.groovy"/>
+            </actions>
+            <widgets>
+                <decorator-screen name="DesphemmesUiConfigDecorator" location="${parameters.mainDecoratorLocation}">
+                <decorator-section name="body">
+                <platform-specific>
+                    <html>
+                        <html-template location="component://desphemmes/template/pages/cart/miniCart.ftl"/>
+                    </html>
+                </platform-specific>
+                </decorator-section>
+                </decorator-screen>
+            </widgets>
+        </section>
+    </screen>
+
+    <screen name="showCart">
+        <section>
+            <actions>
+                <set field="templatename" value="showCart"/>
+                <property-map resource="DesphemmesUiLabels" map-name="SystemLabelMap" global="true"/>
+                <property-map resource="CommonUiLabels" map-name="uiLabelMap" global="true"/>
+                <property-map resource="OrderUiLabels" map-name="uiLabelMap" global="true"/>
+                <property-map resource="ContentUiLabels" map-name="uiLabelMap" global="true"/>
+                <property-map resource="EcommerceUiLabels" map-name="uiLabelMap" global="true"/>
+                <property-map resource="ProductUiLabels" map-name="uiLabelMap" global="true"/>
+
+                <script location="component://desphemmes/src/main/groovy/desphemmes/ecommerce/DynamicMenu.groovy"/>
+                <script location="component://desphemmes/src/main/groovy/desphemmes/ecommerce/cart/ShowCart.groovy"/>
+                <script location="component://desphemmes/src/main/groovy/desphemmes/ecommerce/cart/ShowPromoText.groovy"/>
+            </actions>
+            <widgets>
+                <decorator-screen name="DesphemmesUiConfigDecorator" location="${parameters.mainDecoratorLocation}">
+                <decorator-section name="body">
+                <platform-specific>
+                    <html>
+                        <html-template location="component://desphemmes/template/pages/cart/showCart.ftl"/>
+                    </html>
+                </platform-specific>
+                </decorator-section>
+                </decorator-screen>
+            </widgets>
+        </section>
+    </screen>
+
+    <screen name="checkoutShippingAddress">
+        <section>
+            <actions>
+                <set field="templatename" value="checkoutShippingAddress"/>
+                <property-map resource="DesphemmesUiLabels" map-name="SystemLabelMap" global="true"/>
+
+                <script location="component://desphemmes/src/main/groovy/desphemmes/ecommerce/DynamicMenu.groovy"/>
+                <script location="component://desphemmes/src/main/groovy/desphemmes/ecommerce/order/CheckoutShippingAddress.groovy"/>
+            </actions>
+            <widgets>
+                <decorator-screen name="DesphemmesUiConfigDecorator" location="${parameters.mainDecoratorLocation}">
+                <decorator-section name="body">
+                <platform-specific>
+                    <html>
+                        <html-template location="component://desphemmes/template/pages/order/CheckoutShippingAddress.ftl"/>
+                    </html>
+                </platform-specific>
+                </decorator-section>
+                </decorator-screen>
+            </widgets>
+        </section>
+    </screen>
+
+    <screen name="checkoutshippingoptions">
+        <section>
+            <actions>
+                <set field="templatename" value="checkoutShippingOptions"/>
+                <property-map resource="DesphemmesUiLabels" map-name="SystemLabelMap" global="true"/>
+
+                <script location="component://desphemmes/src/main/groovy/desphemmes/ecommerce/DynamicMenu.groovy"/>
+                <script location="component://desphemmes/src/main/groovy/desphemmes/ecommerce/order/CheckoutShippingOptions.groovy"/>
+            </actions>
+            <widgets>
+                <decorator-screen name="DesphemmesUiConfigDecorator" location="${parameters.mainDecoratorLocation}">
+                <decorator-section name="body">
+                <platform-specific>
+                    <html>
+                        <html-template location="component://desphemmes/template/pages/order/CheckoutShippingOptions.ftl"/>
+                    </html>
+                </platform-specific>
+                </decorator-section>
+                </decorator-screen>
+            </widgets>
+        </section>
+    </screen>
+
+    <screen name="checkoutpayment">
+        <section>
+            <actions>
+                <set field="templatename" value="checkoutPayment"/>
+                <property-map resource="DesphemmesUiLabels" map-name="SystemLabelMap" global="true"/>
+
+                <script location="component://desphemmes/src/main/groovy/desphemmes/ecommerce/DynamicMenu.groovy"/>
+                <script location="component://desphemmes/src/main/groovy/desphemmes/ecommerce/order/CheckoutPayment.groovy"/>
+                <script location="component://desphemmes/src/main/groovy/desphemmes/ecommerce/order/StorePaymentOptions.groovy"/>
+            </actions>
+            <widgets>
+                <decorator-screen name="DesphemmesUiConfigDecorator" location="${parameters.mainDecoratorLocation}">
+                <decorator-section name="body">
+                <platform-specific>
+                    <html>
+                        <html-template location="component://desphemmes/template/pages/order/CheckoutPayment.ftl"/>
+                    </html>
+                </platform-specific>
+                </decorator-section>
+                </decorator-screen>
+            </widgets>
+        </section>
+    </screen>
+
+    <screen name="checkoutreview">
+        <section>
+            <actions>
+                <set field="templatename" value="checkoutReview"/>
+                <property-map resource="DesphemmesUiLabels" map-name="SystemLabelMap" global="true"/>
+                <set field="parameters.formNameValue" value="orderreview" global="true"/>
+
+                <script location="component://desphemmes/src/main/groovy/desphemmes/ecommerce/DynamicMenu.groovy"/>
+                <script location="component://desphemmes/src/main/groovy/desphemmes/ecommerce/order/CheckoutReview.groovy"/>
+            </actions>
+            <widgets>
+                <decorator-screen name="DesphemmesUiConfigDecorator" location="${parameters.mainDecoratorLocation}">
+                <decorator-section name="body">
+                <platform-specific>
+                    <html>
+                        <html-template location="component://desphemmes/template/pages/order/CheckoutReview.ftl"/>
+                    </html>
+                </platform-specific>
+                </decorator-section>
+                </decorator-screen>
+            </widgets>
+        </section>
+    </screen>
+
+    <!-- used in Unicredit integration -->
+    <screen name="ordererror">
+        <section>
+            <actions>
+                <set field="templatename" value="ordererror"/>
+                <property-map resource="DesphemmesUiLabels" map-name="SystemLabelMap" global="true"/>
+
+                <script location="component://desphemmes/src/main/groovy/desphemmes/ecommerce/DynamicMenu.groovy"/>
+            </actions>
+            <widgets>
+                <decorator-screen name="DesphemmesUiConfigDecorator" location="${parameters.mainDecoratorLocation}">
+                <decorator-section name="body">
+                <platform-specific>
+                    <html>
+                        <html-template location="component://desphemmes/template/pages/order/OrderError.ftl"/>
+                    </html>
+                </platform-specific>
+                </decorator-section>
+                </decorator-screen>
+            </widgets>
+        </section>
+    </screen>
+
+    <screen name="orderheader">
+        <section>
+            <widgets>
+                <decorator-screen name="DesphemmesUiConfigDecorator" location="${parameters.mainDecoratorLocation}">
+                <decorator-section name="body">
+                <platform-specific>
+                    <html>
+                        <html-template location="component://desphemmes/template/pages/order/OrderHeader.ftl"/>
+                    </html>
+                </platform-specific>
+                </decorator-section>
+                </decorator-screen>
+            </widgets>
+        </section>
+    </screen>
+
+    <screen name="orderitems">
+        <section>
+            <widgets>
+                <decorator-screen name="DesphemmesUiConfigDecorator" location="${parameters.mainDecoratorLocation}">
+                <decorator-section name="body">
+                <platform-specific>
+                    <html>
+                        <html-template location="component://desphemmes/template/pages/order/OrderItems.ftl"/>
+                    </html>
+                </platform-specific>
+                </decorator-section>
+                </decorator-screen>
+            </widgets>
+        </section>
+    </screen>
+
+    <screen name="ordercomplete">
+        <section>
+            <actions>
+                <property-map resource="DesphemmesUiLabels" map-name="SystemLabelMap" global="true"/>
+
+                <script location="component://desphemmes/src/main/groovy/desphemmes/ecommerce/order/OrderStatus.groovy"/>
+                <script location="component://desphemmes/src/main/groovy/desphemmes/ecommerce/DynamicMenu.groovy"/>
+            </actions>
+            <widgets>
+                <decorator-screen name="DesphemmesUiConfigDecorator" location="${parameters.mainDecoratorLocation}">
+                <decorator-section name="body">
+                <platform-specific>
+                    <html>
+                        <html-template location="component://desphemmes/template/pages/order/OrderComplete.ftl"/>
+                    </html>
+                </platform-specific>
+                </decorator-section>
+                </decorator-screen>
+            </widgets>
+        </section>
+    </screen>
+
+    <screen name="editcontactmech">
+        <section>
+            <actions>
+                <set field="templatename" value="editContactMech"/>
+                <property-map resource="DesphemmesUiLabels" map-name="SystemLabelMap" global="true"/>
+
+                <script location="component://desphemmes/src/main/groovy/desphemmes/ecommerce/customer/EditContactMech.groovy"/>
+                <script location="component://desphemmes/src/main/groovy/desphemmes/ecommerce/DynamicMenu.groovy"/>
+                <set field="reqName" from-field="requestName"/>
+            </actions>
+            <widgets>
+                <decorator-screen name="DesphemmesUiConfigDecorator" location="${parameters.mainDecoratorLocation}">
+                <decorator-section name="body">
+                <platform-specific>
+                    <html>
+                        <html-template location="component://desphemmes/template/pages/customer/EditContactMech.ftl"/>
+                    </html>
+                </platform-specific>
+                </decorator-section>
+                </decorator-screen>
+            </widgets>
+        </section>
+    </screen>
+
+    <screen name="requirePasswordChange">
+        <section>
+            <actions>
+                <property-map resource="DesphemmesUiLabels" map-name="SystemLabelMap" global="true"/>
+                <script location="component://desphemmes/src/main/groovy/desphemmes/ecommerce/Login.groovy"/>
+                <script location="component://desphemmes/src/main/groovy/desphemmes/ecommerce/DynamicMenu.groovy"/>
+            </actions>
+            <widgets>
+                <decorator-screen name="DesphemmesUiConfigDecorator" location="${parameters.mainDecoratorLocation}">
+                <decorator-section name="body">
+                <platform-specific>
+                    <html><html-template location="component://desphemmes/template/customer/RequirePasswordChange.ftl"/></html>
+                </platform-specific>
+                </decorator-section>
+                </decorator-screen>
+            </widgets>
+        </section>
+    </screen>
+
+    <screen name="orderstatus">
+        <section>
+            <actions>
+                <set field="maySelectItems" value="Y"/>
+                <set field="titleProperty" value="PageTitleOrderStatus"/>
+                <property-map resource="DesphemmesUiLabels" map-name="SystemLabelMap" global="true"/>
+                <script location="component://desphemmes/src/main/groovy/desphemmes/ecommerce/order/OrderStatus.groovy"/>
+                <script location="component://desphemmes/src/main/groovy/desphemmes/ecommerce/DynamicMenu.groovy"/>
+            </actions>
+            <widgets>
+                <decorator-screen name="DesphemmesUiConfigDecorator" location="${parameters.mainDecoratorLocation}">
+                <decorator-section name="body">
+                <platform-specific><html><html-template location="component://desphemmes/template/pages/order/OrderStatus.ftl"/></html></platform-specific>
+                </decorator-section>
+                </decorator-screen>
+            </widgets>
+        </section>
+    </screen>
+
+    <screen name="requestreturn">
+        <section>
+            <actions>
+                <property-map resource="DesphemmesUiLabels" map-name="SystemLabelMap" global="true"/>
+                <script location="component://desphemmes/src/main/groovy/desphemmes/ecommerce/order/RequestReturn.groovy"/>
+                <script location="component://desphemmes/src/main/groovy/desphemmes/ecommerce/DynamicMenu.groovy"/>
+            </actions>
+            <widgets>
+                <decorator-screen name="DesphemmesUiConfigDecorator" location="${parameters.mainDecoratorLocation}">
+                <decorator-section name="body">
+                <platform-specific><html><html-template location="component://desphemmes/template/pages/returns/RequestReturn.ftl"/></html></platform-specific>
+                </decorator-section>
+                </decorator-screen>
+            </widgets>
+        </section>
+    </screen>
+
+    <screen name="returnList">
+        <section>
+            <actions>
+
+                <property-map resource="DesphemmesUiLabels" map-name="SystemLabelMap" global="true"/>
+                <script location="component://desphemmes/src/main/groovy/desphemmes/ecommerce/DynamicMenu.groovy"/>
+
+                <!-- 👇 AGGIUNGI QUESTO -->
+                <script location="component://desphemmes/src/main/groovy/desphemmes/ecommerce/ReturnDetail.groovy"/>
+            </actions>
+            <widgets>
+                <decorator-screen name="DesphemmesUiConfigDecorator" location="${parameters.mainDecoratorLocation}">
+                <decorator-section name="body">
+                <platform-specific>
+                    <html>
+                        <html-template location="component://desphemmes/template/pages/returns/RequestList.ftl"/>
+                    </html>
+                </platform-specific>
+                </decorator-section>
+                </decorator-screen>
+            </widgets>
+        </section>
+    </screen>
+
+</screens>

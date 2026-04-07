@@ -1,0 +1,229 @@
+/* ----------------------------------------------------------------
+	Custom CSS
+
+	Add all your Custom Styled CSS here for New Styles or
+	Overwriting Default Theme Styles for Better Handling Updates
+-----------------------------------------------------------------*/
+
+
+
+:root {
+	--cnvs-body-font: "HelveticaNeue", sans-serif;
+	--cnvs-primary-font: "HelveticaNeue", sans-serif;
+	--cnvs-secondary-font: "HelveticaNeue", serif;
+}
+
+body, html {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.font-regular {
+    font-weight: 400!important;
+}
+
+.font-medium {
+    font-weight: 500!important;
+}
+
+.font-bold {
+    font-weight: 700!important;
+}
+
+.font-xtra-bold {
+    font-weight: 800!important;
+}
+
+.font-sz-regular {
+    font-size: 1rem!important;
+}
+
+.font-sz-small {
+    font-size: 0.875rem!important;
+}
+
+.font-sz-xsmall {
+    font-size: 0.75rem!important;
+}
+
+.font-sz-medium {
+    font-size: 1.25rem!important;
+}
+
+.font-sz-large {
+    font-size: 1.75rem!important;
+}
+
+.font-sz-xlarge {
+    font-size: 2.75rem!important;
+}
+
+.font-sz-xxlarge {
+    font-size: 3.75rem!important;
+}
+
+button.button:hover, a.button:hover, input.button:hover {
+    background-color: #f9f9f9!important;
+    color: #000!important;
+    border-color: #000!important;
+    transition: all ease 0.5s;
+}
+
+#footer select.form-select,
+select[name="newLocale"] {
+    font-family: var(--cnvs-primary-font);
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border: 1px solid #DDD;
+    padding: 3px 22px;
+    color: inherit;
+}
+
+.slider-caption h2{
+    text-transform: uppercase;
+}
+
+.upper {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.product-title, .product-price {
+    font-size:0.9rem;
+}
+
+.productName {
+    font-size: 1.2rem;
+    font-weight: 700!important;
+}
+
+.productId {
+    font-size: 0.9rem;
+    font-weight: 400!important;
+}
+
+.priceDel {
+    font-size: 1.2rem;
+    font-weight: 400;
+    text-decoration: line-through;
+    color: #888!important;
+}
+
+.priceValid {
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.card{
+    border: none;
+    border-radius: 0;
+    /*box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);*/
+}
+
+ @media (max-width: 768px) {
+
+     .content-wrap {
+         padding: 1rem;
+     }
+
+    .slider-caption h2 {
+        font-size: 2.85rem;
+        text-transform: uppercase;
+    }
+
+    .menu-link {
+         font-size: 1rem!important;
+     }
+
+
+    .upper {
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+
+    #header-wrap #logo img{
+        height: 40px;
+    }
+
+    #miniCartContainer {
+        margin-right: 3px;
+    }
+
+     .productName {
+        font-size: 1rem;
+     }
+
+     .productId {
+         font-size: 0.8rem;
+     }
+
+ }
+
+.menu-link {
+    font-size: 1.2rem;!important;
+}
+
+ /* Forza il colore nero per tutti i menu link */
+ .menu-link {
+     color: #000 !important;
+ }
+
+ /* Forza il colore nero anche in hover */
+ .menu-item:hover > .menu-link,
+ .menu-item.current > .menu-link {
+     color: #000 !important;
+ }
+
+ /* Rimuovi l'effetto di schiarimento delle voci non in hover */
+ .menu-container:hover > .menu-item:not(:hover):not(.active) > .menu-link {
+     color: #000 !important;
+ }
+
+ /* Sovrascrivi gli stili dark */
+ .dark .menu-item:hover > .menu-link,
+ .dark .menu-item.current > .menu-link {
+     color: #000 !important;
+ }
+
+/*
+ #header.transparent-header #header-wrap {
+     background-color: rgba(255, 255, 255, 0.95) !important;
+ }
+ */
+
+ .flex-control-nav.flex-control-thumbs li,
+ .flex-control-nav.flex-control-thumbs li img {
+     width: auto !important;
+     height: 125px !important;  /* Aumenta da 110px a 150px */
+ }
+
+ .ofbiz-alert {
+     border-radius: 8px;
+     margin-bottom: 20px;
+     font-size: 0.95rem;
+ }
+
+ .ofbiz-alert ul {
+     padding-left: 18px;
+ }
+
+ .ofbiz-alert i {
+     font-size: 1.2rem;
+     margin-top: 2px;
+ }
+
+ .top-cart-title {
+     position: relative !important;
+ }
+
+ .top-cart-close {
+     position: absolute !important;
+     right: 10px !important;
+     top: 5px !important;
+     border: none !important;
+     background: none !important;
+     font-size: 20px !important;
+     cursor: pointer !important;
+ }

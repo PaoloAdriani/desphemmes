@@ -1,0 +1,64 @@
+<screens xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns="http://ofbiz.apache.org/Widget-Screen" xsi:schemaLocation="http://ofbiz.apache.org/Widget-Screen http://ofbiz.apache.org/dtds/widget-screen.xsd">
+
+    <screen name="InvoicePDF">
+        <section>
+            <actions>
+                <property-map resource="AccountingUiLabels" map-name="uiLabelMap" global="true"/>
+                <property-map resource="ProductUiLabels" map-name="uiLabelMap" global="true"/>
+                <property-map resource="PartyUiLabels" map-name="uiLabelMap" global="true"/>
+                <property-map resource="OrderUiLabels" map-name="uiLabelMap" global="true"/>
+                <property-map resource="CommonUiLabels" map-name="uiLabelMap" global="true"/>
+                <set field="titleProperty" value="AccountingInvoice"/>
+                <script location="component://desphemmes/src/main/groovy/accounting/invoice/EditInvoice.groovy"/>
+                <script location="component://party/src/main/groovy/org/apache/ofbiz/party/party/GetMyCompany.groovy"/>
+            </actions>
+            <widgets>
+                <section>
+                    <condition>
+                        <or>
+                            <if-service-permission service-name="acctgBasePermissionCheck" main-action="VIEW"/>
+                            <!-- can always see own invoice -->
+                            <if-compare field="invoice.partyIdFrom" operator="equals" value="${userLogin.partyId}"/>
+                            <if-compare field="invoice.partyId" operator="equals" value="${userLogin.partyId}"/>
+                            <!-- or is a contact of a company who owns the invoice-->
+                            <if-compare field="invoice.partyIdFrom" operator="equals" value="${myCompanyId}"/>
+                            <if-compare field="invoice.partyId" operator="equals" value="${myCompanyId}"/>
+                        </or>
+                    </condition>
+                    <widgets>
+                        <decorator-screen name="FoReportDecorator" location="component://common/widget/CommonScreens.xml">
+                            <decorator-section name="topLeft">
+                                <include-screen name="CompanyLogo" location="component://order/widget/ordermgr/OrderPrintScreens.xml"/>
+                            </decorator-section>
+                            <decorator-section name="topRight">
+                                <platform-specific>
+                                    <xsl-fo><html-template location="component://desphemmes/template/prints/invoice/InvoiceReportHeaderInfo.fo.ftl"/></xsl-fo>
+                                </platform-specific>
+                            </decorator-section>
+                            <decorator-section name="body">
+                                <platform-specific>
+                                    <xsl-fo><html-template location="component://desphemmes/template/prints/invoice/InvoiceReportContactMechs.fo.ftl"/></xsl-fo>
+                                </platform-specific>
+                                <platform-specific>
+                                    <xsl-fo><html-template location="component://desphemmes/template/prints/invoice/InvoiceReportItems.fo.ftl"/></xsl-fo>
+                                </platform-specific>
+                            </decorator-section>
+                        </decorator-screen>
+                    </widgets>
+                    <fail-widgets>
+                        <decorator-screen name="FoReportDecorator" location="component://common/widget/CommonScreens.xml">
+                            <decorator-section name="body">
+                                <platform-specific>
+                                    <xsl-fo><html-template location="component://accounting/template/invoice/NoAccountingView.fo.ftl"/></xsl-fo>
+                                </platform-specific>
+                            </decorator-section>
+                        </decorator-screen>
+                    </fail-widgets>
+                </section>
+            </widgets>
+        </section>
+    </screen>
+
+
+</screens>

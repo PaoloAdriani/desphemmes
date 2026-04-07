@@ -1,0 +1,1102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity-engine-xml>
+<ProductFeatureCategory productFeatureCategoryId="10000" description="COLOR"/>
+<ProductFeatureCategory productFeatureCategoryId="10001" description="SIZE"/>
+<ProdCatalog prodCatalogId="DESPHEMMES" catalogName="DESPHEMMES" styleSheet="/images/bootstrap-3.3.6-dist/css/livianaconti.css"/>
+<ProductCategory productCategoryId="DESPHEMMES" productCategoryTypeId="CATALOG_CATEGORY" categoryName="DESPHEMMES"/>
+<ProdCatalogCategory prodCatalogId="DESPHEMMES" productCategoryId="DESPHEMMES" prodCatalogCategoryTypeId="PCCT_BROWSE_ROOT" fromDate="2000-01-01 00:00:00.000"/>
+<ProductCategory productCategoryId="S6-007" productCategoryTypeId="CATALOG_CATEGORY" categoryName=""/>
+<DataResource dataResourceId="S6-007itds" dataResourceTypeId="ELECTRONIC_TEXT" localeString="it_IT" mimeTypeId="text/html"/>
+<ElectronicText dataResourceId="S6-007itds" textData="TOP"/>
+<Content contentId="S6-007itcn" contentTypeId="DOCUMENT" contentName="CategoryNameIT" dataResourceId="S6-007itds" localeString="it_IT" mimeTypeId="text/html"/>
+<DataResource dataResourceId="S6-007ends" dataResourceTypeId="ELECTRONIC_TEXT" localeString="en_US" mimeTypeId="text/html"/>
+<ElectronicText dataResourceId="S6-007ends" textData="TOP "/>
+<Content contentId="S6-007encn" contentTypeId="DOCUMENT" contentName="CategoryNameEN" dataResourceId="S6-007ends" localeString="en_US" mimeTypeId="text/html"/>
+<ContentAssoc contentId="S6-007itcn" contentIdTo="S6-007encn" contentAssocTypeId="ALTERNATE_LOCALE" fromDate="2000-01-01 00:00:00.000"/>
+<ProductCategoryContent productCategoryId="S6-007" contentId="S6-007itcn" prodCatContentTypeId="CATEGORY_NAME" fromDate="2000-01-01 00:00:00.000"/>
+<ProductCategoryContent productCategoryId="S6-007" contentId="S6-007encn" prodCatContentTypeId="CATEGORY_NAME" fromDate="2000-01-01 00:00:00.000"/>
+<ProductCategoryContent productCategoryId="S6-007" contentId="S6-007itcn" prodCatContentTypeId="ALTERNATIVE_URL" fromDate="2000-01-01 00:00:00.000"/>
+<ProductCategoryContent productCategoryId="S6-007" contentId="S6-007encn" prodCatContentTypeId="ALTERNATIVE_URL" fromDate="2000-01-01 00:00:00.000"/>
+<ProductCategoryRollup productCategoryId="S6-007" parentProductCategoryId="DESPHEMMES" fromDate="2000-01-01 00:00:00.000"/>
+<ProductCategory productCategoryId="007" productCategoryTypeId="CATALOG_CATEGORY" categoryName=""/>
+<DataResource dataResourceId="007itds" dataResourceTypeId="ELECTRONIC_TEXT" localeString="it_IT" mimeTypeId="text/html"/>
+<ElectronicText dataResourceId="007itds" textData="TOP"/>
+<Content contentId="007itcn" contentTypeId="DOCUMENT" contentName="CategoryNameIT" dataResourceId="007itds" localeString="it_IT" mimeTypeId="text/html"/>
+<DataResource dataResourceId="007ends" dataResourceTypeId="ELECTRONIC_TEXT" localeString="en_US" mimeTypeId="text/html"/>
+<ElectronicText dataResourceId="007ends" textData="TOP "/>
+<Content contentId="007encn" contentTypeId="DOCUMENT" contentName="CategoryNameEN" dataResourceId="007ends" localeString="en_US" mimeTypeId="text/html"/>
+<ContentAssoc contentId="007itcn" contentIdTo="007encn" contentAssocTypeId="ALTERNATE_LOCALE" fromDate="2000-01-01 00:00:00.000"/>
+<ProductCategoryContent productCategoryId="007" contentId="007itcn" prodCatContentTypeId="CATEGORY_NAME" fromDate="2000-01-01 00:00:00.000"/>
+<ProductCategoryContent productCategoryId="007" contentId="007encn" prodCatContentTypeId="CATEGORY_NAME" fromDate="2000-01-01 00:00:00.000"/>
+<ProductCategoryContent productCategoryId="007" contentId="007itcn" prodCatContentTypeId="ALTERNATIVE_URL" fromDate="2000-01-01 00:00:00.000"/>
+<ProductCategoryContent productCategoryId="007" contentId="007encn" prodCatContentTypeId="ALTERNATIVE_URL" fromDate="2000-01-01 00:00:00.000"/>
+<ProductCategoryRollup productCategoryId="007" parentProductCategoryId="DESPHEMMES" fromDate="2000-01-01 00:00:00.000"/>
+<Product productId="S6DDR01OUD0807" productTypeId="FINISHED_GOOD" comments="CANDY PINK" internalName="" productName="" primaryProductCategoryId="007" description="" largeImageUrl="/images/product/DESPHEMMES/S6/S6DDR01OU.D0807-A.jpg" mediumImageUrl="/images/product/DESPHEMMES/S6/S6DDR01OU.D0807-A.jpg" smallImageUrl="/images/product/DESPHEMMES/S6/S6DDR01OU.D0807-A.jpg" longDescription="" mpSizeType="3" isVirtual="Y" isVariant="N" returnable="Y">
+</Product>
+<ProductAttribute productId="S6DDR01OUD0807" attrName="IS_CARRYOVER" attrValue="N"/>
+<ProductAttribute productId="S6DDR01OUD0807" attrName="IS_CUSTOM" attrValue="N"/>
+<ProductCategoryMember productCategoryId="SEEALL" productId="S6DDR01OUD0807" fromDate="2000-01-01 00:00:00.000"/>
+<DataResource dataResourceId="S6DDR01OUD0807itds1" dataResourceTypeId="ELECTRONIC_TEXT" localeString="it_IT" mimeTypeId="text/html"/>
+<ElectronicText dataResourceId="S6DDR01OUD0807itds1" textData="BRALCONETTE BRA"/>
+<Content contentId="S6DDR01OUD0807itcn1" contentTypeId="DOCUMENT" contentName="ProductNameIT" dataResourceId="S6DDR01OUD0807itds1" localeString="it_IT" mimeTypeId="text/html"/>
+<DataResource dataResourceId="S6DDR01OUD0807ends1" dataResourceTypeId="ELECTRONIC_TEXT" localeString="en_US" mimeTypeId="text/html"/>
+<ElectronicText dataResourceId="S6DDR01OUD0807ends1" textData="BRALCONETTE BRA"/>
+<Content contentId="S6DDR01OUD0807encn1" contentTypeId="DOCUMENT" contentName="ProductNameEN" dataResourceId="S6DDR01OUD0807ends1" localeString="en_US" mimeTypeId="text/html"/>
+<ContentAssoc contentId="S6DDR01OUD0807itcn1" contentIdTo="S6DDR01OUD0807encn1" contentAssocTypeId="ALTERNATE_LOCALE" fromDate="2000-01-01 00:00:00.000"/>
+<ProductContent productId="S6DDR01OUD0807" contentId="S6DDR01OUD0807itcn1" productContentTypeId="PRODUCT_NAME" fromDate="2000-01-01 00:00:00.000"/>
+<ProductContent productId="S6DDR01OUD0807" contentId="S6DDR01OUD0807itcn1" productContentTypeId="ALTERNATIVE_URL" fromDate="2000-01-01 00:00:00.000"/>
+<DataResource dataResourceId="S6DDR01OUD0807itds2" dataResourceTypeId="ELECTRONIC_TEXT" localeString="it_IT" mimeTypeId="text/html"/>
+<ElectronicText dataResourceId="S6DDR01OUD0807itds2" textData="REGGISENO A BALCONCINO IN TAFFETA CON FERRETTO SOTTOSENO E SPALLINE ARRICCIATE"/>
+<Content contentId="S6DDR01OUD0807itcn2" contentTypeId="DOCUMENT" contentName="ProductDesIT" dataResourceId="S6DDR01OUD0807itds2" localeString="it_IT" mimeTypeId="text/html"/>
+<DataResource dataResourceId="S6DDR01OUD0807ends2" dataResourceTypeId="ELECTRONIC_TEXT" localeString="en_US" mimeTypeId="text/html"/>
+<ElectronicText dataResourceId="S6DDR01OUD0807ends2" textData="TAFFETA BALCONETTE BRA*WITH UNDERWIRE AND GATHERED STRAPS"/>
+<Content contentId="S6DDR01OUD0807encn2" contentTypeId="DOCUMENT" contentName="ProductDesEN" dataResourceId="S6DDR01OUD0807ends2" localeString="en_US" mimeTypeId="text/html"/>
+<ContentAssoc contentId="S6DDR01OUD0807itcn2" contentIdTo="S6DDR01OUD0807encn2" contentAssocTypeId="ALTERNATE_LOCALE" fromDate="2000-01-01 00:00:00.000"/>
+<ProductContent productId="S6DDR01OUD0807" contentId="S6DDR01OUD0807itcn2" productContentTypeId="DESCRIPTION" fromDate="2000-01-01 00:00:00.000"/>
+<DataResource dataResourceId="S6DDR01OUD0807itds3" dataResourceTypeId="ELECTRONIC_TEXT" localeString="it_IT" mimeTypeId="text/html"/>
+<ElectronicText dataResourceId="S6DDR01OUD0807itds3" textData="REGGISENO A BALCONCINO IN TAFFETA CON FERRETTO SOTTOSENO E SPALLINE ARRICCIATE"/>
+<Content contentId="S6DDR01OUD0807itcn3" contentTypeId="DOCUMENT" contentName="ProductLongDesIT" dataResourceId="S6DDR01OUD0807itds3" localeString="it_IT" mimeTypeId="text/html"/>
+<DataResource dataResourceId="S6DDR01OUD0807ends3" dataResourceTypeId="ELECTRONIC_TEXT" localeString="en_US" mimeTypeId="text/html"/>
+<ElectronicText dataResourceId="S6DDR01OUD0807ends3" textData="TAFFETA BALCONETTE BRA*WITH UNDERWIRE AND GATHERED STRAPS"/>
+<Content contentId="S6DDR01OUD0807encn3" contentTypeId="DOCUMENT" contentName="ProductLongDesEN" dataResourceId="S6DDR01OUD0807ends3" localeString="en_US" mimeTypeId="text/html"/>
+<ContentAssoc contentId="S6DDR01OUD0807itcn3" contentIdTo="S6DDR01OUD0807encn3" contentAssocTypeId="ALTERNATE_LOCALE" fromDate="2000-01-01 00:00:00.000"/>
+<ProductContent productId="S6DDR01OUD0807" contentId="S6DDR01OUD0807itcn3" productContentTypeId="LONG_DESCRIPTION" fromDate="2000-01-01 00:00:00.000"/>
+<DataResource dataResourceId="S6DDR01OUD0807itds4" dataResourceTypeId="ELECTRONIC_TEXT" localeString="it_IT" mimeTypeId="text/html"/>
+<ElectronicText dataResourceId="S6DDR01OUD0807itds4" textData=" 100% POLIESTERE"/>
+<Content contentId="S6DDR01OUD0807itcn4" contentTypeId="DOCUMENT" contentName="CompoIT" dataResourceId="S6DDR01OUD0807itds4" localeString="it_IT" mimeTypeId="text/html"/>
+<DataResource dataResourceId="S6DDR01OUD0807ends4" dataResourceTypeId="ELECTRONIC_TEXT" localeString="en_US" mimeTypeId="text/html"/>
+<ElectronicText dataResourceId="S6DDR01OUD0807ends4" textData=" 100% POLYESTER"/>
+<Content contentId="S6DDR01OUD0807encn4" contentTypeId="DOCUMENT" contentName="ProductNameEN" dataResourceId="S6DDR01OUD0807ends4" localeString="en_US" mimeTypeId="text/html"/>
+<ContentAssoc contentId="S6DDR01OUD0807itcn4" contentIdTo="S6DDR01OUD0807encn4" contentAssocTypeId="ALTERNATE_LOCALE" fromDate="2000-01-01 00:00:00.000"/>
+<ProductContent productId="S6DDR01OUD0807" contentId="S6DDR01OUD0807itcn4" productContentTypeId="INGREDIENTS" fromDate="2000-01-01 00:00:00.000"/>
+<DataResource dataResourceId="S6DDR01OUD08071_ds" dataResourceTypeId="SHORT_TEXT" mimeTypeId="text/html" objectInfo="/images/product/DESPHEMMES/colors/D0807.jpg"/>
+<Content contentId="S6DDR01OUD0807_1" contentTypeId="DOCUMENT" dataResourceId="S6DDR01OUD08071_ds"/>
+<ProductContent productId="S6DDR01OUD0807" contentId="S6DDR01OUD0807_1" productContentTypeId="ADDITIONAL_IMAGE_1" fromDate="2000-01-01 00:00:00.000"/>
+<DataResource dataResourceId="S6DDR01OUD08072_ds" dataResourceTypeId="SHORT_TEXT" mimeTypeId="text/html" objectInfo="/images/product/DESPHEMMES/S6/S6DDR01OU.D0807-B.jpg"/>
+<Content contentId="S6DDR01OUD0807_2" contentTypeId="DOCUMENT" dataResourceId="S6DDR01OUD08072_ds"/>
+<ProductContent productId="S6DDR01OUD0807" contentId="S6DDR01OUD0807_2" productContentTypeId="ADDITIONAL_IMAGE_2" fromDate="2000-01-01 00:00:00.000"/>
+<DataResource dataResourceId="S6DDR01OUD08073_ds" dataResourceTypeId="SHORT_TEXT" mimeTypeId="text/html" objectInfo="/images/product/DESPHEMMES/S6/S6DDR01OU.D0807-C.jpg"/>
+<Content contentId="S6DDR01OUD0807_3" contentTypeId="DOCUMENT" dataResourceId="S6DDR01OUD08073_ds"/>
+<ProductContent productId="S6DDR01OUD0807" contentId="S6DDR01OUD0807_3" productContentTypeId="ADDITIONAL_IMAGE_3" fromDate="2000-01-01 00:00:00.000"/>
+<DataResource dataResourceId="S6DDR01OUD08074_ds" dataResourceTypeId="SHORT_TEXT" mimeTypeId="text/html" objectInfo="/images/product/DESPHEMMES/S6/S6DDR01OU.D0807-D.jpg"/>
+<Content contentId="S6DDR01OUD0807_4" contentTypeId="DOCUMENT" dataResourceId="S6DDR01OUD08074_ds"/>
+<ProductContent productId="S6DDR01OUD0807" contentId="S6DDR01OUD0807_4" productContentTypeId="ADDITIONAL_IMAGE_4" fromDate="2000-01-01 00:00:00.000"/>
+<ProductCategoryMember productCategoryId="007" productId="S6DDR01OUD0807" fromDate="2000-01-01 00:00:00.000"/>
+<ProductCategoryMember productCategoryId="S6-007" productId="S6DDR01OUD0807" fromDate="2000-01-01 00:00:00.000"/>
+<ProductFeature productFeatureId="D0807" productFeatureTypeId="COLOR" productFeatureCategoryId="10000" description="CANDY PINK" defaultSequenceNum="1" abbrev="D0807" />
+<ProductFeature productFeatureId="XS" productFeatureTypeId="SIZE" productFeatureCategoryId="10001" description="XS" defaultSequenceNum="1" abbrev="XS" />
+<Product productId="S6DDR01OUD0807.XS" productTypeId="FINISHED_GOOD" isVirtual="N" returnable="Y" isVariant="Y" billOfMaterialLevel="0" mpSizeType="3" />
+<GoodIdentification productId="S6DDR01OUD0807.XS" goodIdentificationTypeId="EAN" idValue="2000001914151" />
+<ProductFeatureAppl productId="S6DDR01OUD0807" productFeatureId="XS" productFeatureApplTypeId="SELECTABLE_FEATURE" sequenceNum="1" fromDate="2000-01-01 00:00:00.000" />
+<ProductFeatureAppl productId="S6DDR01OUD0807" productFeatureId="D0807" productFeatureApplTypeId="STANDARD_FEATURE" sequenceNum="1" fromDate="2000-01-01 00:00:00.000" />
+<ProductFeatureAppl productId="S6DDR01OUD0807.XS" productFeatureId="XS" productFeatureApplTypeId="STANDARD_FEATURE" fromDate="2000-01-01 00:00:00.000" />
+<ProductFeatureAppl productId="S6DDR01OUD0807.XS" productFeatureId="D0807" productFeatureApplTypeId="STANDARD_FEATURE" fromDate="2000-01-01 00:00:00.000" />
+<ProductAssoc productIdTo="S6DDR01OUD0807.XS" productId="S6DDR01OUD0807" fromDate="2000-01-01 00:00:00.000" productAssocTypeId="PRODUCT_VARIANT"/>
+<ProductFacility productId="S6DDR01OUD0807.XS" facilityId="10000"/>
+<ProductFacility productId="S6DDR01OUD0807" facilityId="10000"/>
+<ProductFeature productFeatureId="S" productFeatureTypeId="SIZE" productFeatureCategoryId="10001" description="S" defaultSequenceNum="2" abbrev="S" />
+<Product productId="S6DDR01OUD0807.S" productTypeId="FINISHED_GOOD" isVirtual="N" returnable="Y" isVariant="Y" billOfMaterialLevel="0" mpSizeType="3" />
+<GoodIdentification productId="S6DDR01OUD0807.S" goodIdentificationTypeId="EAN" idValue="2000001868034" />
+<ProductFeatureAppl productId="S6DDR01OUD0807" productFeatureId="S" productFeatureApplTypeId="SELECTABLE_FEATURE" sequenceNum="2" fromDate="2000-01-01 00:00:00.000" />
+<ProductFeatureAppl productId="S6DDR01OUD0807" productFeatureId="D0807" productFeatureApplTypeId="STANDARD_FEATURE" sequenceNum="2" fromDate="2000-01-01 00:00:00.000" />
+<ProductFeatureAppl productId="S6DDR01OUD0807.S" productFeatureId="S" productFeatureApplTypeId="STANDARD_FEATURE" fromDate="2000-01-01 00:00:00.000" />
+<ProductFeatureAppl productId="S6DDR01OUD0807.S" productFeatureId="D0807" productFeatureApplTypeId="STANDARD_FEATURE" fromDate="2000-01-01 00:00:00.000" />
+<ProductAssoc productIdTo="S6DDR01OUD0807.S" productId="S6DDR01OUD0807" fromDate="2000-01-01 00:00:00.000" productAssocTypeId="PRODUCT_VARIANT"/>
+<ProductFacility productId="S6DDR01OUD0807.S" facilityId="10000"/>
+<ProductFacility productId="S6DDR01OUD0807" facilityId="10000"/>
+<ProductFeature productFeatureId="M" productFeatureTypeId="SIZE" productFeatureCategoryId="10001" description="M" defaultSequenceNum="3" abbrev="M" />
+<Product productId="S6DDR01OUD0807.M" productTypeId="FINISHED_GOOD" isVirtual="N" returnable="Y" isVariant="Y" billOfMaterialLevel="0" mpSizeType="3" />
+<GoodIdentification productId="S6DDR01OUD0807.M" goodIdentificationTypeId="EAN" idValue="8053586006180" />
+<ProductFeatureAppl productId="S6DDR01OUD0807" productFeatureId="M" productFeatureApplTypeId="SELECTABLE_FEATURE" sequenceNum="3" fromDate="2000-01-01 00:00:00.000" />
+<ProductFeatureAppl productId="S6DDR01OUD0807" productFeatureId="D0807" productFeatureApplTypeId="STANDARD_FEATURE" sequenceNum="3" fromDate="2000-01-01 00:00:00.000" />
+<ProductFeatureAppl productId="S6DDR01OUD0807.M" productFeatureId="M" productFeatureApplTypeId="STANDARD_FEATURE" fromDate="2000-01-01 00:00:00.000" />
+<ProductFeatureAppl productId="S6DDR01OUD0807.M" productFeatureId="D0807" productFeatureApplTypeId="STANDARD_FEATURE" fromDate="2000-01-01 00:00:00.000" />
+<ProductAssoc productIdTo="S6DDR01OUD0807.M" productId="S6DDR01OUD0807" fromDate="2000-01-01 00:00:00.000" productAssocTypeId="PRODUCT_VARIANT"/>
+<ProductFacility productId="S6DDR01OUD0807.M" facilityId="10000"/>
+<ProductFacility productId="S6DDR01OUD0807" facilityId="10000"/>
+<ProductFeature productFeatureId="L" productFeatureTypeId="SIZE" productFeatureCategoryId="10001" description="L" defaultSequenceNum="4" abbrev="L" />
+<Product productId="S6DDR01OUD0807.L" productTypeId="FINISHED_GOOD" isVirtual="N" returnable="Y" isVariant="Y" billOfMaterialLevel="0" mpSizeType="3" />
+<GoodIdentification productId="S6DDR01OUD0807.L" goodIdentificationTypeId="EAN" idValue="8053586012648" />
+<ProductFeatureAppl productId="S6DDR01OUD0807" productFeatureId="L" productFeatureApplTypeId="SELECTABLE_FEATURE" sequenceNum="4" fromDate="2000-01-01 00:00:00.000" />
+<ProductFeatureAppl productId="S6DDR01OUD0807" productFeatureId="D0807" productFeatureApplTypeId="STANDARD_FEATURE" sequenceNum="4" fromDate="2000-01-01 00:00:00.000" />
+<ProductFeatureAppl productId="S6DDR01OUD0807.L" productFeatureId="L" productFeatureApplTypeId="STANDARD_FEATURE" fromDate="2000-01-01 00:00:00.000" />
+<ProductFeatureAppl productId="S6DDR01OUD0807.L" productFeatureId="D0807" productFeatureApplTypeId="STANDARD_FEATURE" fromDate="2000-01-01 00:00:00.000" />
+<ProductAssoc productIdTo="S6DDR01OUD0807.L" productId="S6DDR01OUD0807" fromDate="2000-01-01 00:00:00.000" productAssocTypeId="PRODUCT_VARIANT"/>
+<ProductFacility productId="S6DDR01OUD0807.L" facilityId="10000"/>
+<ProductFacility productId="S6DDR01OUD0807" facilityId="10000"/>
+<ProductFeature productFeatureId="XL" productFeatureTypeId="SIZE" productFeatureCategoryId="10001" description="XL" defaultSequenceNum="5" abbrev="XL" />
+<Product productId="S6DDR01OUD0807.XL" productTypeId="FINISHED_GOOD" isVirtual="N" returnable="Y" isVariant="Y" billOfMaterialLevel="0" mpSizeType="3" />
+<GoodIdentification productId="S6DDR01OUD0807.XL" goodIdentificationTypeId="EAN" idValue="8053586012655" />
+<ProductFeatureAppl productId="S6DDR01OUD0807" productFeatureId="XL" productFeatureApplTypeId="SELECTABLE_FEATURE" sequenceNum="5" fromDate="2000-01-01 00:00:00.000" />
+<ProductFeatureAppl productId="S6DDR01OUD0807" productFeatureId="D0807" productFeatureApplTypeId="STANDARD_FEATURE" sequenceNum="5" fromDate="2000-01-01 00:00:00.000" />
+<ProductFeatureAppl productId="S6DDR01OUD0807.XL" productFeatureId="XL" productFeatureApplTypeId="STANDARD_FEATURE" fromDate="2000-01-01 00:00:00.000" />
+<ProductFeatureAppl productId="S6DDR01OUD0807.XL" productFeatureId="D0807" productFeatureApplTypeId="STANDARD_FEATURE" fromDate="2000-01-01 00:00:00.000" />
+<ProductAssoc productIdTo="S6DDR01OUD0807.XL" productId="S6DDR01OUD0807" fromDate="2000-01-01 00:00:00.000" productAssocTypeId="PRODUCT_VARIANT"/>
+<ProductFacility productId="S6DDR01OUD0807.XL" facilityId="10000"/>
+<ProductFacility productId="S6DDR01OUD0807" facilityId="10000"/>
+<ProductPrice productId="S6DDR01OUD0807" productPriceTypeId="LIST_PRICE" productPricePurposeId="PURCHASE" currencyUomId="EUR" productStoreGroupId="10000" fromDate="2000-01-01 00:00:00.000" price="211.00" taxPercentage="0.220000" taxInPrice="Y" />
+<ProductPrice productId="S6DDR01OUD0807" productPriceTypeId="LIST_PRICE" productPricePurposeId="PURCHASE" currencyUomId="EUR" productStoreGroupId="10001" fromDate="2000-01-01 00:00:00.000" price="211.00" taxPercentage="0.220000" taxInPrice="Y" />
+<ProductPrice productId="S6DDR01OUD0807" productPriceTypeId="SPECIAL_PROMO_PRICE" productPricePurposeId="PURCHASE" currencyUomId="EUR" productStoreGroupId="10000" fromDate="2000-01-01 00:00:00.000" price="211.00" taxPercentage="0.220000" taxInPrice="Y" />
+<ProductPrice productId="S6DDR01OUD0807" productPriceTypeId="SPECIAL_PROMO_PRICE" productPricePurposeId="PURCHASE" currencyUomId="EUR" productStoreGroupId="10001" fromDate="2000-01-01 00:00:00.000" price="211.00" taxPercentage="0.220000" taxInPrice="Y" />
+<ProductCategory productCategoryId="S6-007" productCategoryTypeId="CATALOG_CATEGORY" categoryName=""/>
+<DataResource dataResourceId="S6-007itds" dataResourceTypeId="ELECTRONIC_TEXT" localeString="it_IT" mimeTypeId="text/html"/>
+<ElectronicText dataResourceId="S6-007itds" textData="TOP"/>
+<Content contentId="S6-007itcn" contentTypeId="DOCUMENT" contentName="CategoryNameIT" dataResourceId="S6-007itds" localeString="it_IT" mimeTypeId="text/html"/>
+<DataResource dataResourceId="S6-007ends" dataResourceTypeId="ELECTRONIC_TEXT" localeString="en_US" mimeTypeId="text/html"/>
+<ElectronicText dataResourceId="S6-007ends" textData="TOP "/>
+<Content contentId="S6-007encn" contentTypeId="DOCUMENT" contentName="CategoryNameEN" dataResourceId="S6-007ends" localeString="en_US" mimeTypeId="text/html"/>
+<ContentAssoc contentId="S6-007itcn" contentIdTo="S6-007encn" contentAssocTypeId="ALTERNATE_LOCALE" fromDate="2000-01-01 00:00:00.000"/>
+<ProductCategoryContent productCategoryId="S6-007" contentId="S6-007itcn" prodCatContentTypeId="CATEGORY_NAME" fromDate="2000-01-01 00:00:00.000"/>
+<ProductCategoryContent productCategoryId="S6-007" contentId="S6-007encn" prodCatContentTypeId="CATEGORY_NAME" fromDate="2000-01-01 00:00:00.000"/>
+<ProductCategoryContent productCategoryId="S6-007" contentId="S6-007itcn" prodCatContentTypeId="ALTERNATIVE_URL" fromDate="2000-01-01 00:00:00.000"/>
+<ProductCategoryContent productCategoryId="S6-007" contentId="S6-007encn" prodCatContentTypeId="ALTERNATIVE_URL" fromDate="2000-01-01 00:00:00.000"/>
+<ProductCategoryRollup productCategoryId="S6-007" parentProductCategoryId="DESPHEMMES" fromDate="2000-01-01 00:00:00.000"/>
+<ProductCategory productCategoryId="007" productCategoryTypeId="CATALOG_CATEGORY" categoryName=""/>
+<DataResource dataResourceId="007itds" dataResourceTypeId="ELECTRONIC_TEXT" localeString="it_IT" mimeTypeId="text/html"/>
+<ElectronicText dataResourceId="007itds" textData="TOP"/>
+<Content contentId="007itcn" contentTypeId="DOCUMENT" contentName="CategoryNameIT" dataResourceId="007itds" localeString="it_IT" mimeTypeId="text/html"/>
+<DataResource dataResourceId="007ends" dataResourceTypeId="ELECTRONIC_TEXT" localeString="en_US" mimeTypeId="text/html"/>
+<ElectronicText dataResourceId="007ends" textData="TOP "/>
+<Content contentId="007encn" contentTypeId="DOCUMENT" contentName="CategoryNameEN" dataResourceId="007ends" localeString="en_US" mimeTypeId="text/html"/>
+<ContentAssoc contentId="007itcn" contentIdTo="007encn" contentAssocTypeId="ALTERNATE_LOCALE" fromDate="2000-01-01 00:00:00.000"/>
+<ProductCategoryContent productCategoryId="007" contentId="007itcn" prodCatContentTypeId="CATEGORY_NAME" fromDate="2000-01-01 00:00:00.000"/>
+<ProductCategoryContent productCategoryId="007" contentId="007encn" prodCatContentTypeId="CATEGORY_NAME" fromDate="2000-01-01 00:00:00.000"/>
+<ProductCategoryContent productCategoryId="007" contentId="007itcn" prodCatContentTypeId="ALTERNATIVE_URL" fromDate="2000-01-01 00:00:00.000"/>
+<ProductCategoryContent productCategoryId="007" contentId="007encn" prodCatContentTypeId="ALTERNATIVE_URL" fromDate="2000-01-01 00:00:00.000"/>
+<ProductCategoryRollup productCategoryId="007" parentProductCategoryId="DESPHEMMES" fromDate="2000-01-01 00:00:00.000"/>
+<Product productId="S6DD101JHD0101" productTypeId="FINISHED_GOOD" comments="OFF WHITE" internalName="" productName="" primaryProductCategoryId="007" description="" largeImageUrl="/images/product/DESPHEMMES/S6/S6DD101JH.D0101-A.jpg" mediumImageUrl="/images/product/DESPHEMMES/S6/S6DD101JH.D0101-A.jpg" smallImageUrl="/images/product/DESPHEMMES/S6/S6DD101JH.D0101-A.jpg" longDescription="" mpSizeType="7" isVirtual="Y" isVariant="N" returnable="Y">
+</Product>
+<ProductAttribute productId="S6DD101JHD0101" attrName="IS_CARRYOVER" attrValue="N"/>
+<ProductAttribute productId="S6DD101JHD0101" attrName="IS_CUSTOM" attrValue="N"/>
+<ProductCategoryMember productCategoryId="SEEALL" productId="S6DD101JHD0101" fromDate="2000-01-01 00:00:00.000"/>
+<DataResource dataResourceId="S6DD101JHD0101itds1" dataResourceTypeId="ELECTRONIC_TEXT" localeString="it_IT" mimeTypeId="text/html"/>
+<ElectronicText dataResourceId="S6DD101JHD0101itds1" textData="CLASSIC TANK TOP"/>
+<Content contentId="S6DD101JHD0101itcn1" contentTypeId="DOCUMENT" contentName="ProductNameIT" dataResourceId="S6DD101JHD0101itds1" localeString="it_IT" mimeTypeId="text/html"/>
+<DataResource dataResourceId="S6DD101JHD0101ends1" dataResourceTypeId="ELECTRONIC_TEXT" localeString="en_US" mimeTypeId="text/html"/>
+<ElectronicText dataResourceId="S6DD101JHD0101ends1" textData="CLASSIC TANK TOP"/>
+<Content contentId="S6DD101JHD0101encn1" contentTypeId="DOCUMENT" contentName="ProductNameEN" dataResourceId="S6DD101JHD0101ends1" localeString="en_US" mimeTypeId="text/html"/>
+<ContentAssoc contentId="S6DD101JHD0101itcn1" contentIdTo="S6DD101JHD0101encn1" contentAssocTypeId="ALTERNATE_LOCALE" fromDate="2000-01-01 00:00:00.000"/>
+<ProductContent productId="S6DD101JHD0101" contentId="S6DD101JHD0101itcn1" productContentTypeId="PRODUCT_NAME" fromDate="2000-01-01 00:00:00.000"/>
+<ProductContent productId="S6DD101JHD0101" contentId="S6DD101JHD0101itcn1" productContentTypeId="ALTERNATIVE_URL" fromDate="2000-01-01 00:00:00.000"/>
+<DataResource dataResourceId="S6DD101JHD0101itds2" dataResourceTypeId="ELECTRONIC_TEXT" localeString="it_IT" mimeTypeId="text/html"/>
+<ElectronicText dataResourceId="S6DD101JHD0101itds2" textData="CANOTTA CON BUCHI BORDATI DI CRISTALLI RICAMATI A MANO*JERSEY A COSTINE IN PURO COTONE"/>
+<Content contentId="S6DD101JHD0101itcn2" contentTypeId="DOCUMENT" contentName="ProductDesIT" dataResourceId="S6DD101JHD0101itds2" localeString="it_IT" mimeTypeId="text/html"/>
+<DataResource dataResourceId="S6DD101JHD0101ends2" dataResourceTypeId="ELECTRONIC_TEXT" localeString="en_US" mimeTypeId="text/html"/>
+<ElectronicText dataResourceId="S6DD101JHD0101ends2" textData="CLASSIC TANK TOP WITH HOLES HAND EMBROIDERED WITH CRYSTALS*PURE COTTON RIB JERSEY"/>
+<Content contentId="S6DD101JHD0101encn2" contentTypeId="DOCUMENT" contentName="ProductDesEN" dataResourceId="S6DD101JHD0101ends2" localeString="en_US" mimeTypeId="text/html"/>
+<ContentAssoc contentId="S6DD101JHD0101itcn2" contentIdTo="S6DD101JHD0101encn2" contentAssocTypeId="ALTERNATE_LOCALE" fromDate="2000-01-01 00:00:00.000"/>
+<ProductContent productId="S6DD101JHD0101" contentId="S6DD101JHD0101itcn2" productContentTypeId="DESCRIPTION" fromDate="2000-01-01 00:00:00.000"/>
+<DataResource dataResourceId="S6DD101JHD0101itds3" dataResourceTypeId="ELECTRONIC_TEXT" localeString="it_IT" mimeTypeId="text/html"/>
+<ElectronicText dataResourceId="S6DD101JHD0101itds3" textData="CANOTTA CON BUCHI BORDATI DI CRISTALLI RICAMATI A MANO*JERSEY A COSTINE IN PURO COTONE"/>
+<Content contentId="S6DD101JHD0101itcn3" contentTypeId="DOCUMENT" contentName="ProductLongDesIT" dataResourceId="S6DD101JHD0101itds3" localeString="it_IT" mimeTypeId="text/html"/>
+<DataResource dataResourceId="S6DD101JHD0101ends3" dataResourceTypeId="ELECTRONIC_TEXT" localeString="en_US" mimeTypeId="text/html"/>
+<ElectronicText dataResourceId="S6DD101JHD0101ends3" textData="CLASSIC TANK TOP WITH HOLES HAND EMBROIDERED WITH CRYSTALS*PURE COTTON RIB JERSEY"/>
+<Content contentId="S6DD101JHD0101encn3" contentTypeId="DOCUMENT" contentName="ProductLongDesEN" dataResourceId="S6DD101JHD0101ends3" localeString="en_US" mimeTypeId="text/html"/>
+<ContentAssoc contentId="S6DD101JHD0101itcn3" contentIdTo="S6DD101JHD0101encn3" contentAssocTypeId="ALTERNATE_LOCALE" fromDate="2000-01-01 00:00:00.000"/>
+<ProductContent productId="S6DD101JHD0101" contentId="S6DD101JHD0101itcn3" productContentTypeId="LONG_DESCRIPTION" fromDate="2000-01-01 00:00:00.000"/>
+<DataResource dataResourceId="S6DD101JHD0101itds4" dataResourceTypeId="ELECTRONIC_TEXT" localeString="it_IT" mimeTypeId="text/html"/>
+<ElectronicText dataResourceId="S6DD101JHD0101itds4" textData=" 98% COTONE 2% ELASTAN&lt;BR&gt;RICAMO: 70% VETRO 30% POLIESTERE"/>
+<Content contentId="S6DD101JHD0101itcn4" contentTypeId="DOCUMENT" contentName="CompoIT" dataResourceId="S6DD101JHD0101itds4" localeString="it_IT" mimeTypeId="text/html"/>
+<DataResource dataResourceId="S6DD101JHD0101ends4" dataResourceTypeId="ELECTRONIC_TEXT" localeString="en_US" mimeTypeId="text/html"/>
+<ElectronicText dataResourceId="S6DD101JHD0101ends4" textData=" 98% COTTON 2% ELASTHANE&lt;BR&gt;EMBROIDERY: 70% GLASS 30% POLYESTER"/>
+<Content contentId="S6DD101JHD0101encn4" contentTypeId="DOCUMENT" contentName="ProductNameEN" dataResourceId="S6DD101JHD0101ends4" localeString="en_US" mimeTypeId="text/html"/>
+<ContentAssoc contentId="S6DD101JHD0101itcn4" contentIdTo="S6DD101JHD0101encn4" contentAssocTypeId="ALTERNATE_LOCALE" fromDate="2000-01-01 00:00:00.000"/>
+<ProductContent productId="S6DD101JHD0101" contentId="S6DD101JHD0101itcn4" productContentTypeId="INGREDIENTS" fromDate="2000-01-01 00:00:00.000"/>
+<DataResource dataResourceId="S6DD101JHD01011_ds" dataResourceTypeId="SHORT_TEXT" mimeTypeId="text/html" objectInfo="/images/product/DESPHEMMES/colors/D0101.jpg"/>
+<Content contentId="S6DD101JHD0101_1" contentTypeId="DOCUMENT" dataResourceId="S6DD101JHD01011_ds"/>
+<ProductContent productId="S6DD101JHD0101" contentId="S6DD101JHD0101_1" productContentTypeId="ADDITIONAL_IMAGE_1" fromDate="2000-01-01 00:00:00.000"/>
+<DataResource dataResourceId="S6DD101JHD01012_ds" dataResourceTypeId="SHORT_TEXT" mimeTypeId="text/html" objectInfo="/images/product/DESPHEMMES/S6/S6DD101JH.D0101-B.jpg"/>
+<Content contentId="S6DD101JHD0101_2" contentTypeId="DOCUMENT" dataResourceId="S6DD101JHD01012_ds"/>
+<ProductContent productId="S6DD101JHD0101" contentId="S6DD101JHD0101_2" productContentTypeId="ADDITIONAL_IMAGE_2" fromDate="2000-01-01 00:00:00.000"/>
+<DataResource dataResourceId="S6DD101JHD01013_ds" dataResourceTypeId="SHORT_TEXT" mimeTypeId="text/html" objectInfo="/images/product/DESPHEMMES/S6/S6DD101JH.D0101-C.jpg"/>
+<Content contentId="S6DD101JHD0101_3" contentTypeId="DOCUMENT" dataResourceId="S6DD101JHD01013_ds"/>
+<ProductContent productId="S6DD101JHD0101" contentId="S6DD101JHD0101_3" productContentTypeId="ADDITIONAL_IMAGE_3" fromDate="2000-01-01 00:00:00.000"/>
+<DataResource dataResourceId="S6DD101JHD01014_ds" dataResourceTypeId="SHORT_TEXT" mimeTypeId="text/html" objectInfo="/images/product/DESPHEMMES/S6/S6DD101JH.D0101-D.jpg"/>
+<Content contentId="S6DD101JHD0101_4" contentTypeId="DOCUMENT" dataResourceId="S6DD101JHD01014_ds"/>
+<ProductContent productId="S6DD101JHD0101" contentId="S6DD101JHD0101_4" productContentTypeId="ADDITIONAL_IMAGE_4" fromDate="2000-01-01 00:00:00.000"/>
+<ProductCategoryMember productCategoryId="007" productId="S6DD101JHD0101" fromDate="2000-01-01 00:00:00.000"/>
+<ProductCategoryMember productCategoryId="S6-007" productId="S6DD101JHD0101" fromDate="2000-01-01 00:00:00.000"/>
+<ProductFeature productFeatureId="D0101" productFeatureTypeId="COLOR" productFeatureCategoryId="10000" description="OFF WHITE" defaultSequenceNum="2" abbrev="D0101" />
+<ProductFeature productFeatureId="38" productFeatureTypeId="SIZE" productFeatureCategoryId="10001" description="38" defaultSequenceNum="1" abbrev="38" />
+<Product productId="S6DD101JHD0101.38" productTypeId="FINISHED_GOOD" isVirtual="N" returnable="Y" isVariant="Y" billOfMaterialLevel="0" mpSizeType="7" />
+<GoodIdentification productId="S6DD101JHD0101.38" goodIdentificationTypeId="EAN" idValue="8053586003264" />
+<ProductFeatureAppl productId="S6DD101JHD0101" productFeatureId="38" productFeatureApplTypeId="SELECTABLE_FEATURE" sequenceNum="1" fromDate="2000-01-01 00:00:00.000" />
+<ProductFeatureAppl productId="S6DD101JHD0101" productFeatureId="D0101" productFeatureApplTypeId="STANDARD_FEATURE" sequenceNum="1" fromDate="2000-01-01 00:00:00.000" />
+<ProductFeatureAppl productId="S6DD101JHD0101.38" productFeatureId="38" productFeatureApplTypeId="STANDARD_FEATURE" fromDate="2000-01-01 00:00:00.000" />
+<ProductFeatureAppl productId="S6DD101JHD0101.38" productFeatureId="D0101" productFeatureApplTypeId="STANDARD_FEATURE" fromDate="2000-01-01 00:00:00.000" />
+<ProductAssoc productIdTo="S6DD101JHD0101.38" productId="S6DD101JHD0101" fromDate="2000-01-01 00:00:00.000" productAssocTypeId="PRODUCT_VARIANT"/>
+<ProductFacility productId="S6DD101JHD0101.38" facilityId="10000"/>
+<ProductFacility productId="S6DD101JHD0101" facilityId="10000"/>
+<ProductFeature productFeatureId="40" productFeatureTypeId="SIZE" productFeatureCategoryId="10001" description="40" defaultSequenceNum="2" abbrev="40" />
+<Product productId="S6DD101JHD0101.40" productTypeId="FINISHED_GOOD" isVirtual="N" returnable="Y" isVariant="Y" billOfMaterialLevel="0" mpSizeType="7" />
+<GoodIdentification productId="S6DD101JHD0101.40" goodIdentificationTypeId="EAN" idValue="2000001867440" />
+<ProductFeatureAppl productId="S6DD101JHD0101" productFeatureId="40" productFeatureApplTypeId="SELECTABLE_FEATURE" sequenceNum="2" fromDate="2000-01-01 00:00:00.000" />
+<ProductFeatureAppl productId="S6DD101JHD0101" productFeatureId="D0101" productFeatureApplTypeId="STANDARD_FEATURE" sequenceNum="2" fromDate="2000-01-01 00:00:00.000" />
+<ProductFeatureAppl productId="S6DD101JHD0101.40" productFeatureId="40" productFeatureApplTypeId="STANDARD_FEATURE" fromDate="2000-01-01 00:00:00.000" />
+<ProductFeatureAppl productId="S6DD101JHD0101.40" productFeatureId="D0101" productFeatureApplTypeId="STANDARD_FEATURE" fromDate="2000-01-01 00:00:00.000" />
+<ProductAssoc productIdTo="S6DD101JHD0101.40" productId="S6DD101JHD0101" fromDate="2000-01-01 00:00:00.000" productAssocTypeId="PRODUCT_VARIANT"/>
+<ProductFacility productId="S6DD101JHD0101.40" facilityId="10000"/>
+<ProductFacility productId="S6DD101JHD0101" facilityId="10000"/>
+<ProductFeature productFeatureId="42" productFeatureTypeId="SIZE" productFeatureCategoryId="10001" description="42" defaultSequenceNum="3" abbrev="42" />
+<Product productId="S6DD101JHD0101.42" productTypeId="FINISHED_GOOD" isVirtual="N" returnable="Y" isVariant="Y" billOfMaterialLevel="0" mpSizeType="7" />
+<GoodIdentification productId="S6DD101JHD0101.42" goodIdentificationTypeId="EAN" idValue="8053586003288" />
+<ProductFeatureAppl productId="S6DD101JHD0101" productFeatureId="42" productFeatureApplTypeId="SELECTABLE_FEATURE" sequenceNum="3" fromDate="2000-01-01 00:00:00.000" />
+<ProductFeatureAppl productId="S6DD101JHD0101" productFeatureId="D0101" productFeatureApplTypeId="STANDARD_FEATURE" sequenceNum="3" fromDate="2000-01-01 00:00:00.000" />
+<ProductFeatureAppl productId="S6DD101JHD0101.42" productFeatureId="42" productFeatureApplTypeId="STANDARD_FEATURE" fromDate="2000-01-01 00:00:00.000" />
+<ProductFeatureAppl productId="S6DD101JHD0101.42" productFeatureId="D0101" productFeatureApplTypeId="STANDARD_FEATURE" fromDate="2000-01-01 00:00:00.000" />
+<ProductAssoc productIdTo="S6DD101JHD0101.42" productId="S6DD101JHD0101" fromDate="2000-01-01 00:00:00.000" productAssocTypeId="PRODUCT_VARIANT"/>
+<ProductFacility productId="S6DD101JHD0101.42" facilityId="10000"/>
+<ProductFacility productId="S6DD101JHD0101" facilityId="10000"/>
+<ProductFeature productFeatureId="44" productFeatureTypeId="SIZE" productFeatureCategoryId="10001" description="44" defaultSequenceNum="4" abbrev="44" />
+<Product productId="S6DD101JHD0101.44" productTypeId="FINISHED_GOOD" isVirtual="N" returnable="Y" isVariant="Y" billOfMaterialLevel="0" mpSizeType="7" />
+<GoodIdentification productId="S6DD101JHD0101.44" goodIdentificationTypeId="EAN" idValue="8053586003295" />
+<ProductFeatureAppl productId="S6DD101JHD0101" productFeatureId="44" productFeatureApplTypeId="SELECTABLE_FEATURE" sequenceNum="4" fromDate="2000-01-01 00:00:00.000" />
+<ProductFeatureAppl productId="S6DD101JHD0101" productFeatureId="D0101" productFeatureApplTypeId="STANDARD_FEATURE" sequenceNum="4" fromDate="2000-01-01 00:00:00.000" />
+<ProductFeatureAppl productId="S6DD101JHD0101.44" productFeatureId="44" productFeatureApplTypeId="STANDARD_FEATURE" fromDate="2000-01-01 00:00:00.000" />
+<ProductFeatureAppl productId="S6DD101JHD0101.44" productFeatureId="D0101" productFeatureApplTypeId="STANDARD_FEATURE" fromDate="2000-01-01 00:00:00.000" />
+<ProductAssoc productIdTo="S6DD101JHD0101.44" productId="S6DD101JHD0101" fromDate="2000-01-01 00:00:00.000" productAssocTypeId="PRODUCT_VARIANT"/>
+<ProductFacility productId="S6DD101JHD0101.44" facilityId="10000"/>
+<ProductFacility productId="S6DD101JHD0101" facilityId="10000"/>
+<ProductFeature productFeatureId="46" productFeatureTypeId="SIZE" productFeatureCategoryId="10001" description="46" defaultSequenceNum="5" abbrev="46" />
+<Product productId="S6DD101JHD0101.46" productTypeId="FINISHED_GOOD" isVirtual="N" returnable="Y" isVariant="Y" billOfMaterialLevel="0" mpSizeType="7" />
+<GoodIdentification productId="S6DD101JHD0101.46" goodIdentificationTypeId="EAN" idValue="8053586003301" />
+<ProductFeatureAppl productId="S6DD101JHD0101" productFeatureId="46" productFeatureApplTypeId="SELECTABLE_FEATURE" sequenceNum="5" fromDate="2000-01-01 00:00:00.000" />
+<ProductFeatureAppl productId="S6DD101JHD0101" productFeatureId="D0101" productFeatureApplTypeId="STANDARD_FEATURE" sequenceNum="5" fromDate="2000-01-01 00:00:00.000" />
+<ProductFeatureAppl productId="S6DD101JHD0101.46" productFeatureId="46" productFeatureApplTypeId="STANDARD_FEATURE" fromDate="2000-01-01 00:00:00.000" />
+<ProductFeatureAppl productId="S6DD101JHD0101.46" productFeatureId="D0101" productFeatureApplTypeId="STANDARD_FEATURE" fromDate="2000-01-01 00:00:00.000" />
+<ProductAssoc productIdTo="S6DD101JHD0101.46" productId="S6DD101JHD0101" fromDate="2000-01-01 00:00:00.000" productAssocTypeId="PRODUCT_VARIANT"/>
+<ProductFacility productId="S6DD101JHD0101.46" facilityId="10000"/>
+<ProductFacility productId="S6DD101JHD0101" facilityId="10000"/>
+<ProductFeature productFeatureId="48" productFeatureTypeId="SIZE" productFeatureCategoryId="10001" description="48" defaultSequenceNum="6" abbrev="48" />
+<Product productId="S6DD101JHD0101.48" productTypeId="FINISHED_GOOD" isVirtual="N" returnable="Y" isVariant="Y" billOfMaterialLevel="0" mpSizeType="7" />
+<GoodIdentification productId="S6DD101JHD0101.48" goodIdentificationTypeId="EAN" idValue="8053586003318" />
+<ProductFeatureAppl productId="S6DD101JHD0101" productFeatureId="48" productFeatureApplTypeId="SELECTABLE_FEATURE" sequenceNum="6" fromDate="2000-01-01 00:00:00.000" />
+<ProductFeatureAppl productId="S6DD101JHD0101" productFeatureId="D0101" productFeatureApplTypeId="STANDARD_FEATURE" sequenceNum="6" fromDate="2000-01-01 00:00:00.000" />
+<ProductFeatureAppl productId="S6DD101JHD0101.48" productFeatureId="48" productFeatureApplTypeId="STANDARD_FEATURE" fromDate="2000-01-01 00:00:00.000" />
+<ProductFeatureAppl productId="S6DD101JHD0101.48" productFeatureId="D0101" productFeatureApplTypeId="STANDARD_FEATURE" fromDate="2000-01-01 00:00:00.000" />
+<ProductAssoc productIdTo="S6DD101JHD0101.48" productId="S6DD101JHD0101" fromDate="2000-01-01 00:00:00.000" productAssocTypeId="PRODUCT_VARIANT"/>
+<ProductFacility productId="S6DD101JHD0101.48" facilityId="10000"/>
+<ProductFacility productId="S6DD101JHD0101" facilityId="10000"/>
+<ProductPrice productId="S6DD101JHD0101" productPriceTypeId="LIST_PRICE" productPricePurposeId="PURCHASE" currencyUomId="EUR" productStoreGroupId="10000" fromDate="2000-01-01 00:00:00.000" price="249.00" taxPercentage="0.220000" taxInPrice="Y" />
+<ProductPrice productId="S6DD101JHD0101" productPriceTypeId="LIST_PRICE" productPricePurposeId="PURCHASE" currencyUomId="EUR" productStoreGroupId="10001" fromDate="2000-01-01 00:00:00.000" price="249.00" taxPercentage="0.220000" taxInPrice="Y" />
+<ProductPrice productId="S6DD101JHD0101" productPriceTypeId="SPECIAL_PROMO_PRICE" productPricePurposeId="PURCHASE" currencyUomId="EUR" productStoreGroupId="10000" fromDate="2000-01-01 00:00:00.000" price="249.00" taxPercentage="0.220000" taxInPrice="Y" />
+<ProductPrice productId="S6DD101JHD0101" productPriceTypeId="SPECIAL_PROMO_PRICE" productPricePurposeId="PURCHASE" currencyUomId="EUR" productStoreGroupId="10001" fromDate="2000-01-01 00:00:00.000" price="249.00" taxPercentage="0.220000" taxInPrice="Y" />
+<ProductCategory productCategoryId="S6-007" productCategoryTypeId="CATALOG_CATEGORY" categoryName=""/>
+<DataResource dataResourceId="S6-007itds" dataResourceTypeId="ELECTRONIC_TEXT" localeString="it_IT" mimeTypeId="text/html"/>
+<ElectronicText dataResourceId="S6-007itds" textData="TOP"/>
+<Content contentId="S6-007itcn" contentTypeId="DOCUMENT" contentName="CategoryNameIT" dataResourceId="S6-007itds" localeString="it_IT" mimeTypeId="text/html"/>
+<DataResource dataResourceId="S6-007ends" dataResourceTypeId="ELECTRONIC_TEXT" localeString="en_US" mimeTypeId="text/html"/>
+<ElectronicText dataResourceId="S6-007ends" textData="TOP "/>
+<Content contentId="S6-007encn" contentTypeId="DOCUMENT" contentName="CategoryNameEN" dataResourceId="S6-007ends" localeString="en_US" mimeTypeId="text/html"/>
+<ContentAssoc contentId="S6-007itcn" contentIdTo="S6-007encn" contentAssocTypeId="ALTERNATE_LOCALE" fromDate="2000-01-01 00:00:00.000"/>
+<ProductCategoryContent productCategoryId="S6-007" contentId="S6-007itcn" prodCatContentTypeId="CATEGORY_NAME" fromDate="2000-01-01 00:00:00.000"/>
+<ProductCategoryContent productCategoryId="S6-007" contentId="S6-007encn" prodCatContentTypeId="CATEGORY_NAME" fromDate="2000-01-01 00:00:00.000"/>
+<ProductCategoryContent productCategoryId="S6-007" contentId="S6-007itcn" prodCatContentTypeId="ALTERNATIVE_URL" fromDate="2000-01-01 00:00:00.000"/>
+<ProductCategoryContent productCategoryId="S6-007" contentId="S6-007encn" prodCatContentTypeId="ALTERNATIVE_URL" fromDate="2000-01-01 00:00:00.000"/>
+<ProductCategoryRollup productCategoryId="S6-007" parentProductCategoryId="DESPHEMMES" fromDate="2000-01-01 00:00:00.000"/>
+<ProductCategory productCategoryId="007" productCategoryTypeId="CATALOG_CATEGORY" categoryName=""/>
+<DataResource dataResourceId="007itds" dataResourceTypeId="ELECTRONIC_TEXT" localeString="it_IT" mimeTypeId="text/html"/>
+<ElectronicText dataResourceId="007itds" textData="TOP"/>
+<Content contentId="007itcn" contentTypeId="DOCUMENT" contentName="CategoryNameIT" dataResourceId="007itds" localeString="it_IT" mimeTypeId="text/html"/>
+<DataResource dataResourceId="007ends" dataResourceTypeId="ELECTRONIC_TEXT" localeString="en_US" mimeTypeId="text/html"/>
+<ElectronicText dataResourceId="007ends" textData="TOP "/>
+<Content contentId="007encn" contentTypeId="DOCUMENT" contentName="CategoryNameEN" dataResourceId="007ends" localeString="en_US" mimeTypeId="text/html"/>
+<ContentAssoc contentId="007itcn" contentIdTo="007encn" contentAssocTypeId="ALTERNATE_LOCALE" fromDate="2000-01-01 00:00:00.000"/>
+<ProductCategoryContent productCategoryId="007" contentId="007itcn" prodCatContentTypeId="CATEGORY_NAME" fromDate="2000-01-01 00:00:00.000"/>
+<ProductCategoryContent productCategoryId="007" contentId="007encn" prodCatContentTypeId="CATEGORY_NAME" fromDate="2000-01-01 00:00:00.000"/>
+<ProductCategoryContent productCategoryId="007" contentId="007itcn" prodCatContentTypeId="ALTERNATIVE_URL" fromDate="2000-01-01 00:00:00.000"/>
+<ProductCategoryContent productCategoryId="007" contentId="007encn" prodCatContentTypeId="ALTERNATIVE_URL" fromDate="2000-01-01 00:00:00.000"/>
+<ProductCategoryRollup productCategoryId="007" parentProductCategoryId="DESPHEMMES" fromDate="2000-01-01 00:00:00.000"/>
+<Product productId="S6DD102JFD0807" productTypeId="FINISHED_GOOD" comments="CANDY PINK" internalName="" productName="" primaryProductCategoryId="007" description="" largeImageUrl="/images/product/DESPHEMMES/S6/S6DD102JF.D0807-A.jpg" mediumImageUrl="/images/product/DESPHEMMES/S6/S6DD102JF.D0807-A.jpg" smallImageUrl="/images/product/DESPHEMMES/S6/S6DD102JF.D0807-A.jpg" longDescription="" mpSizeType="7" isVirtual="Y" isVariant="N" returnable="Y">
+</Product>
+<ProductAttribute productId="S6DD102JFD0807" attrName="IS_CARRYOVER" attrValue="N"/>
+<ProductAttribute productId="S6DD102JFD0807" attrName="IS_CUSTOM" attrValue="N"/>
+<ProductCategoryMember productCategoryId="SEEALL" productId="S6DD102JFD0807" fromDate="2000-01-01 00:00:00.000"/>
+<DataResource dataResourceId="S6DD102JFD0807itds1" dataResourceTypeId="ELECTRONIC_TEXT" localeString="it_IT" mimeTypeId="text/html"/>
+<ElectronicText dataResourceId="S6DD102JFD0807itds1" textData="CLASSIC TSHIRT"/>
+<Content contentId="S6DD102JFD0807itcn1" contentTypeId="DOCUMENT" contentName="ProductNameIT" dataResourceId="S6DD102JFD0807itds1" localeString="it_IT" mimeTypeId="text/html"/>
+<DataResource dataResourceId="S6DD102JFD0807ends1" dataResourceTypeId="ELECTRONIC_TEXT" localeString="en_US" mimeTypeId="text/html"/>
+<ElectronicText dataResourceId="S6DD102JFD0807ends1" textData="CLASSIC TSHIRT"/>
+<Content contentId="S6DD102JFD0807encn1" contentTypeId="DOCUMENT" contentName="ProductNameEN" dataResourceId="S6DD102JFD0807ends1" localeString="en_US" mimeTypeId="text/html"/>
+<ContentAssoc contentId="S6DD102JFD0807itcn1" contentIdTo="S6DD102JFD0807encn1" contentAssocTypeId="ALTERNATE_LOCALE" fromDate="2000-01-01 00:00:00.000"/>
+<ProductContent productId="S6DD102JFD0807" contentId="S6DD102JFD0807itcn1" productContentTypeId="PRODUCT_NAME" fromDate="2000-01-01 00:00:00.000"/>
+<ProductContent productId="S6DD102JFD0807" contentId="S6DD102JFD0807itcn1" productContentTypeId="ALTERNATIVE_URL" fromDate="2000-01-01 00:00:00.000"/>
+<DataResource dataResourceId="S6DD102JFD0807itds2" dataResourceTypeId="ELECTRONIC_TEXT" localeString="it_IT" mimeTypeId="text/html"/>
+<ElectronicText dataResourceId="S6DD102JFD0807itds2" textData="T-SHIRT CON FIOCCO FRONTALE IN TAFFETTA A CONTRASTO*JERSEY DI PURO COTONE"/>
+<Content contentId="S6DD102JFD0807itcn2" contentTypeId="DOCUMENT" contentName="ProductDesIT" dataResourceId="S6DD102JFD0807itds2" localeString="it_IT" mimeTypeId="text/html"/>
+<DataResource dataResourceId="S6DD102JFD0807ends2" dataResourceTypeId="ELECTRONIC_TEXT" localeString="en_US" mimeTypeId="text/html"/>
+<ElectronicText dataResourceId="S6DD102JFD0807ends2" textData="T-SHIRT WITH CONTRASTING TAFFETA BOW ON THE FRONT*PURE COTTON JERSEY"/>
+<Content contentId="S6DD102JFD0807encn2" contentTypeId="DOCUMENT" contentName="ProductDesEN" dataResourceId="S6DD102JFD0807ends2" localeString="en_US" mimeTypeId="text/html"/>
+<ContentAssoc contentId="S6DD102JFD0807itcn2" contentIdTo="S6DD102JFD0807encn2" contentAssocTypeId="ALTERNATE_LOCALE" fromDate="2000-01-01 00:00:00.000"/>
+<ProductContent productId="S6DD102JFD0807" contentId="S6DD102JFD0807itcn2" productContentTypeId="DESCRIPTION" fromDate="2000-01-01 00:00:00.000"/>
+<DataResource dataResourceId="S6DD102JFD0807itds3" dataResourceTypeId="ELECTRONIC_TEXT" localeString="it_IT" mimeTypeId="text/html"/>
+<ElectronicText dataResourceId="S6DD102JFD0807itds3" textData="T-SHIRT CON FIOCCO FRONTALE IN TAFFETTA A CONTRASTO*JERSEY DI PURO COTONE"/>
+<Content contentId="S6DD102JFD0807itcn3" contentTypeId="DOCUMENT" contentName="ProductLongDesIT" dataResourceId="S6DD102JFD0807itds3" localeString="it_IT" mimeTypeId="text/html"/>
+<DataResource dataResourceId="S6DD102JFD0807ends3" dataResourceTypeId="ELECTRONIC_TEXT" localeString="en_US" mimeTypeId="text/html"/>
+<ElectronicText dataResourceId="S6DD102JFD0807ends3" textData="T-SHIRT WITH CONTRASTING TAFFETA BOW ON THE FRONT*PURE COTTON JERSEY"/>
+<Content contentId="S6DD102JFD0807encn3" contentTypeId="DOCUMENT" contentName="ProductLongDesEN" dataResourceId="S6DD102JFD0807ends3" localeString="en_US" mimeTypeId="text/html"/>
+<ContentAssoc contentId="S6DD102JFD0807itcn3" contentIdTo="S6DD102JFD0807encn3" contentAssocTypeId="ALTERNATE_LOCALE" fromDate="2000-01-01 00:00:00.000"/>
+<ProductContent productId="S6DD102JFD0807" contentId="S6DD102JFD0807itcn3" productContentTypeId="LONG_DESCRIPTION" fromDate="2000-01-01 00:00:00.000"/>
+<DataResource dataResourceId="S6DD102JFD0807itds4" dataResourceTypeId="ELECTRONIC_TEXT" localeString="it_IT" mimeTypeId="text/html"/>
+<ElectronicText dataResourceId="S6DD102JFD0807itds4" textData=" 100% COTONE&lt;BR&gt;DETTAGLIO: 100% POLIESTERE"/>
+<Content contentId="S6DD102JFD0807itcn4" contentTypeId="DOCUMENT" contentName="CompoIT" dataResourceId="S6DD102JFD0807itds4" localeString="it_IT" mimeTypeId="text/html"/>
+<DataResource dataResourceId="S6DD102JFD0807ends4" dataResourceTypeId="ELECTRONIC_TEXT" localeString="en_US" mimeTypeId="text/html"/>
+<ElectronicText dataResourceId="S6DD102JFD0807ends4" textData=" 100% COTTON&lt;BR&gt;DETAIL: 100% POLYESTER"/>
+<Content contentId="S6DD102JFD0807encn4" contentTypeId="DOCUMENT" contentName="ProductNameEN" dataResourceId="S6DD102JFD0807ends4" localeString="en_US" mimeTypeId="text/html"/>
+<ContentAssoc contentId="S6DD102JFD0807itcn4" contentIdTo="S6DD102JFD0807encn4" contentAssocTypeId="ALTERNATE_LOCALE" fromDate="2000-01-01 00:00:00.000"/>
+<ProductContent productId="S6DD102JFD0807" contentId="S6DD102JFD0807itcn4" productContentTypeId="INGREDIENTS" fromDate="2000-01-01 00:00:00.000"/>
+<DataResource dataResourceId="S6DD102JFD08071_ds" dataResourceTypeId="SHORT_TEXT" mimeTypeId="text/html" objectInfo="/images/product/DESPHEMMES/colors/D0807.jpg"/>
+<Content contentId="S6DD102JFD0807_1" contentTypeId="DOCUMENT" dataResourceId="S6DD102JFD08071_ds"/>
+<ProductContent productId="S6DD102JFD0807" contentId="S6DD102JFD0807_1" productContentTypeId="ADDITIONAL_IMAGE_1" fromDate="2000-01-01 00:00:00.000"/>
+<DataResource dataResourceId="S6DD102JFD08072_ds" dataResourceTypeId="SHORT_TEXT" mimeTypeId="text/html" objectInfo="/images/product/DESPHEMMES/S6/S6DD102JF.D0807-B.jpg"/>
+<Content contentId="S6DD102JFD0807_2" contentTypeId="DOCUMENT" dataResourceId="S6DD102JFD08072_ds"/>
+<ProductContent productId="S6DD102JFD0807" contentId="S6DD102JFD0807_2" productContentTypeId="ADDITIONAL_IMAGE_2" fromDate="2000-01-01 00:00:00.000"/>
+<DataResource dataResourceId="S6DD102JFD08073_ds" dataResourceTypeId="SHORT_TEXT" mimeTypeId="text/html" objectInfo="/images/product/DESPHEMMES/S6/S6DD102JF.D0807-C.jpg"/>
+<Content contentId="S6DD102JFD0807_3" contentTypeId="DOCUMENT" dataResourceId="S6DD102JFD08073_ds"/>
+<ProductContent productId="S6DD102JFD0807" contentId="S6DD102JFD0807_3" productContentTypeId="ADDITIONAL_IMAGE_3" fromDate="2000-01-01 00:00:00.000"/>
+<DataResource dataResourceId="S6DD102JFD08074_ds" dataResourceTypeId="SHORT_TEXT" mimeTypeId="text/html" objectInfo="/images/product/DESPHEMMES/S6/S6DD102JF.D0807-D.jpg"/>
+<Content contentId="S6DD102JFD0807_4" contentTypeId="DOCUMENT" dataResourceId="S6DD102JFD08074_ds"/>
+<ProductContent productId="S6DD102JFD0807" contentId="S6DD102JFD0807_4" productContentTypeId="ADDITIONAL_IMAGE_4" fromDate="2000-01-01 00:00:00.000"/>
+<ProductCategoryMember productCategoryId="007" productId="S6DD102JFD0807" fromDate="2000-01-01 00:00:00.000"/>
+<ProductCategoryMember productCategoryId="S6-007" productId="S6DD102JFD0807" fromDate="2000-01-01 00:00:00.000"/>
+<Product productId="S6DD102JFD0807.38" productTypeId="FINISHED_GOOD" isVirtual="N" returnable="Y" isVariant="Y" billOfMaterialLevel="0" mpSizeType="7" />
+<GoodIdentification productId="S6DD102JFD0807.38" goodIdentificationTypeId="EAN" idValue="2000001913468" />
+<ProductFeatureAppl productId="S6DD102JFD0807" productFeatureId="38" productFeatureApplTypeId="SELECTABLE_FEATURE" sequenceNum="1" fromDate="2000-01-01 00:00:00.000" />
+<ProductFeatureAppl productId="S6DD102JFD0807" productFeatureId="D0807" productFeatureApplTypeId="STANDARD_FEATURE" sequenceNum="1" fromDate="2000-01-01 00:00:00.000" />
+<ProductFeatureAppl productId="S6DD102JFD0807.38" productFeatureId="38" productFeatureApplTypeId="STANDARD_FEATURE" fromDate="2000-01-01 00:00:00.000" />
+<ProductFeatureAppl productId="S6DD102JFD0807.38" productFeatureId="D0807" productFeatureApplTypeId="STANDARD_FEATURE" fromDate="2000-01-01 00:00:00.000" />
+<ProductAssoc productIdTo="S6DD102JFD0807.38" productId="S6DD102JFD0807" fromDate="2000-01-01 00:00:00.000" productAssocTypeId="PRODUCT_VARIANT"/>
+<ProductFacility productId="S6DD102JFD0807.38" facilityId="10000"/>
+<ProductFacility productId="S6DD102JFD0807" facilityId="10000"/>
+<Product productId="S6DD102JFD0807.40" productTypeId="FINISHED_GOOD" isVirtual="N" returnable="Y" isVariant="Y" billOfMaterialLevel="0" mpSizeType="7" />
+<GoodIdentification productId="S6DD102JFD0807.40" goodIdentificationTypeId="EAN" idValue="2000001867365" />
+<ProductFeatureAppl productId="S6DD102JFD0807" productFeatureId="40" productFeatureApplTypeId="SELECTABLE_FEATURE" sequenceNum="2" fromDate="2000-01-01 00:00:00.000" />
+<ProductFeatureAppl productId="S6DD102JFD0807" productFeatureId="D0807" productFeatureApplTypeId="STANDARD_FEATURE" sequenceNum="2" fromDate="2000-01-01 00:00:00.000" />
+<ProductFeatureAppl productId="S6DD102JFD0807.40" productFeatureId="40" productFeatureApplTypeId="STANDARD_FEATURE" fromDate="2000-01-01 00:00:00.000" />
+<ProductFeatureAppl productId="S6DD102JFD0807.40" productFeatureId="D0807" productFeatureApplTypeId="STANDARD_FEATURE" fromDate="2000-01-01 00:00:00.000" />
+<ProductAssoc productIdTo="S6DD102JFD0807.40" productId="S6DD102JFD0807" fromDate="2000-01-01 00:00:00.000" productAssocTypeId="PRODUCT_VARIANT"/>
+<ProductFacility productId="S6DD102JFD0807.40" facilityId="10000"/>
+<ProductFacility productId="S6DD102JFD0807" facilityId="10000"/>
+<Product productId="S6DD102JFD0807.42" productTypeId="FINISHED_GOOD" isVirtual="N" returnable="Y" isVariant="Y" billOfMaterialLevel="0" mpSizeType="7" />
+<GoodIdentification productId="S6DD102JFD0807.42" goodIdentificationTypeId="EAN" idValue="2000001913475" />
+<ProductFeatureAppl productId="S6DD102JFD0807" productFeatureId="42" productFeatureApplTypeId="SELECTABLE_FEATURE" sequenceNum="3" fromDate="2000-01-01 00:00:00.000" />
+<ProductFeatureAppl productId="S6DD102JFD0807" productFeatureId="D0807" productFeatureApplTypeId="STANDARD_FEATURE" sequenceNum="3" fromDate="2000-01-01 00:00:00.000" />
+<ProductFeatureAppl productId="S6DD102JFD0807.42" productFeatureId="42" productFeatureApplTypeId="STANDARD_FEATURE" fromDate="2000-01-01 00:00:00.000" />
+<ProductFeatureAppl productId="S6DD102JFD0807.42" productFeatureId="D0807" productFeatureApplTypeId="STANDARD_FEATURE" fromDate="2000-01-01 00:00:00.000" />
+<ProductAssoc productIdTo="S6DD102JFD0807.42" productId="S6DD102JFD0807" fromDate="2000-01-01 00:00:00.000" productAssocTypeId="PRODUCT_VARIANT"/>
+<ProductFacility productId="S6DD102JFD0807.42" facilityId="10000"/>
+<ProductFacility productId="S6DD102JFD0807" facilityId="10000"/>
+<Product productId="S6DD102JFD0807.44" productTypeId="FINISHED_GOOD" isVirtual="N" returnable="Y" isVariant="Y" billOfMaterialLevel="0" mpSizeType="7" />
+<GoodIdentification productId="S6DD102JFD0807.44" goodIdentificationTypeId="EAN" idValue="2000001913482" />
+<ProductFeatureAppl productId="S6DD102JFD0807" productFeatureId="44" productFeatureApplTypeId="SELECTABLE_FEATURE" sequenceNum="4" fromDate="2000-01-01 00:00:00.000" />
+<ProductFeatureAppl productId="S6DD102JFD0807" productFeatureId="D0807" productFeatureApplTypeId="STANDARD_FEATURE" sequenceNum="4" fromDate="2000-01-01 00:00:00.000" />
+<ProductFeatureAppl productId="S6DD102JFD0807.44" productFeatureId="44" productFeatureApplTypeId="STANDARD_FEATURE" fromDate="2000-01-01 00:00:00.000" />
+<ProductFeatureAppl productId="S6DD102JFD0807.44" productFeatureId="D0807" productFeatureApplTypeId="STANDARD_FEATURE" fromDate="2000-01-01 00:00:00.000" />
+<ProductAssoc productIdTo="S6DD102JFD0807.44" productId="S6DD102JFD0807" fromDate="2000-01-01 00:00:00.000" productAssocTypeId="PRODUCT_VARIANT"/>
+<ProductFacility productId="S6DD102JFD0807.44" facilityId="10000"/>
+<ProductFacility productId="S6DD102JFD0807" facilityId="10000"/>
+<Product productId="S6DD102JFD0807.46" productTypeId="FINISHED_GOOD" isVirtual="N" returnable="Y" isVariant="Y" billOfMaterialLevel="0" mpSizeType="7" />
+<GoodIdentification productId="S6DD102JFD0807.46" goodIdentificationTypeId="EAN" idValue="8053586005855" />
+<ProductFeatureAppl productId="S6DD102JFD0807" productFeatureId="46" productFeatureApplTypeId="SELECTABLE_FEATURE" sequenceNum="5" fromDate="2000-01-01 00:00:00.000" />
+<ProductFeatureAppl productId="S6DD102JFD0807" productFeatureId="D0807" productFeatureApplTypeId="STANDARD_FEATURE" sequenceNum="5" fromDate="2000-01-01 00:00:00.000" />
+<ProductFeatureAppl productId="S6DD102JFD0807.46" productFeatureId="46" productFeatureApplTypeId="STANDARD_FEATURE" fromDate="2000-01-01 00:00:00.000" />
+<ProductFeatureAppl productId="S6DD102JFD0807.46" productFeatureId="D0807" productFeatureApplTypeId="STANDARD_FEATURE" fromDate="2000-01-01 00:00:00.000" />
+<ProductAssoc productIdTo="S6DD102JFD0807.46" productId="S6DD102JFD0807" fromDate="2000-01-01 00:00:00.000" productAssocTypeId="PRODUCT_VARIANT"/>
+<ProductFacility productId="S6DD102JFD0807.46" facilityId="10000"/>
+<ProductFacility productId="S6DD102JFD0807" facilityId="10000"/>
+<Product productId="S6DD102JFD0807.48" productTypeId="FINISHED_GOOD" isVirtual="N" returnable="Y" isVariant="Y" billOfMaterialLevel="0" mpSizeType="7" />
+<GoodIdentification productId="S6DD102JFD0807.48" goodIdentificationTypeId="EAN" idValue="8053586005862" />
+<ProductFeatureAppl productId="S6DD102JFD0807" productFeatureId="48" productFeatureApplTypeId="SELECTABLE_FEATURE" sequenceNum="6" fromDate="2000-01-01 00:00:00.000" />
+<ProductFeatureAppl productId="S6DD102JFD0807" productFeatureId="D0807" productFeatureApplTypeId="STANDARD_FEATURE" sequenceNum="6" fromDate="2000-01-01 00:00:00.000" />
+<ProductFeatureAppl productId="S6DD102JFD0807.48" productFeatureId="48" productFeatureApplTypeId="STANDARD_FEATURE" fromDate="2000-01-01 00:00:00.000" />
+<ProductFeatureAppl productId="S6DD102JFD0807.48" productFeatureId="D0807" productFeatureApplTypeId="STANDARD_FEATURE" fromDate="2000-01-01 00:00:00.000" />
+<ProductAssoc productIdTo="S6DD102JFD0807.48" productId="S6DD102JFD0807" fromDate="2000-01-01 00:00:00.000" productAssocTypeId="PRODUCT_VARIANT"/>
+<ProductFacility productId="S6DD102JFD0807.48" facilityId="10000"/>
+<ProductFacility productId="S6DD102JFD0807" facilityId="10000"/>
+<ProductPrice productId="S6DD102JFD0807" productPriceTypeId="LIST_PRICE" productPricePurposeId="PURCHASE" currencyUomId="EUR" productStoreGroupId="10000" fromDate="2000-01-01 00:00:00.000" price="211.00" taxPercentage="0.220000" taxInPrice="Y" />
+<ProductPrice productId="S6DD102JFD0807" productPriceTypeId="LIST_PRICE" productPricePurposeId="PURCHASE" currencyUomId="EUR" productStoreGroupId="10001" fromDate="2000-01-01 00:00:00.000" price="211.00" taxPercentage="0.220000" taxInPrice="Y" />
+<ProductPrice productId="S6DD102JFD0807" productPriceTypeId="SPECIAL_PROMO_PRICE" productPricePurposeId="PURCHASE" currencyUomId="EUR" productStoreGroupId="10000" fromDate="2000-01-01 00:00:00.000" price="211.00" taxPercentage="0.220000" taxInPrice="Y" />
+<ProductPrice productId="S6DD102JFD0807" productPriceTypeId="SPECIAL_PROMO_PRICE" productPricePurposeId="PURCHASE" currencyUomId="EUR" productStoreGroupId="10001" fromDate="2000-01-01 00:00:00.000" price="211.00" taxPercentage="0.220000" taxInPrice="Y" />
+<ProductCategory productCategoryId="S6-007" productCategoryTypeId="CATALOG_CATEGORY" categoryName=""/>
+<DataResource dataResourceId="S6-007itds" dataResourceTypeId="ELECTRONIC_TEXT" localeString="it_IT" mimeTypeId="text/html"/>
+<ElectronicText dataResourceId="S6-007itds" textData="TOP"/>
+<Content contentId="S6-007itcn" contentTypeId="DOCUMENT" contentName="CategoryNameIT" dataResourceId="S6-007itds" localeString="it_IT" mimeTypeId="text/html"/>
+<DataResource dataResourceId="S6-007ends" dataResourceTypeId="ELECTRONIC_TEXT" localeString="en_US" mimeTypeId="text/html"/>
+<ElectronicText dataResourceId="S6-007ends" textData="TOP "/>
+<Content contentId="S6-007encn" contentTypeId="DOCUMENT" contentName="CategoryNameEN" dataResourceId="S6-007ends" localeString="en_US" mimeTypeId="text/html"/>
+<ContentAssoc contentId="S6-007itcn" contentIdTo="S6-007encn" contentAssocTypeId="ALTERNATE_LOCALE" fromDate="2000-01-01 00:00:00.000"/>
+<ProductCategoryContent productCategoryId="S6-007" contentId="S6-007itcn" prodCatContentTypeId="CATEGORY_NAME" fromDate="2000-01-01 00:00:00.000"/>
+<ProductCategoryContent productCategoryId="S6-007" contentId="S6-007encn" prodCatContentTypeId="CATEGORY_NAME" fromDate="2000-01-01 00:00:00.000"/>
+<ProductCategoryContent productCategoryId="S6-007" contentId="S6-007itcn" prodCatContentTypeId="ALTERNATIVE_URL" fromDate="2000-01-01 00:00:00.000"/>
+<ProductCategoryContent productCategoryId="S6-007" contentId="S6-007encn" prodCatContentTypeId="ALTERNATIVE_URL" fromDate="2000-01-01 00:00:00.000"/>
+<ProductCategoryRollup productCategoryId="S6-007" parentProductCategoryId="DESPHEMMES" fromDate="2000-01-01 00:00:00.000"/>
+<ProductCategory productCategoryId="007" productCategoryTypeId="CATALOG_CATEGORY" categoryName=""/>
+<DataResource dataResourceId="007itds" dataResourceTypeId="ELECTRONIC_TEXT" localeString="it_IT" mimeTypeId="text/html"/>
+<ElectronicText dataResourceId="007itds" textData="TOP"/>
+<Content contentId="007itcn" contentTypeId="DOCUMENT" contentName="CategoryNameIT" dataResourceId="007itds" localeString="it_IT" mimeTypeId="text/html"/>
+<DataResource dataResourceId="007ends" dataResourceTypeId="ELECTRONIC_TEXT" localeString="en_US" mimeTypeId="text/html"/>
+<ElectronicText dataResourceId="007ends" textData="TOP "/>
+<Content contentId="007encn" contentTypeId="DOCUMENT" contentName="CategoryNameEN" dataResourceId="007ends" localeString="en_US" mimeTypeId="text/html"/>
+<ContentAssoc contentId="007itcn" contentIdTo="007encn" contentAssocTypeId="ALTERNATE_LOCALE" fromDate="2000-01-01 00:00:00.000"/>
+<ProductCategoryContent productCategoryId="007" contentId="007itcn" prodCatContentTypeId="CATEGORY_NAME" fromDate="2000-01-01 00:00:00.000"/>
+<ProductCategoryContent productCategoryId="007" contentId="007encn" prodCatContentTypeId="CATEGORY_NAME" fromDate="2000-01-01 00:00:00.000"/>
+<ProductCategoryContent productCategoryId="007" contentId="007itcn" prodCatContentTypeId="ALTERNATIVE_URL" fromDate="2000-01-01 00:00:00.000"/>
+<ProductCategoryContent productCategoryId="007" contentId="007encn" prodCatContentTypeId="ALTERNATIVE_URL" fromDate="2000-01-01 00:00:00.000"/>
+<ProductCategoryRollup productCategoryId="007" parentProductCategoryId="DESPHEMMES" fromDate="2000-01-01 00:00:00.000"/>
+<Product productId="S6DD121G0D0501" productTypeId="FINISHED_GOOD" comments="LIME" internalName="" productName="" primaryProductCategoryId="007" description="" largeImageUrl="/images/product/DESPHEMMES/S6/S6DD121G0.D0501-A.jpg" mediumImageUrl="/images/product/DESPHEMMES/S6/S6DD121G0.D0501-A.jpg" smallImageUrl="/images/product/DESPHEMMES/S6/S6DD121G0.D0501-A.jpg" longDescription="" mpSizeType="7" isVirtual="Y" isVariant="N" returnable="Y">
+</Product>
+<ProductAttribute productId="S6DD121G0D0501" attrName="IS_CARRYOVER" attrValue="N"/>
+<ProductAttribute productId="S6DD121G0D0501" attrName="IS_CUSTOM" attrValue="N"/>
+<ProductCategoryMember productCategoryId="SEEALL" productId="S6DD121G0D0501" fromDate="2000-01-01 00:00:00.000"/>
+<DataResource dataResourceId="S6DD121G0D0501itds1" dataResourceTypeId="ELECTRONIC_TEXT" localeString="it_IT" mimeTypeId="text/html"/>
+<ElectronicText dataResourceId="S6DD121G0D0501itds1" textData="PETITE CLASSIC SHIRT"/>
+<Content contentId="S6DD121G0D0501itcn1" contentTypeId="DOCUMENT" contentName="ProductNameIT" dataResourceId="S6DD121G0D0501itds1" localeString="it_IT" mimeTypeId="text/html"/>
+<DataResource dataResourceId="S6DD121G0D0501ends1" dataResourceTypeId="ELECTRONIC_TEXT" localeString="en_US" mimeTypeId="text/html"/>
+<ElectronicText dataResourceId="S6DD121G0D0501ends1" textData="PETITE CLASSIC SHIRT"/>
+<Content contentId="S6DD121G0D0501encn1" contentTypeId="DOCUMENT" contentName="ProductNameEN" dataResourceId="S6DD121G0D0501ends1" localeString="en_US" mimeTypeId="text/html"/>
+<ContentAssoc contentId="S6DD121G0D0501itcn1" contentIdTo="S6DD121G0D0501encn1" contentAssocTypeId="ALTERNATE_LOCALE" fromDate="2000-01-01 00:00:00.000"/>
+<ProductContent productId="S6DD121G0D0501" contentId="S6DD121G0D0501itcn1" productContentTypeId="PRODUCT_NAME" fromDate="2000-01-01 00:00:00.000"/>
+<ProductContent productId="S6DD121G0D0501" contentId="S6DD121G0D0501itcn1" productContentTypeId="ALTERNATIVE_URL" fromDate="2000-01-01 00:00:00.000"/>
+<DataResource dataResourceId="S6DD121G0D0501itds2" dataResourceTypeId="ELECTRONIC_TEXT" localeString="it_IT" mimeTypeId="text/html"/>
+<ElectronicText dataResourceId="S6DD121G0D0501itds2" textData="CAMICIA M/L DAL FIT REGOLARE CON PENCE IMPUNTURATE E CINTURINO IN VITA*GEOGETTE"/>
+<Content contentId="S6DD121G0D0501itcn2" contentTypeId="DOCUMENT" contentName="ProductDesIT" dataResourceId="S6DD121G0D0501itds2" localeString="it_IT" mimeTypeId="text/html"/>
+<DataResource dataResourceId="S6DD121G0D0501ends2" dataResourceTypeId="ELECTRONIC_TEXT" localeString="en_US" mimeTypeId="text/html"/>
+<ElectronicText dataResourceId="S6DD121G0D0501ends2" textData="LONG SLEEVE REGULAR FIT SHIRT WITH TOPSTITCHED DARTS AND WAISTBAND*GEORGETTE"/>
+<Content contentId="S6DD121G0D0501encn2" contentTypeId="DOCUMENT" contentName="ProductDesEN" dataResourceId="S6DD121G0D0501ends2" localeString="en_US" mimeTypeId="text/html"/>
+<ContentAssoc contentId="S6DD121G0D0501itcn2" contentIdTo="S6DD121G0D0501encn2" contentAssocTypeId="ALTERNATE_LOCALE" fromDate="2000-01-01 00:00:00.000"/>
+<ProductContent productId="S6DD121G0D0501" contentId="S6DD121G0D0501itcn2" productContentTypeId="DESCRIPTION" fromDate="2000-01-01 00:00:00.000"/>
+<DataResource dataResourceId="S6DD121G0D0501itds3" dataResourceTypeId="ELECTRONIC_TEXT" localeString="it_IT" mimeTypeId="text/html"/>
+<ElectronicText dataResourceId="S6DD121G0D0501itds3" textData="CAMICIA M/L DAL FIT REGOLARE CON PENCE IMPUNTURATE E CINTURINO IN VITA*GEOGETTE"/>
+<Content contentId="S6DD121G0D0501itcn3" contentTypeId="DOCUMENT" contentName="ProductLongDesIT" dataResourceId="S6DD121G0D0501itds3" localeString="it_IT" mimeTypeId="text/html"/>
+<DataResource dataResourceId="S6DD121G0D0501ends3" dataResourceTypeId="ELECTRONIC_TEXT" localeString="en_US" mimeTypeId="text/html"/>
+<ElectronicText dataResourceId="S6DD121G0D0501ends3" textData="LONG SLEEVE REGULAR FIT SHIRT WITH TOPSTITCHED DARTS AND WAISTBAND*GEORGETTE"/>
+<Content contentId="S6DD121G0D0501encn3" contentTypeId="DOCUMENT" contentName="ProductLongDesEN" dataResourceId="S6DD121G0D0501ends3" localeString="en_US" mimeTypeId="text/html"/>
+<ContentAssoc contentId="S6DD121G0D0501itcn3" contentIdTo="S6DD121G0D0501encn3" contentAssocTypeId="ALTERNATE_LOCALE" fromDate="2000-01-01 00:00:00.000"/>
+<ProductContent productId="S6DD121G0D0501" contentId="S6DD121G0D0501itcn3" productContentTypeId="LONG_DESCRIPTION" fromDate="2000-01-01 00:00:00.000"/>
+<DataResource dataResourceId="S6DD121G0D0501itds4" dataResourceTypeId="ELECTRONIC_TEXT" localeString="it_IT" mimeTypeId="text/html"/>
+<ElectronicText dataResourceId="S6DD121G0D0501itds4" textData=" 65% ACETATO 35% SETA"/>
+<Content contentId="S6DD121G0D0501itcn4" contentTypeId="DOCUMENT" contentName="CompoIT" dataResourceId="S6DD121G0D0501itds4" localeString="it_IT" mimeTypeId="text/html"/>
+<DataResource dataResourceId="S6DD121G0D0501ends4" dataResourceTypeId="ELECTRONIC_TEXT" localeString="en_US" mimeTypeId="text/html"/>
+<ElectronicText dataResourceId="S6DD121G0D0501ends4" textData=" 65% ACETATE 35% SILK"/>
+<Content contentId="S6DD121G0D0501encn4" contentTypeId="DOCUMENT" contentName="ProductNameEN" dataResourceId="S6DD121G0D0501ends4" localeString="en_US" mimeTypeId="text/html"/>
+<ContentAssoc contentId="S6DD121G0D0501itcn4" contentIdTo="S6DD121G0D0501encn4" contentAssocTypeId="ALTERNATE_LOCALE" fromDate="2000-01-01 00:00:00.000"/>
+<ProductContent productId="S6DD121G0D0501" contentId="S6DD121G0D0501itcn4" productContentTypeId="INGREDIENTS" fromDate="2000-01-01 00:00:00.000"/>
+<DataResource dataResourceId="S6DD121G0D05011_ds" dataResourceTypeId="SHORT_TEXT" mimeTypeId="text/html" objectInfo="/images/product/DESPHEMMES/colors/D0501.jpg"/>
+<Content contentId="S6DD121G0D0501_1" contentTypeId="DOCUMENT" dataResourceId="S6DD121G0D05011_ds"/>
+<ProductContent productId="S6DD121G0D0501" contentId="S6DD121G0D0501_1" productContentTypeId="ADDITIONAL_IMAGE_1" fromDate="2000-01-01 00:00:00.000"/>
+<DataResource dataResourceId="S6DD121G0D05012_ds" dataResourceTypeId="SHORT_TEXT" mimeTypeId="text/html" objectInfo="/images/product/DESPHEMMES/S6/S6DD121G0.D0501-B.jpg"/>
+<Content contentId="S6DD121G0D0501_2" contentTypeId="DOCUMENT" dataResourceId="S6DD121G0D05012_ds"/>
+<ProductContent productId="S6DD121G0D0501" contentId="S6DD121G0D0501_2" productContentTypeId="ADDITIONAL_IMAGE_2" fromDate="2000-01-01 00:00:00.000"/>
+<DataResource dataResourceId="S6DD121G0D05013_ds" dataResourceTypeId="SHORT_TEXT" mimeTypeId="text/html" objectInfo="/images/product/DESPHEMMES/S6/S6DD121G0.D0501-C.jpg"/>
+<Content contentId="S6DD121G0D0501_3" contentTypeId="DOCUMENT" dataResourceId="S6DD121G0D05013_ds"/>
+<ProductContent productId="S6DD121G0D0501" contentId="S6DD121G0D0501_3" productContentTypeId="ADDITIONAL_IMAGE_3" fromDate="2000-01-01 00:00:00.000"/>
+<DataResource dataResourceId="S6DD121G0D05014_ds" dataResourceTypeId="SHORT_TEXT" mimeTypeId="text/html" objectInfo="/images/product/DESPHEMMES/S6/S6DD121G0.D0501-D.jpg"/>
+<Content contentId="S6DD121G0D0501_4" contentTypeId="DOCUMENT" dataResourceId="S6DD121G0D05014_ds"/>
+<ProductContent productId="S6DD121G0D0501" contentId="S6DD121G0D0501_4" productContentTypeId="ADDITIONAL_IMAGE_4" fromDate="2000-01-01 00:00:00.000"/>
+<ProductCategoryMember productCategoryId="007" productId="S6DD121G0D0501" fromDate="2000-01-01 00:00:00.000"/>
+<ProductCategoryMember productCategoryId="S6-007" productId="S6DD121G0D0501" fromDate="2000-01-01 00:00:00.000"/>
+<ProductFeature productFeatureId="D0501" productFeatureTypeId="COLOR" productFeatureCategoryId="10000" description="LIME" defaultSequenceNum="3" abbrev="D0501" />
+<Product productId="S6DD121G0D0501.38" productTypeId="FINISHED_GOOD" isVirtual="N" returnable="Y" isVariant="Y" billOfMaterialLevel="0" mpSizeType="7" />
+<GoodIdentification productId="S6DD121G0D0501.38" goodIdentificationTypeId="EAN" idValue="8053586003851" />
+<ProductFeatureAppl productId="S6DD121G0D0501" productFeatureId="38" productFeatureApplTypeId="SELECTABLE_FEATURE" sequenceNum="1" fromDate="2000-01-01 00:00:00.000" />
+<ProductFeatureAppl productId="S6DD121G0D0501" productFeatureId="D0501" productFeatureApplTypeId="STANDARD_FEATURE" sequenceNum="1" fromDate="2000-01-01 00:00:00.000" />
+<ProductFeatureAppl productId="S6DD121G0D0501.38" productFeatureId="38" productFeatureApplTypeId="STANDARD_FEATURE" fromDate="2000-01-01 00:00:00.000" />
+<ProductFeatureAppl productId="S6DD121G0D0501.38" productFeatureId="D0501" productFeatureApplTypeId="STANDARD_FEATURE" fromDate="2000-01-01 00:00:00.000" />
+<ProductAssoc productIdTo="S6DD121G0D0501.38" productId="S6DD121G0D0501" fromDate="2000-01-01 00:00:00.000" productAssocTypeId="PRODUCT_VARIANT"/>
+<ProductFacility productId="S6DD121G0D0501.38" facilityId="10000"/>
+<ProductFacility productId="S6DD121G0D0501" facilityId="10000"/>
+<Product productId="S6DD121G0D0501.40" productTypeId="FINISHED_GOOD" isVirtual="N" returnable="Y" isVariant="Y" billOfMaterialLevel="0" mpSizeType="7" />
+<GoodIdentification productId="S6DD121G0D0501.40" goodIdentificationTypeId="EAN" idValue="2000001885246" />
+<ProductFeatureAppl productId="S6DD121G0D0501" productFeatureId="40" productFeatureApplTypeId="SELECTABLE_FEATURE" sequenceNum="2" fromDate="2000-01-01 00:00:00.000" />
+<ProductFeatureAppl productId="S6DD121G0D0501" productFeatureId="D0501" productFeatureApplTypeId="STANDARD_FEATURE" sequenceNum="2" fromDate="2000-01-01 00:00:00.000" />
+<ProductFeatureAppl productId="S6DD121G0D0501.40" productFeatureId="40" productFeatureApplTypeId="STANDARD_FEATURE" fromDate="2000-01-01 00:00:00.000" />
+<ProductFeatureAppl productId="S6DD121G0D0501.40" productFeatureId="D0501" productFeatureApplTypeId="STANDARD_FEATURE" fromDate="2000-01-01 00:00:00.000" />
+<ProductAssoc productIdTo="S6DD121G0D0501.40" productId="S6DD121G0D0501" fromDate="2000-01-01 00:00:00.000" productAssocTypeId="PRODUCT_VARIANT"/>
+<ProductFacility productId="S6DD121G0D0501.40" facilityId="10000"/>
+<ProductFacility productId="S6DD121G0D0501" facilityId="10000"/>
+<Product productId="S6DD121G0D0501.42" productTypeId="FINISHED_GOOD" isVirtual="N" returnable="Y" isVariant="Y" billOfMaterialLevel="0" mpSizeType="7" />
+<GoodIdentification productId="S6DD121G0D0501.42" goodIdentificationTypeId="EAN" idValue="8053586003875" />
+<ProductFeatureAppl productId="S6DD121G0D0501" productFeatureId="42" productFeatureApplTypeId="SELECTABLE_FEATURE" sequenceNum="3" fromDate="2000-01-01 00:00:00.000" />
+<ProductFeatureAppl productId="S6DD121G0D0501" productFeatureId="D0501" productFeatureApplTypeId="STANDARD_FEATURE" sequenceNum="3" fromDate="2000-01-01 00:00:00.000" />
+<ProductFeatureAppl productId="S6DD121G0D0501.42" productFeatureId="42" productFeatureApplTypeId="STANDARD_FEATURE" fromDate="2000-01-01 00:00:00.000" />
+<ProductFeatureAppl productId="S6DD121G0D0501.42" productFeatureId="D0501" productFeatureApplTypeId="STANDARD_FEATURE" fromDate="2000-01-01 00:00:00.000" />
+<ProductAssoc productIdTo="S6DD121G0D0501.42" productId="S6DD121G0D0501" fromDate="2000-01-01 00:00:00.000" productAssocTypeId="PRODUCT_VARIANT"/>
+<ProductFacility productId="S6DD121G0D0501.42" facilityId="10000"/>
+<ProductFacility productId="S6DD121G0D0501" facilityId="10000"/>
+<Product productId="S6DD121G0D0501.44" productTypeId="FINISHED_GOOD" isVirtual="N" returnable="Y" isVariant="Y" billOfMaterialLevel="0" mpSizeType="7" />
+<GoodIdentification productId="S6DD121G0D0501.44" goodIdentificationTypeId="EAN" idValue="8053586003882" />
+<ProductFeatureAppl productId="S6DD121G0D0501" productFeatureId="44" productFeatureApplTypeId="SELECTABLE_FEATURE" sequenceNum="4" fromDate="2000-01-01 00:00:00.000" />
+<ProductFeatureAppl productId="S6DD121G0D0501" productFeatureId="D0501" productFeatureApplTypeId="STANDARD_FEATURE" sequenceNum="4" fromDate="2000-01-01 00:00:00.000" />
+<ProductFeatureAppl productId="S6DD121G0D0501.44" productFeatureId="44" productFeatureApplTypeId="STANDARD_FEATURE" fromDate="2000-01-01 00:00:00.000" />
+<ProductFeatureAppl productId="S6DD121G0D0501.44" productFeatureId="D0501" productFeatureApplTypeId="STANDARD_FEATURE" fromDate="2000-01-01 00:00:00.000" />
+<ProductAssoc productIdTo="S6DD121G0D0501.44" productId="S6DD121G0D0501" fromDate="2000-01-01 00:00:00.000" productAssocTypeId="PRODUCT_VARIANT"/>
+<ProductFacility productId="S6DD121G0D0501.44" facilityId="10000"/>
+<ProductFacility productId="S6DD121G0D0501" facilityId="10000"/>
+<Product productId="S6DD121G0D0501.46" productTypeId="FINISHED_GOOD" isVirtual="N" returnable="Y" isVariant="Y" billOfMaterialLevel="0" mpSizeType="7" />
+<GoodIdentification productId="S6DD121G0D0501.46" goodIdentificationTypeId="EAN" idValue="8053586003899" />
+<ProductFeatureAppl productId="S6DD121G0D0501" productFeatureId="46" productFeatureApplTypeId="SELECTABLE_FEATURE" sequenceNum="5" fromDate="2000-01-01 00:00:00.000" />
+<ProductFeatureAppl productId="S6DD121G0D0501" productFeatureId="D0501" productFeatureApplTypeId="STANDARD_FEATURE" sequenceNum="5" fromDate="2000-01-01 00:00:00.000" />
+<ProductFeatureAppl productId="S6DD121G0D0501.46" productFeatureId="46" productFeatureApplTypeId="STANDARD_FEATURE" fromDate="2000-01-01 00:00:00.000" />
+<ProductFeatureAppl productId="S6DD121G0D0501.46" productFeatureId="D0501" productFeatureApplTypeId="STANDARD_FEATURE" fromDate="2000-01-01 00:00:00.000" />
+<ProductAssoc productIdTo="S6DD121G0D0501.46" productId="S6DD121G0D0501" fromDate="2000-01-01 00:00:00.000" productAssocTypeId="PRODUCT_VARIANT"/>
+<ProductFacility productId="S6DD121G0D0501.46" facilityId="10000"/>
+<ProductFacility productId="S6DD121G0D0501" facilityId="10000"/>
+<Product productId="S6DD121G0D0501.48" productTypeId="FINISHED_GOOD" isVirtual="N" returnable="Y" isVariant="Y" billOfMaterialLevel="0" mpSizeType="7" />
+<GoodIdentification productId="S6DD121G0D0501.48" goodIdentificationTypeId="EAN" idValue="8053586003905" />
+<ProductFeatureAppl productId="S6DD121G0D0501" productFeatureId="48" productFeatureApplTypeId="SELECTABLE_FEATURE" sequenceNum="6" fromDate="2000-01-01 00:00:00.000" />
+<ProductFeatureAppl productId="S6DD121G0D0501" productFeatureId="D0501" productFeatureApplTypeId="STANDARD_FEATURE" sequenceNum="6" fromDate="2000-01-01 00:00:00.000" />
+<ProductFeatureAppl productId="S6DD121G0D0501.48" productFeatureId="48" productFeatureApplTypeId="STANDARD_FEATURE" fromDate="2000-01-01 00:00:00.000" />
+<ProductFeatureAppl productId="S6DD121G0D0501.48" productFeatureId="D0501" productFeatureApplTypeId="STANDARD_FEATURE" fromDate="2000-01-01 00:00:00.000" />
+<ProductAssoc productIdTo="S6DD121G0D0501.48" productId="S6DD121G0D0501" fromDate="2000-01-01 00:00:00.000" productAssocTypeId="PRODUCT_VARIANT"/>
+<ProductFacility productId="S6DD121G0D0501.48" facilityId="10000"/>
+<ProductFacility productId="S6DD121G0D0501" facilityId="10000"/>
+<ProductPrice productId="S6DD121G0D0501" productPriceTypeId="LIST_PRICE" productPricePurposeId="PURCHASE" currencyUomId="EUR" productStoreGroupId="10000" fromDate="2000-01-01 00:00:00.000" price="365.00" taxPercentage="0.220000" taxInPrice="Y" />
+<ProductPrice productId="S6DD121G0D0501" productPriceTypeId="LIST_PRICE" productPricePurposeId="PURCHASE" currencyUomId="EUR" productStoreGroupId="10001" fromDate="2000-01-01 00:00:00.000" price="365.00" taxPercentage="0.220000" taxInPrice="Y" />
+<ProductPrice productId="S6DD121G0D0501" productPriceTypeId="SPECIAL_PROMO_PRICE" productPricePurposeId="PURCHASE" currencyUomId="EUR" productStoreGroupId="10000" fromDate="2000-01-01 00:00:00.000" price="365.00" taxPercentage="0.220000" taxInPrice="Y" />
+<ProductPrice productId="S6DD121G0D0501" productPriceTypeId="SPECIAL_PROMO_PRICE" productPricePurposeId="PURCHASE" currencyUomId="EUR" productStoreGroupId="10001" fromDate="2000-01-01 00:00:00.000" price="365.00" taxPercentage="0.220000" taxInPrice="Y" />
+<ProductCategory productCategoryId="S6-022" productCategoryTypeId="CATALOG_CATEGORY" categoryName=""/>
+<DataResource dataResourceId="S6-022itds" dataResourceTypeId="ELECTRONIC_TEXT" localeString="it_IT" mimeTypeId="text/html"/>
+<ElectronicText dataResourceId="S6-022itds" textData="BOTTOMS"/>
+<Content contentId="S6-022itcn" contentTypeId="DOCUMENT" contentName="CategoryNameIT" dataResourceId="S6-022itds" localeString="it_IT" mimeTypeId="text/html"/>
+<DataResource dataResourceId="S6-022ends" dataResourceTypeId="ELECTRONIC_TEXT" localeString="en_US" mimeTypeId="text/html"/>
+<ElectronicText dataResourceId="S6-022ends" textData="TOP "/>
+<Content contentId="S6-022encn" contentTypeId="DOCUMENT" contentName="CategoryNameEN" dataResourceId="S6-022ends" localeString="en_US" mimeTypeId="text/html"/>
+<ContentAssoc contentId="S6-022itcn" contentIdTo="S6-022encn" contentAssocTypeId="ALTERNATE_LOCALE" fromDate="2000-01-01 00:00:00.000"/>
+<ProductCategoryContent productCategoryId="S6-022" contentId="S6-022itcn" prodCatContentTypeId="CATEGORY_NAME" fromDate="2000-01-01 00:00:00.000"/>
+<ProductCategoryContent productCategoryId="S6-022" contentId="S6-022encn" prodCatContentTypeId="CATEGORY_NAME" fromDate="2000-01-01 00:00:00.000"/>
+<ProductCategoryContent productCategoryId="S6-022" contentId="S6-022itcn" prodCatContentTypeId="ALTERNATIVE_URL" fromDate="2000-01-01 00:00:00.000"/>
+<ProductCategoryContent productCategoryId="S6-022" contentId="S6-022encn" prodCatContentTypeId="ALTERNATIVE_URL" fromDate="2000-01-01 00:00:00.000"/>
+<ProductCategoryRollup productCategoryId="S6-022" parentProductCategoryId="DESPHEMMES" fromDate="2000-01-01 00:00:00.000"/>
+<ProductCategory productCategoryId="022" productCategoryTypeId="CATALOG_CATEGORY" categoryName=""/>
+<DataResource dataResourceId="022itds" dataResourceTypeId="ELECTRONIC_TEXT" localeString="it_IT" mimeTypeId="text/html"/>
+<ElectronicText dataResourceId="022itds" textData="BOTTOMS"/>
+<Content contentId="022itcn" contentTypeId="DOCUMENT" contentName="CategoryNameIT" dataResourceId="022itds" localeString="it_IT" mimeTypeId="text/html"/>
+<DataResource dataResourceId="022ends" dataResourceTypeId="ELECTRONIC_TEXT" localeString="en_US" mimeTypeId="text/html"/>
+<ElectronicText dataResourceId="022ends" textData="TOP "/>
+<Content contentId="022encn" contentTypeId="DOCUMENT" contentName="CategoryNameEN" dataResourceId="022ends" localeString="en_US" mimeTypeId="text/html"/>
+<ContentAssoc contentId="022itcn" contentIdTo="022encn" contentAssocTypeId="ALTERNATE_LOCALE" fromDate="2000-01-01 00:00:00.000"/>
+<ProductCategoryContent productCategoryId="022" contentId="022itcn" prodCatContentTypeId="CATEGORY_NAME" fromDate="2000-01-01 00:00:00.000"/>
+<ProductCategoryContent productCategoryId="022" contentId="022encn" prodCatContentTypeId="CATEGORY_NAME" fromDate="2000-01-01 00:00:00.000"/>
+<ProductCategoryContent productCategoryId="022" contentId="022itcn" prodCatContentTypeId="ALTERNATIVE_URL" fromDate="2000-01-01 00:00:00.000"/>
+<ProductCategoryContent productCategoryId="022" contentId="022encn" prodCatContentTypeId="ALTERNATIVE_URL" fromDate="2000-01-01 00:00:00.000"/>
+<ProductCategoryRollup productCategoryId="022" parentProductCategoryId="DESPHEMMES" fromDate="2000-01-01 00:00:00.000"/>
+<Product productId="S6DD206YRD0153" productTypeId="FINISHED_GOOD" comments="NUDE" internalName="" productName="" primaryProductCategoryId="022" description="" largeImageUrl="/images/product/DESPHEMMES/S6/S6DD206YR.D0153-A.jpg" mediumImageUrl="/images/product/DESPHEMMES/S6/S6DD206YR.D0153-A.jpg" smallImageUrl="/images/product/DESPHEMMES/S6/S6DD206YR.D0153-A.jpg" longDescription="" mpSizeType="7" isVirtual="Y" isVariant="N" returnable="Y">
+</Product>
+<ProductAttribute productId="S6DD206YRD0153" attrName="IS_CARRYOVER" attrValue="N"/>
+<ProductAttribute productId="S6DD206YRD0153" attrName="IS_CUSTOM" attrValue="N"/>
+<ProductCategoryMember productCategoryId="SEEALL" productId="S6DD206YRD0153" fromDate="2000-01-01 00:00:00.000"/>
+<DataResource dataResourceId="S6DD206YRD0153itds1" dataResourceTypeId="ELECTRONIC_TEXT" localeString="it_IT" mimeTypeId="text/html"/>
+<ElectronicText dataResourceId="S6DD206YRD0153itds1" textData="CLASSIC LONGUETTE"/>
+<Content contentId="S6DD206YRD0153itcn1" contentTypeId="DOCUMENT" contentName="ProductNameIT" dataResourceId="S6DD206YRD0153itds1" localeString="it_IT" mimeTypeId="text/html"/>
+<DataResource dataResourceId="S6DD206YRD0153ends1" dataResourceTypeId="ELECTRONIC_TEXT" localeString="en_US" mimeTypeId="text/html"/>
+<ElectronicText dataResourceId="S6DD206YRD0153ends1" textData="CLASSIC LONGUETTE"/>
+<Content contentId="S6DD206YRD0153encn1" contentTypeId="DOCUMENT" contentName="ProductNameEN" dataResourceId="S6DD206YRD0153ends1" localeString="en_US" mimeTypeId="text/html"/>
+<ContentAssoc contentId="S6DD206YRD0153itcn1" contentIdTo="S6DD206YRD0153encn1" contentAssocTypeId="ALTERNATE_LOCALE" fromDate="2000-01-01 00:00:00.000"/>
+<ProductContent productId="S6DD206YRD0153" contentId="S6DD206YRD0153itcn1" productContentTypeId="PRODUCT_NAME" fromDate="2000-01-01 00:00:00.000"/>
+<ProductContent productId="S6DD206YRD0153" contentId="S6DD206YRD0153itcn1" productContentTypeId="ALTERNATIVE_URL" fromDate="2000-01-01 00:00:00.000"/>
+<DataResource dataResourceId="S6DD206YRD0153itds2" dataResourceTypeId="ELECTRONIC_TEXT" localeString="it_IT" mimeTypeId="text/html"/>
+<ElectronicText dataResourceId="S6DD206YRD0153itds2" textData="GONNA LONGUETTE CON RICAMO A MANO IN PAILLETTES EFFETTO FIORI*PASSAMANERIA LOGO IN VITA*TULLE STRETCH"/>
+<Content contentId="S6DD206YRD0153itcn2" contentTypeId="DOCUMENT" contentName="ProductDesIT" dataResourceId="S6DD206YRD0153itds2" localeString="it_IT" mimeTypeId="text/html"/>
+<DataResource dataResourceId="S6DD206YRD0153ends2" dataResourceTypeId="ELECTRONIC_TEXT" localeString="en_US" mimeTypeId="text/html"/>
+<ElectronicText dataResourceId="S6DD206YRD0153ends2" textData="MIDI SKIRT WITH ALL-OVER HANDMADE SEQUINS FLOWERS EMBROIDERY*BRANDED TRIM WAISTBAND*STRETCH TULLE"/>
+<Content contentId="S6DD206YRD0153encn2" contentTypeId="DOCUMENT" contentName="ProductDesEN" dataResourceId="S6DD206YRD0153ends2" localeString="en_US" mimeTypeId="text/html"/>
+<ContentAssoc contentId="S6DD206YRD0153itcn2" contentIdTo="S6DD206YRD0153encn2" contentAssocTypeId="ALTERNATE_LOCALE" fromDate="2000-01-01 00:00:00.000"/>
+<ProductContent productId="S6DD206YRD0153" contentId="S6DD206YRD0153itcn2" productContentTypeId="DESCRIPTION" fromDate="2000-01-01 00:00:00.000"/>
+<DataResource dataResourceId="S6DD206YRD0153itds3" dataResourceTypeId="ELECTRONIC_TEXT" localeString="it_IT" mimeTypeId="text/html"/>
+<ElectronicText dataResourceId="S6DD206YRD0153itds3" textData="GONNA LONGUETTE CON RICAMO A MANO IN PAILLETTES EFFETTO FIORI*PASSAMANERIA LOGO IN VITA*TULLE STRETCH"/>
+<Content contentId="S6DD206YRD0153itcn3" contentTypeId="DOCUMENT" contentName="ProductLongDesIT" dataResourceId="S6DD206YRD0153itds3" localeString="it_IT" mimeTypeId="text/html"/>
+<DataResource dataResourceId="S6DD206YRD0153ends3" dataResourceTypeId="ELECTRONIC_TEXT" localeString="en_US" mimeTypeId="text/html"/>
+<ElectronicText dataResourceId="S6DD206YRD0153ends3" textData="MIDI SKIRT WITH ALL-OVER HANDMADE SEQUINS FLOWERS EMBROIDERY*BRANDED TRIM WAISTBAND*STRETCH TULLE"/>
+<Content contentId="S6DD206YRD0153encn3" contentTypeId="DOCUMENT" contentName="ProductLongDesEN" dataResourceId="S6DD206YRD0153ends3" localeString="en_US" mimeTypeId="text/html"/>
+<ContentAssoc contentId="S6DD206YRD0153itcn3" contentIdTo="S6DD206YRD0153encn3" contentAssocTypeId="ALTERNATE_LOCALE" fromDate="2000-01-01 00:00:00.000"/>
+<ProductContent productId="S6DD206YRD0153" contentId="S6DD206YRD0153itcn3" productContentTypeId="LONG_DESCRIPTION" fromDate="2000-01-01 00:00:00.000"/>
+<DataResource dataResourceId="S6DD206YRD0153itds4" dataResourceTypeId="ELECTRONIC_TEXT" localeString="it_IT" mimeTypeId="text/html"/>
+<ElectronicText dataResourceId="S6DD206YRD0153itds4" textData=" 95% POLIESTERE 5% ELASTAN&lt;BR&gt;FODERA: 92% POLIESTERE 8% ELASTAN&lt;BR&gt;RICAMO: 100% POLIESTERE"/>
+<Content contentId="S6DD206YRD0153itcn4" contentTypeId="DOCUMENT" contentName="CompoIT" dataResourceId="S6DD206YRD0153itds4" localeString="it_IT" mimeTypeId="text/html"/>
+<DataResource dataResourceId="S6DD206YRD0153ends4" dataResourceTypeId="ELECTRONIC_TEXT" localeString="en_US" mimeTypeId="text/html"/>
+<ElectronicText dataResourceId="S6DD206YRD0153ends4" textData=" 95% POLYESTER 5% ELASTHANE&lt;BR&gt;LINING: 92% POLYESTER 8% ELASTHANE&lt;BR&gt;EMBROIDERY: 100% POLYESTER"/>
+<Content contentId="S6DD206YRD0153encn4" contentTypeId="DOCUMENT" contentName="ProductNameEN" dataResourceId="S6DD206YRD0153ends4" localeString="en_US" mimeTypeId="text/html"/>
+<ContentAssoc contentId="S6DD206YRD0153itcn4" contentIdTo="S6DD206YRD0153encn4" contentAssocTypeId="ALTERNATE_LOCALE" fromDate="2000-01-01 00:00:00.000"/>
+<ProductContent productId="S6DD206YRD0153" contentId="S6DD206YRD0153itcn4" productContentTypeId="INGREDIENTS" fromDate="2000-01-01 00:00:00.000"/>
+<DataResource dataResourceId="S6DD206YRD01531_ds" dataResourceTypeId="SHORT_TEXT" mimeTypeId="text/html" objectInfo="/images/product/DESPHEMMES/colors/D0153.jpg"/>
+<Content contentId="S6DD206YRD0153_1" contentTypeId="DOCUMENT" dataResourceId="S6DD206YRD01531_ds"/>
+<ProductContent productId="S6DD206YRD0153" contentId="S6DD206YRD0153_1" productContentTypeId="ADDITIONAL_IMAGE_1" fromDate="2000-01-01 00:00:00.000"/>
+<DataResource dataResourceId="S6DD206YRD01532_ds" dataResourceTypeId="SHORT_TEXT" mimeTypeId="text/html" objectInfo="/images/product/DESPHEMMES/S6/S6DD206YR.D0153-B.jpg"/>
+<Content contentId="S6DD206YRD0153_2" contentTypeId="DOCUMENT" dataResourceId="S6DD206YRD01532_ds"/>
+<ProductContent productId="S6DD206YRD0153" contentId="S6DD206YRD0153_2" productContentTypeId="ADDITIONAL_IMAGE_2" fromDate="2000-01-01 00:00:00.000"/>
+<DataResource dataResourceId="S6DD206YRD01533_ds" dataResourceTypeId="SHORT_TEXT" mimeTypeId="text/html" objectInfo="/images/product/DESPHEMMES/S6/S6DD206YR.D0153-C.jpg"/>
+<Content contentId="S6DD206YRD0153_3" contentTypeId="DOCUMENT" dataResourceId="S6DD206YRD01533_ds"/>
+<ProductContent productId="S6DD206YRD0153" contentId="S6DD206YRD0153_3" productContentTypeId="ADDITIONAL_IMAGE_3" fromDate="2000-01-01 00:00:00.000"/>
+<DataResource dataResourceId="S6DD206YRD01534_ds" dataResourceTypeId="SHORT_TEXT" mimeTypeId="text/html" objectInfo="/images/product/DESPHEMMES/S6/S6DD206YR.D0153-D.jpg"/>
+<Content contentId="S6DD206YRD0153_4" contentTypeId="DOCUMENT" dataResourceId="S6DD206YRD01534_ds"/>
+<ProductContent productId="S6DD206YRD0153" contentId="S6DD206YRD0153_4" productContentTypeId="ADDITIONAL_IMAGE_4" fromDate="2000-01-01 00:00:00.000"/>
+<ProductCategoryMember productCategoryId="022" productId="S6DD206YRD0153" fromDate="2000-01-01 00:00:00.000"/>
+<ProductCategoryMember productCategoryId="S6-022" productId="S6DD206YRD0153" fromDate="2000-01-01 00:00:00.000"/>
+<ProductFeature productFeatureId="D0153" productFeatureTypeId="COLOR" productFeatureCategoryId="10000" description="NUDE" defaultSequenceNum="4" abbrev="D0153" />
+<Product productId="S6DD206YRD0153.38" productTypeId="FINISHED_GOOD" isVirtual="N" returnable="Y" isVariant="Y" billOfMaterialLevel="0" mpSizeType="7" />
+<GoodIdentification productId="S6DD206YRD0153.38" goodIdentificationTypeId="EAN" idValue="2000001965443" />
+<ProductFeatureAppl productId="S6DD206YRD0153" productFeatureId="38" productFeatureApplTypeId="SELECTABLE_FEATURE" sequenceNum="1" fromDate="2000-01-01 00:00:00.000" />
+<ProductFeatureAppl productId="S6DD206YRD0153" productFeatureId="D0153" productFeatureApplTypeId="STANDARD_FEATURE" sequenceNum="1" fromDate="2000-01-01 00:00:00.000" />
+<ProductFeatureAppl productId="S6DD206YRD0153.38" productFeatureId="38" productFeatureApplTypeId="STANDARD_FEATURE" fromDate="2000-01-01 00:00:00.000" />
+<ProductFeatureAppl productId="S6DD206YRD0153.38" productFeatureId="D0153" productFeatureApplTypeId="STANDARD_FEATURE" fromDate="2000-01-01 00:00:00.000" />
+<ProductAssoc productIdTo="S6DD206YRD0153.38" productId="S6DD206YRD0153" fromDate="2000-01-01 00:00:00.000" productAssocTypeId="PRODUCT_VARIANT"/>
+<ProductFacility productId="S6DD206YRD0153.38" facilityId="10000"/>
+<ProductFacility productId="S6DD206YRD0153" facilityId="10000"/>
+<Product productId="S6DD206YRD0153.40" productTypeId="FINISHED_GOOD" isVirtual="N" returnable="Y" isVariant="Y" billOfMaterialLevel="0" mpSizeType="7" />
+<GoodIdentification productId="S6DD206YRD0153.40" goodIdentificationTypeId="EAN" idValue="2000001865385" />
+<ProductFeatureAppl productId="S6DD206YRD0153" productFeatureId="40" productFeatureApplTypeId="SELECTABLE_FEATURE" sequenceNum="2" fromDate="2000-01-01 00:00:00.000" />
+<ProductFeatureAppl productId="S6DD206YRD0153" productFeatureId="D0153" productFeatureApplTypeId="STANDARD_FEATURE" sequenceNum="2" fromDate="2000-01-01 00:00:00.000" />
+<ProductFeatureAppl productId="S6DD206YRD0153.40" productFeatureId="40" productFeatureApplTypeId="STANDARD_FEATURE" fromDate="2000-01-01 00:00:00.000" />
+<ProductFeatureAppl productId="S6DD206YRD0153.40" productFeatureId="D0153" productFeatureApplTypeId="STANDARD_FEATURE" fromDate="2000-01-01 00:00:00.000" />
+<ProductAssoc productIdTo="S6DD206YRD0153.40" productId="S6DD206YRD0153" fromDate="2000-01-01 00:00:00.000" productAssocTypeId="PRODUCT_VARIANT"/>
+<ProductFacility productId="S6DD206YRD0153.40" facilityId="10000"/>
+<ProductFacility productId="S6DD206YRD0153" facilityId="10000"/>
+<Product productId="S6DD206YRD0153.42" productTypeId="FINISHED_GOOD" isVirtual="N" returnable="Y" isVariant="Y" billOfMaterialLevel="0" mpSizeType="7" />
+<GoodIdentification productId="S6DD206YRD0153.42" goodIdentificationTypeId="EAN" idValue="2000001965450" />
+<ProductFeatureAppl productId="S6DD206YRD0153" productFeatureId="42" productFeatureApplTypeId="SELECTABLE_FEATURE" sequenceNum="3" fromDate="2000-01-01 00:00:00.000" />
+<ProductFeatureAppl productId="S6DD206YRD0153" productFeatureId="D0153" productFeatureApplTypeId="STANDARD_FEATURE" sequenceNum="3" fromDate="2000-01-01 00:00:00.000" />
+<ProductFeatureAppl productId="S6DD206YRD0153.42" productFeatureId="42" productFeatureApplTypeId="STANDARD_FEATURE" fromDate="2000-01-01 00:00:00.000" />
+<ProductFeatureAppl productId="S6DD206YRD0153.42" productFeatureId="D0153" productFeatureApplTypeId="STANDARD_FEATURE" fromDate="2000-01-01 00:00:00.000" />
+<ProductAssoc productIdTo="S6DD206YRD0153.42" productId="S6DD206YRD0153" fromDate="2000-01-01 00:00:00.000" productAssocTypeId="PRODUCT_VARIANT"/>
+<ProductFacility productId="S6DD206YRD0153.42" facilityId="10000"/>
+<ProductFacility productId="S6DD206YRD0153" facilityId="10000"/>
+<Product productId="S6DD206YRD0153.44" productTypeId="FINISHED_GOOD" isVirtual="N" returnable="Y" isVariant="Y" billOfMaterialLevel="0" mpSizeType="7" />
+<GoodIdentification productId="S6DD206YRD0153.44" goodIdentificationTypeId="EAN" idValue="2000001965467" />
+<ProductFeatureAppl productId="S6DD206YRD0153" productFeatureId="44" productFeatureApplTypeId="SELECTABLE_FEATURE" sequenceNum="4" fromDate="2000-01-01 00:00:00.000" />
+<ProductFeatureAppl productId="S6DD206YRD0153" productFeatureId="D0153" productFeatureApplTypeId="STANDARD_FEATURE" sequenceNum="4" fromDate="2000-01-01 00:00:00.000" />
+<ProductFeatureAppl productId="S6DD206YRD0153.44" productFeatureId="44" productFeatureApplTypeId="STANDARD_FEATURE" fromDate="2000-01-01 00:00:00.000" />
+<ProductFeatureAppl productId="S6DD206YRD0153.44" productFeatureId="D0153" productFeatureApplTypeId="STANDARD_FEATURE" fromDate="2000-01-01 00:00:00.000" />
+<ProductAssoc productIdTo="S6DD206YRD0153.44" productId="S6DD206YRD0153" fromDate="2000-01-01 00:00:00.000" productAssocTypeId="PRODUCT_VARIANT"/>
+<ProductFacility productId="S6DD206YRD0153.44" facilityId="10000"/>
+<ProductFacility productId="S6DD206YRD0153" facilityId="10000"/>
+<Product productId="S6DD206YRD0153.46" productTypeId="FINISHED_GOOD" isVirtual="N" returnable="Y" isVariant="Y" billOfMaterialLevel="0" mpSizeType="7" />
+<GoodIdentification productId="S6DD206YRD0153.46" goodIdentificationTypeId="EAN" idValue="2000001965474" />
+<ProductFeatureAppl productId="S6DD206YRD0153" productFeatureId="46" productFeatureApplTypeId="SELECTABLE_FEATURE" sequenceNum="5" fromDate="2000-01-01 00:00:00.000" />
+<ProductFeatureAppl productId="S6DD206YRD0153" productFeatureId="D0153" productFeatureApplTypeId="STANDARD_FEATURE" sequenceNum="5" fromDate="2000-01-01 00:00:00.000" />
+<ProductFeatureAppl productId="S6DD206YRD0153.46" productFeatureId="46" productFeatureApplTypeId="STANDARD_FEATURE" fromDate="2000-01-01 00:00:00.000" />
+<ProductFeatureAppl productId="S6DD206YRD0153.46" productFeatureId="D0153" productFeatureApplTypeId="STANDARD_FEATURE" fromDate="2000-01-01 00:00:00.000" />
+<ProductAssoc productIdTo="S6DD206YRD0153.46" productId="S6DD206YRD0153" fromDate="2000-01-01 00:00:00.000" productAssocTypeId="PRODUCT_VARIANT"/>
+<ProductFacility productId="S6DD206YRD0153.46" facilityId="10000"/>
+<ProductFacility productId="S6DD206YRD0153" facilityId="10000"/>
+<Product productId="S6DD206YRD0153.48" productTypeId="FINISHED_GOOD" isVirtual="N" returnable="Y" isVariant="Y" billOfMaterialLevel="0" mpSizeType="7" />
+<GoodIdentification productId="S6DD206YRD0153.48" goodIdentificationTypeId="EAN" idValue="8053586012945" />
+<ProductFeatureAppl productId="S6DD206YRD0153" productFeatureId="48" productFeatureApplTypeId="SELECTABLE_FEATURE" sequenceNum="6" fromDate="2000-01-01 00:00:00.000" />
+<ProductFeatureAppl productId="S6DD206YRD0153" productFeatureId="D0153" productFeatureApplTypeId="STANDARD_FEATURE" sequenceNum="6" fromDate="2000-01-01 00:00:00.000" />
+<ProductFeatureAppl productId="S6DD206YRD0153.48" productFeatureId="48" productFeatureApplTypeId="STANDARD_FEATURE" fromDate="2000-01-01 00:00:00.000" />
+<ProductFeatureAppl productId="S6DD206YRD0153.48" productFeatureId="D0153" productFeatureApplTypeId="STANDARD_FEATURE" fromDate="2000-01-01 00:00:00.000" />
+<ProductAssoc productIdTo="S6DD206YRD0153.48" productId="S6DD206YRD0153" fromDate="2000-01-01 00:00:00.000" productAssocTypeId="PRODUCT_VARIANT"/>
+<ProductFacility productId="S6DD206YRD0153.48" facilityId="10000"/>
+<ProductFacility productId="S6DD206YRD0153" facilityId="10000"/>
+<ProductPrice productId="S6DD206YRD0153" productPriceTypeId="LIST_PRICE" productPricePurposeId="PURCHASE" currencyUomId="EUR" productStoreGroupId="10000" fromDate="2000-01-01 00:00:00.000" price="756.00" taxPercentage="0.220000" taxInPrice="Y" />
+<ProductPrice productId="S6DD206YRD0153" productPriceTypeId="LIST_PRICE" productPricePurposeId="PURCHASE" currencyUomId="EUR" productStoreGroupId="10001" fromDate="2000-01-01 00:00:00.000" price="756.00" taxPercentage="0.220000" taxInPrice="Y" />
+<ProductPrice productId="S6DD206YRD0153" productPriceTypeId="SPECIAL_PROMO_PRICE" productPricePurposeId="PURCHASE" currencyUomId="EUR" productStoreGroupId="10000" fromDate="2000-01-01 00:00:00.000" price="756.00" taxPercentage="0.220000" taxInPrice="Y" />
+<ProductPrice productId="S6DD206YRD0153" productPriceTypeId="SPECIAL_PROMO_PRICE" productPricePurposeId="PURCHASE" currencyUomId="EUR" productStoreGroupId="10001" fromDate="2000-01-01 00:00:00.000" price="756.00" taxPercentage="0.220000" taxInPrice="Y" />
+<ProductCategory productCategoryId="S6-022" productCategoryTypeId="CATALOG_CATEGORY" categoryName=""/>
+<DataResource dataResourceId="S6-022itds" dataResourceTypeId="ELECTRONIC_TEXT" localeString="it_IT" mimeTypeId="text/html"/>
+<ElectronicText dataResourceId="S6-022itds" textData="BOTTOMS"/>
+<Content contentId="S6-022itcn" contentTypeId="DOCUMENT" contentName="CategoryNameIT" dataResourceId="S6-022itds" localeString="it_IT" mimeTypeId="text/html"/>
+<DataResource dataResourceId="S6-022ends" dataResourceTypeId="ELECTRONIC_TEXT" localeString="en_US" mimeTypeId="text/html"/>
+<ElectronicText dataResourceId="S6-022ends" textData="TOP "/>
+<Content contentId="S6-022encn" contentTypeId="DOCUMENT" contentName="CategoryNameEN" dataResourceId="S6-022ends" localeString="en_US" mimeTypeId="text/html"/>
+<ContentAssoc contentId="S6-022itcn" contentIdTo="S6-022encn" contentAssocTypeId="ALTERNATE_LOCALE" fromDate="2000-01-01 00:00:00.000"/>
+<ProductCategoryContent productCategoryId="S6-022" contentId="S6-022itcn" prodCatContentTypeId="CATEGORY_NAME" fromDate="2000-01-01 00:00:00.000"/>
+<ProductCategoryContent productCategoryId="S6-022" contentId="S6-022encn" prodCatContentTypeId="CATEGORY_NAME" fromDate="2000-01-01 00:00:00.000"/>
+<ProductCategoryContent productCategoryId="S6-022" contentId="S6-022itcn" prodCatContentTypeId="ALTERNATIVE_URL" fromDate="2000-01-01 00:00:00.000"/>
+<ProductCategoryContent productCategoryId="S6-022" contentId="S6-022encn" prodCatContentTypeId="ALTERNATIVE_URL" fromDate="2000-01-01 00:00:00.000"/>
+<ProductCategoryRollup productCategoryId="S6-022" parentProductCategoryId="DESPHEMMES" fromDate="2000-01-01 00:00:00.000"/>
+<ProductCategory productCategoryId="022" productCategoryTypeId="CATALOG_CATEGORY" categoryName=""/>
+<DataResource dataResourceId="022itds" dataResourceTypeId="ELECTRONIC_TEXT" localeString="it_IT" mimeTypeId="text/html"/>
+<ElectronicText dataResourceId="022itds" textData="BOTTOMS"/>
+<Content contentId="022itcn" contentTypeId="DOCUMENT" contentName="CategoryNameIT" dataResourceId="022itds" localeString="it_IT" mimeTypeId="text/html"/>
+<DataResource dataResourceId="022ends" dataResourceTypeId="ELECTRONIC_TEXT" localeString="en_US" mimeTypeId="text/html"/>
+<ElectronicText dataResourceId="022ends" textData="TOP "/>
+<Content contentId="022encn" contentTypeId="DOCUMENT" contentName="CategoryNameEN" dataResourceId="022ends" localeString="en_US" mimeTypeId="text/html"/>
+<ContentAssoc contentId="022itcn" contentIdTo="022encn" contentAssocTypeId="ALTERNATE_LOCALE" fromDate="2000-01-01 00:00:00.000"/>
+<ProductCategoryContent productCategoryId="022" contentId="022itcn" prodCatContentTypeId="CATEGORY_NAME" fromDate="2000-01-01 00:00:00.000"/>
+<ProductCategoryContent productCategoryId="022" contentId="022encn" prodCatContentTypeId="CATEGORY_NAME" fromDate="2000-01-01 00:00:00.000"/>
+<ProductCategoryContent productCategoryId="022" contentId="022itcn" prodCatContentTypeId="ALTERNATIVE_URL" fromDate="2000-01-01 00:00:00.000"/>
+<ProductCategoryContent productCategoryId="022" contentId="022encn" prodCatContentTypeId="ALTERNATIVE_URL" fromDate="2000-01-01 00:00:00.000"/>
+<ProductCategoryRollup productCategoryId="022" parentProductCategoryId="DESPHEMMES" fromDate="2000-01-01 00:00:00.000"/>
+<Product productId="S6DD311DDD0101" productTypeId="FINISHED_GOOD" comments="OFF WHITE" internalName="" productName="" primaryProductCategoryId="022" description="" largeImageUrl="/images/product/DESPHEMMES/S6/S6DD311DD.D0101-A.jpg" mediumImageUrl="/images/product/DESPHEMMES/S6/S6DD311DD.D0101-A.jpg" smallImageUrl="/images/product/DESPHEMMES/S6/S6DD311DD.D0101-A.jpg" longDescription="" mpSizeType="7" isVirtual="Y" isVariant="N" returnable="Y">
+</Product>
+<ProductAttribute productId="S6DD311DDD0101" attrName="IS_CARRYOVER" attrValue="N"/>
+<ProductAttribute productId="S6DD311DDD0101" attrName="IS_CUSTOM" attrValue="N"/>
+<ProductCategoryMember productCategoryId="SEEALL" productId="S6DD311DDD0101" fromDate="2000-01-01 00:00:00.000"/>
+<DataResource dataResourceId="S6DD311DDD0101itds1" dataResourceTypeId="ELECTRONIC_TEXT" localeString="it_IT" mimeTypeId="text/html"/>
+<ElectronicText dataResourceId="S6DD311DDD0101itds1" textData="CARGO DENIM PANT"/>
+<Content contentId="S6DD311DDD0101itcn1" contentTypeId="DOCUMENT" contentName="ProductNameIT" dataResourceId="S6DD311DDD0101itds1" localeString="it_IT" mimeTypeId="text/html"/>
+<DataResource dataResourceId="S6DD311DDD0101ends1" dataResourceTypeId="ELECTRONIC_TEXT" localeString="en_US" mimeTypeId="text/html"/>
+<ElectronicText dataResourceId="S6DD311DDD0101ends1" textData="CARGO DENIM PANT"/>
+<Content contentId="S6DD311DDD0101encn1" contentTypeId="DOCUMENT" contentName="ProductNameEN" dataResourceId="S6DD311DDD0101ends1" localeString="en_US" mimeTypeId="text/html"/>
+<ContentAssoc contentId="S6DD311DDD0101itcn1" contentIdTo="S6DD311DDD0101encn1" contentAssocTypeId="ALTERNATE_LOCALE" fromDate="2000-01-01 00:00:00.000"/>
+<ProductContent productId="S6DD311DDD0101" contentId="S6DD311DDD0101itcn1" productContentTypeId="PRODUCT_NAME" fromDate="2000-01-01 00:00:00.000"/>
+<ProductContent productId="S6DD311DDD0101" contentId="S6DD311DDD0101itcn1" productContentTypeId="ALTERNATIVE_URL" fromDate="2000-01-01 00:00:00.000"/>
+<DataResource dataResourceId="S6DD311DDD0101itds2" dataResourceTypeId="ELECTRONIC_TEXT" localeString="it_IT" mimeTypeId="text/html"/>
+<ElectronicText dataResourceId="S6DD311DDD0101itds2" textData="JEANS CARGO OVERSIZE CON RICAMO ALL-OVER GOCCE E CRISTALLI FATTO A MANO*DRILL DI COTONE"/>
+<Content contentId="S6DD311DDD0101itcn2" contentTypeId="DOCUMENT" contentName="ProductDesIT" dataResourceId="S6DD311DDD0101itds2" localeString="it_IT" mimeTypeId="text/html"/>
+<DataResource dataResourceId="S6DD311DDD0101ends2" dataResourceTypeId="ELECTRONIC_TEXT" localeString="en_US" mimeTypeId="text/html"/>
+<ElectronicText dataResourceId="S6DD311DDD0101ends2" textData="OVERSIZED CARGO JEANS WITH HANDMADE TEARDROP AND CRYSTALS EMBROIDERY*COTTON DRILL"/>
+<Content contentId="S6DD311DDD0101encn2" contentTypeId="DOCUMENT" contentName="ProductDesEN" dataResourceId="S6DD311DDD0101ends2" localeString="en_US" mimeTypeId="text/html"/>
+<ContentAssoc contentId="S6DD311DDD0101itcn2" contentIdTo="S6DD311DDD0101encn2" contentAssocTypeId="ALTERNATE_LOCALE" fromDate="2000-01-01 00:00:00.000"/>
+<ProductContent productId="S6DD311DDD0101" contentId="S6DD311DDD0101itcn2" productContentTypeId="DESCRIPTION" fromDate="2000-01-01 00:00:00.000"/>
+<DataResource dataResourceId="S6DD311DDD0101itds3" dataResourceTypeId="ELECTRONIC_TEXT" localeString="it_IT" mimeTypeId="text/html"/>
+<ElectronicText dataResourceId="S6DD311DDD0101itds3" textData="JEANS CARGO OVERSIZE CON RICAMO ALL-OVER GOCCE E CRISTALLI FATTO A MANO*DRILL DI COTONE"/>
+<Content contentId="S6DD311DDD0101itcn3" contentTypeId="DOCUMENT" contentName="ProductLongDesIT" dataResourceId="S6DD311DDD0101itds3" localeString="it_IT" mimeTypeId="text/html"/>
+<DataResource dataResourceId="S6DD311DDD0101ends3" dataResourceTypeId="ELECTRONIC_TEXT" localeString="en_US" mimeTypeId="text/html"/>
+<ElectronicText dataResourceId="S6DD311DDD0101ends3" textData="OVERSIZED CARGO JEANS WITH HANDMADE TEARDROP AND CRYSTALS EMBROIDERY*COTTON DRILL"/>
+<Content contentId="S6DD311DDD0101encn3" contentTypeId="DOCUMENT" contentName="ProductLongDesEN" dataResourceId="S6DD311DDD0101ends3" localeString="en_US" mimeTypeId="text/html"/>
+<ContentAssoc contentId="S6DD311DDD0101itcn3" contentIdTo="S6DD311DDD0101encn3" contentAssocTypeId="ALTERNATE_LOCALE" fromDate="2000-01-01 00:00:00.000"/>
+<ProductContent productId="S6DD311DDD0101" contentId="S6DD311DDD0101itcn3" productContentTypeId="LONG_DESCRIPTION" fromDate="2000-01-01 00:00:00.000"/>
+<DataResource dataResourceId="S6DD311DDD0101itds4" dataResourceTypeId="ELECTRONIC_TEXT" localeString="it_IT" mimeTypeId="text/html"/>
+<ElectronicText dataResourceId="S6DD311DDD0101itds4" textData=" 99% COTONE 1% ELASTAN&lt;BR&gt;RICAMO: 100% VETRO"/>
+<Content contentId="S6DD311DDD0101itcn4" contentTypeId="DOCUMENT" contentName="CompoIT" dataResourceId="S6DD311DDD0101itds4" localeString="it_IT" mimeTypeId="text/html"/>
+<DataResource dataResourceId="S6DD311DDD0101ends4" dataResourceTypeId="ELECTRONIC_TEXT" localeString="en_US" mimeTypeId="text/html"/>
+<ElectronicText dataResourceId="S6DD311DDD0101ends4" textData=" 99% COTTON 1% ELASTHANE&lt;BR&gt;EMBROIDERY: 100% GLASS"/>
+<Content contentId="S6DD311DDD0101encn4" contentTypeId="DOCUMENT" contentName="ProductNameEN" dataResourceId="S6DD311DDD0101ends4" localeString="en_US" mimeTypeId="text/html"/>
+<ContentAssoc contentId="S6DD311DDD0101itcn4" contentIdTo="S6DD311DDD0101encn4" contentAssocTypeId="ALTERNATE_LOCALE" fromDate="2000-01-01 00:00:00.000"/>
+<ProductContent productId="S6DD311DDD0101" contentId="S6DD311DDD0101itcn4" productContentTypeId="INGREDIENTS" fromDate="2000-01-01 00:00:00.000"/>
+<DataResource dataResourceId="S6DD311DDD01011_ds" dataResourceTypeId="SHORT_TEXT" mimeTypeId="text/html" objectInfo="/images/product/DESPHEMMES/colors/D0101.jpg"/>
+<Content contentId="S6DD311DDD0101_1" contentTypeId="DOCUMENT" dataResourceId="S6DD311DDD01011_ds"/>
+<ProductContent productId="S6DD311DDD0101" contentId="S6DD311DDD0101_1" productContentTypeId="ADDITIONAL_IMAGE_1" fromDate="2000-01-01 00:00:00.000"/>
+<DataResource dataResourceId="S6DD311DDD01012_ds" dataResourceTypeId="SHORT_TEXT" mimeTypeId="text/html" objectInfo="/images/product/DESPHEMMES/S6/S6DD311DD.D0101-B.jpg"/>
+<Content contentId="S6DD311DDD0101_2" contentTypeId="DOCUMENT" dataResourceId="S6DD311DDD01012_ds"/>
+<ProductContent productId="S6DD311DDD0101" contentId="S6DD311DDD0101_2" productContentTypeId="ADDITIONAL_IMAGE_2" fromDate="2000-01-01 00:00:00.000"/>
+<DataResource dataResourceId="S6DD311DDD01013_ds" dataResourceTypeId="SHORT_TEXT" mimeTypeId="text/html" objectInfo="/images/product/DESPHEMMES/S6/S6DD311DD.D0101-C.jpg"/>
+<Content contentId="S6DD311DDD0101_3" contentTypeId="DOCUMENT" dataResourceId="S6DD311DDD01013_ds"/>
+<ProductContent productId="S6DD311DDD0101" contentId="S6DD311DDD0101_3" productContentTypeId="ADDITIONAL_IMAGE_3" fromDate="2000-01-01 00:00:00.000"/>
+<DataResource dataResourceId="S6DD311DDD01014_ds" dataResourceTypeId="SHORT_TEXT" mimeTypeId="text/html" objectInfo="/images/product/DESPHEMMES/S6/S6DD311DD.D0101-D.jpg"/>
+<Content contentId="S6DD311DDD0101_4" contentTypeId="DOCUMENT" dataResourceId="S6DD311DDD01014_ds"/>
+<ProductContent productId="S6DD311DDD0101" contentId="S6DD311DDD0101_4" productContentTypeId="ADDITIONAL_IMAGE_4" fromDate="2000-01-01 00:00:00.000"/>
+<ProductCategoryMember productCategoryId="022" productId="S6DD311DDD0101" fromDate="2000-01-01 00:00:00.000"/>
+<ProductCategoryMember productCategoryId="S6-022" productId="S6DD311DDD0101" fromDate="2000-01-01 00:00:00.000"/>
+<Product productId="S6DD311DDD0101.38" productTypeId="FINISHED_GOOD" isVirtual="N" returnable="Y" isVariant="Y" billOfMaterialLevel="0" mpSizeType="7" />
+<GoodIdentification productId="S6DD311DDD0101.38" goodIdentificationTypeId="EAN" idValue="2000001913734" />
+<ProductFeatureAppl productId="S6DD311DDD0101" productFeatureId="38" productFeatureApplTypeId="SELECTABLE_FEATURE" sequenceNum="1" fromDate="2000-01-01 00:00:00.000" />
+<ProductFeatureAppl productId="S6DD311DDD0101" productFeatureId="D0101" productFeatureApplTypeId="STANDARD_FEATURE" sequenceNum="1" fromDate="2000-01-01 00:00:00.000" />
+<ProductFeatureAppl productId="S6DD311DDD0101.38" productFeatureId="38" productFeatureApplTypeId="STANDARD_FEATURE" fromDate="2000-01-01 00:00:00.000" />
+<ProductFeatureAppl productId="S6DD311DDD0101.38" productFeatureId="D0101" productFeatureApplTypeId="STANDARD_FEATURE" fromDate="2000-01-01 00:00:00.000" />
+<ProductAssoc productIdTo="S6DD311DDD0101.38" productId="S6DD311DDD0101" fromDate="2000-01-01 00:00:00.000" productAssocTypeId="PRODUCT_VARIANT"/>
+<ProductFacility productId="S6DD311DDD0101.38" facilityId="10000"/>
+<ProductFacility productId="S6DD311DDD0101" facilityId="10000"/>
+<Product productId="S6DD311DDD0101.40" productTypeId="FINISHED_GOOD" isVirtual="N" returnable="Y" isVariant="Y" billOfMaterialLevel="0" mpSizeType="7" />
+<GoodIdentification productId="S6DD311DDD0101.40" goodIdentificationTypeId="EAN" idValue="2000001884652" />
+<ProductFeatureAppl productId="S6DD311DDD0101" productFeatureId="40" productFeatureApplTypeId="SELECTABLE_FEATURE" sequenceNum="2" fromDate="2000-01-01 00:00:00.000" />
+<ProductFeatureAppl productId="S6DD311DDD0101" productFeatureId="D0101" productFeatureApplTypeId="STANDARD_FEATURE" sequenceNum="2" fromDate="2000-01-01 00:00:00.000" />
+<ProductFeatureAppl productId="S6DD311DDD0101.40" productFeatureId="40" productFeatureApplTypeId="STANDARD_FEATURE" fromDate="2000-01-01 00:00:00.000" />
+<ProductFeatureAppl productId="S6DD311DDD0101.40" productFeatureId="D0101" productFeatureApplTypeId="STANDARD_FEATURE" fromDate="2000-01-01 00:00:00.000" />
+<ProductAssoc productIdTo="S6DD311DDD0101.40" productId="S6DD311DDD0101" fromDate="2000-01-01 00:00:00.000" productAssocTypeId="PRODUCT_VARIANT"/>
+<ProductFacility productId="S6DD311DDD0101.40" facilityId="10000"/>
+<ProductFacility productId="S6DD311DDD0101" facilityId="10000"/>
+<Product productId="S6DD311DDD0101.42" productTypeId="FINISHED_GOOD" isVirtual="N" returnable="Y" isVariant="Y" billOfMaterialLevel="0" mpSizeType="7" />
+<GoodIdentification productId="S6DD311DDD0101.42" goodIdentificationTypeId="EAN" idValue="2000001913741" />
+<ProductFeatureAppl productId="S6DD311DDD0101" productFeatureId="42" productFeatureApplTypeId="SELECTABLE_FEATURE" sequenceNum="3" fromDate="2000-01-01 00:00:00.000" />
+<ProductFeatureAppl productId="S6DD311DDD0101" productFeatureId="D0101" productFeatureApplTypeId="STANDARD_FEATURE" sequenceNum="3" fromDate="2000-01-01 00:00:00.000" />
+<ProductFeatureAppl productId="S6DD311DDD0101.42" productFeatureId="42" productFeatureApplTypeId="STANDARD_FEATURE" fromDate="2000-01-01 00:00:00.000" />
+<ProductFeatureAppl productId="S6DD311DDD0101.42" productFeatureId="D0101" productFeatureApplTypeId="STANDARD_FEATURE" fromDate="2000-01-01 00:00:00.000" />
+<ProductAssoc productIdTo="S6DD311DDD0101.42" productId="S6DD311DDD0101" fromDate="2000-01-01 00:00:00.000" productAssocTypeId="PRODUCT_VARIANT"/>
+<ProductFacility productId="S6DD311DDD0101.42" facilityId="10000"/>
+<ProductFacility productId="S6DD311DDD0101" facilityId="10000"/>
+<Product productId="S6DD311DDD0101.44" productTypeId="FINISHED_GOOD" isVirtual="N" returnable="Y" isVariant="Y" billOfMaterialLevel="0" mpSizeType="7" />
+<GoodIdentification productId="S6DD311DDD0101.44" goodIdentificationTypeId="EAN" idValue="2000001913758" />
+<ProductFeatureAppl productId="S6DD311DDD0101" productFeatureId="44" productFeatureApplTypeId="SELECTABLE_FEATURE" sequenceNum="4" fromDate="2000-01-01 00:00:00.000" />
+<ProductFeatureAppl productId="S6DD311DDD0101" productFeatureId="D0101" productFeatureApplTypeId="STANDARD_FEATURE" sequenceNum="4" fromDate="2000-01-01 00:00:00.000" />
+<ProductFeatureAppl productId="S6DD311DDD0101.44" productFeatureId="44" productFeatureApplTypeId="STANDARD_FEATURE" fromDate="2000-01-01 00:00:00.000" />
+<ProductFeatureAppl productId="S6DD311DDD0101.44" productFeatureId="D0101" productFeatureApplTypeId="STANDARD_FEATURE" fromDate="2000-01-01 00:00:00.000" />
+<ProductAssoc productIdTo="S6DD311DDD0101.44" productId="S6DD311DDD0101" fromDate="2000-01-01 00:00:00.000" productAssocTypeId="PRODUCT_VARIANT"/>
+<ProductFacility productId="S6DD311DDD0101.44" facilityId="10000"/>
+<ProductFacility productId="S6DD311DDD0101" facilityId="10000"/>
+<Product productId="S6DD311DDD0101.46" productTypeId="FINISHED_GOOD" isVirtual="N" returnable="Y" isVariant="Y" billOfMaterialLevel="0" mpSizeType="7" />
+<GoodIdentification productId="S6DD311DDD0101.46" goodIdentificationTypeId="EAN" idValue="2000001913765" />
+<ProductFeatureAppl productId="S6DD311DDD0101" productFeatureId="46" productFeatureApplTypeId="SELECTABLE_FEATURE" sequenceNum="5" fromDate="2000-01-01 00:00:00.000" />
+<ProductFeatureAppl productId="S6DD311DDD0101" productFeatureId="D0101" productFeatureApplTypeId="STANDARD_FEATURE" sequenceNum="5" fromDate="2000-01-01 00:00:00.000" />
+<ProductFeatureAppl productId="S6DD311DDD0101.46" productFeatureId="46" productFeatureApplTypeId="STANDARD_FEATURE" fromDate="2000-01-01 00:00:00.000" />
+<ProductFeatureAppl productId="S6DD311DDD0101.46" productFeatureId="D0101" productFeatureApplTypeId="STANDARD_FEATURE" fromDate="2000-01-01 00:00:00.000" />
+<ProductAssoc productIdTo="S6DD311DDD0101.46" productId="S6DD311DDD0101" fromDate="2000-01-01 00:00:00.000" productAssocTypeId="PRODUCT_VARIANT"/>
+<ProductFacility productId="S6DD311DDD0101.46" facilityId="10000"/>
+<ProductFacility productId="S6DD311DDD0101" facilityId="10000"/>
+<Product productId="S6DD311DDD0101.48" productTypeId="FINISHED_GOOD" isVirtual="N" returnable="Y" isVariant="Y" billOfMaterialLevel="0" mpSizeType="7" />
+<GoodIdentification productId="S6DD311DDD0101.48" goodIdentificationTypeId="EAN" idValue="D311DDD01016" />
+<ProductFeatureAppl productId="S6DD311DDD0101" productFeatureId="48" productFeatureApplTypeId="SELECTABLE_FEATURE" sequenceNum="6" fromDate="2000-01-01 00:00:00.000" />
+<ProductFeatureAppl productId="S6DD311DDD0101" productFeatureId="D0101" productFeatureApplTypeId="STANDARD_FEATURE" sequenceNum="6" fromDate="2000-01-01 00:00:00.000" />
+<ProductFeatureAppl productId="S6DD311DDD0101.48" productFeatureId="48" productFeatureApplTypeId="STANDARD_FEATURE" fromDate="2000-01-01 00:00:00.000" />
+<ProductFeatureAppl productId="S6DD311DDD0101.48" productFeatureId="D0101" productFeatureApplTypeId="STANDARD_FEATURE" fromDate="2000-01-01 00:00:00.000" />
+<ProductAssoc productIdTo="S6DD311DDD0101.48" productId="S6DD311DDD0101" fromDate="2000-01-01 00:00:00.000" productAssocTypeId="PRODUCT_VARIANT"/>
+<ProductFacility productId="S6DD311DDD0101.48" facilityId="10000"/>
+<ProductFacility productId="S6DD311DDD0101" facilityId="10000"/>
+<ProductPrice productId="S6DD311DDD0101" productPriceTypeId="LIST_PRICE" productPricePurposeId="PURCHASE" currencyUomId="EUR" productStoreGroupId="10000" fromDate="2000-01-01 00:00:00.000" price="535.00" taxPercentage="0.220000" taxInPrice="Y" />
+<ProductPrice productId="S6DD311DDD0101" productPriceTypeId="LIST_PRICE" productPricePurposeId="PURCHASE" currencyUomId="EUR" productStoreGroupId="10001" fromDate="2000-01-01 00:00:00.000" price="535.00" taxPercentage="0.220000" taxInPrice="Y" />
+<ProductPrice productId="S6DD311DDD0101" productPriceTypeId="SPECIAL_PROMO_PRICE" productPricePurposeId="PURCHASE" currencyUomId="EUR" productStoreGroupId="10000" fromDate="2000-01-01 00:00:00.000" price="535.00" taxPercentage="0.220000" taxInPrice="Y" />
+<ProductPrice productId="S6DD311DDD0101" productPriceTypeId="SPECIAL_PROMO_PRICE" productPricePurposeId="PURCHASE" currencyUomId="EUR" productStoreGroupId="10001" fromDate="2000-01-01 00:00:00.000" price="535.00" taxPercentage="0.220000" taxInPrice="Y" />
+<ProductCategory productCategoryId="S6-021" productCategoryTypeId="CATALOG_CATEGORY" categoryName=""/>
+<DataResource dataResourceId="S6-021itds" dataResourceTypeId="ELECTRONIC_TEXT" localeString="it_IT" mimeTypeId="text/html"/>
+<ElectronicText dataResourceId="S6-021itds" textData="DRESSES"/>
+<Content contentId="S6-021itcn" contentTypeId="DOCUMENT" contentName="CategoryNameIT" dataResourceId="S6-021itds" localeString="it_IT" mimeTypeId="text/html"/>
+<DataResource dataResourceId="S6-021ends" dataResourceTypeId="ELECTRONIC_TEXT" localeString="en_US" mimeTypeId="text/html"/>
+<ElectronicText dataResourceId="S6-021ends" textData="TOP "/>
+<Content contentId="S6-021encn" contentTypeId="DOCUMENT" contentName="CategoryNameEN" dataResourceId="S6-021ends" localeString="en_US" mimeTypeId="text/html"/>
+<ContentAssoc contentId="S6-021itcn" contentIdTo="S6-021encn" contentAssocTypeId="ALTERNATE_LOCALE" fromDate="2000-01-01 00:00:00.000"/>
+<ProductCategoryContent productCategoryId="S6-021" contentId="S6-021itcn" prodCatContentTypeId="CATEGORY_NAME" fromDate="2000-01-01 00:00:00.000"/>
+<ProductCategoryContent productCategoryId="S6-021" contentId="S6-021encn" prodCatContentTypeId="CATEGORY_NAME" fromDate="2000-01-01 00:00:00.000"/>
+<ProductCategoryContent productCategoryId="S6-021" contentId="S6-021itcn" prodCatContentTypeId="ALTERNATIVE_URL" fromDate="2000-01-01 00:00:00.000"/>
+<ProductCategoryContent productCategoryId="S6-021" contentId="S6-021encn" prodCatContentTypeId="ALTERNATIVE_URL" fromDate="2000-01-01 00:00:00.000"/>
+<ProductCategoryRollup productCategoryId="S6-021" parentProductCategoryId="DESPHEMMES" fromDate="2000-01-01 00:00:00.000"/>
+<ProductCategory productCategoryId="021" productCategoryTypeId="CATALOG_CATEGORY" categoryName=""/>
+<DataResource dataResourceId="021itds" dataResourceTypeId="ELECTRONIC_TEXT" localeString="it_IT" mimeTypeId="text/html"/>
+<ElectronicText dataResourceId="021itds" textData="DRESSES"/>
+<Content contentId="021itcn" contentTypeId="DOCUMENT" contentName="CategoryNameIT" dataResourceId="021itds" localeString="it_IT" mimeTypeId="text/html"/>
+<DataResource dataResourceId="021ends" dataResourceTypeId="ELECTRONIC_TEXT" localeString="en_US" mimeTypeId="text/html"/>
+<ElectronicText dataResourceId="021ends" textData="TOP "/>
+<Content contentId="021encn" contentTypeId="DOCUMENT" contentName="CategoryNameEN" dataResourceId="021ends" localeString="en_US" mimeTypeId="text/html"/>
+<ContentAssoc contentId="021itcn" contentIdTo="021encn" contentAssocTypeId="ALTERNATE_LOCALE" fromDate="2000-01-01 00:00:00.000"/>
+<ProductCategoryContent productCategoryId="021" contentId="021itcn" prodCatContentTypeId="CATEGORY_NAME" fromDate="2000-01-01 00:00:00.000"/>
+<ProductCategoryContent productCategoryId="021" contentId="021encn" prodCatContentTypeId="CATEGORY_NAME" fromDate="2000-01-01 00:00:00.000"/>
+<ProductCategoryContent productCategoryId="021" contentId="021itcn" prodCatContentTypeId="ALTERNATIVE_URL" fromDate="2000-01-01 00:00:00.000"/>
+<ProductCategoryContent productCategoryId="021" contentId="021encn" prodCatContentTypeId="ALTERNATIVE_URL" fromDate="2000-01-01 00:00:00.000"/>
+<ProductCategoryRollup productCategoryId="021" parentProductCategoryId="DESPHEMMES" fromDate="2000-01-01 00:00:00.000"/>
+<Product productId="S6DD533DPD0101" productTypeId="FINISHED_GOOD" comments="OFF WHITE" internalName="" productName="" primaryProductCategoryId="021" description="" largeImageUrl="/images/product/DESPHEMMES/S6/S6DD533DP.D0101-A.jpg" mediumImageUrl="/images/product/DESPHEMMES/S6/S6DD533DP.D0101-A.jpg" smallImageUrl="/images/product/DESPHEMMES/S6/S6DD533DP.D0101-A.jpg" longDescription="" mpSizeType="7" isVirtual="Y" isVariant="N" returnable="Y">
+</Product>
+<ProductAttribute productId="S6DD533DPD0101" attrName="IS_CARRYOVER" attrValue="N"/>
+<ProductAttribute productId="S6DD533DPD0101" attrName="IS_CUSTOM" attrValue="N"/>
+<ProductCategoryMember productCategoryId="SEEALL" productId="S6DD533DPD0101" fromDate="2000-01-01 00:00:00.000"/>
+<DataResource dataResourceId="S6DD533DPD0101itds1" dataResourceTypeId="ELECTRONIC_TEXT" localeString="it_IT" mimeTypeId="text/html"/>
+<ElectronicText dataResourceId="S6DD533DPD0101itds1" textData="COCOON DENIM DRESS"/>
+<Content contentId="S6DD533DPD0101itcn1" contentTypeId="DOCUMENT" contentName="ProductNameIT" dataResourceId="S6DD533DPD0101itds1" localeString="it_IT" mimeTypeId="text/html"/>
+<DataResource dataResourceId="S6DD533DPD0101ends1" dataResourceTypeId="ELECTRONIC_TEXT" localeString="en_US" mimeTypeId="text/html"/>
+<ElectronicText dataResourceId="S6DD533DPD0101ends1" textData="COCOON DENIM DRESS"/>
+<Content contentId="S6DD533DPD0101encn1" contentTypeId="DOCUMENT" contentName="ProductNameEN" dataResourceId="S6DD533DPD0101ends1" localeString="en_US" mimeTypeId="text/html"/>
+<ContentAssoc contentId="S6DD533DPD0101itcn1" contentIdTo="S6DD533DPD0101encn1" contentAssocTypeId="ALTERNATE_LOCALE" fromDate="2000-01-01 00:00:00.000"/>
+<ProductContent productId="S6DD533DPD0101" contentId="S6DD533DPD0101itcn1" productContentTypeId="PRODUCT_NAME" fromDate="2000-01-01 00:00:00.000"/>
+<ProductContent productId="S6DD533DPD0101" contentId="S6DD533DPD0101itcn1" productContentTypeId="ALTERNATIVE_URL" fromDate="2000-01-01 00:00:00.000"/>
+<DataResource dataResourceId="S6DD533DPD0101itds2" dataResourceTypeId="ELECTRONIC_TEXT" localeString="it_IT" mimeTypeId="text/html"/>
+<ElectronicText dataResourceId="S6DD533DPD0101itds2" textData="MINI ABITO COCOON CON SCOLLO A V E MANICHE CORTE AMPIE E TASCHE SUL FIANCO CON RICAMO A MANO FLOREALE IN CRISTALLI*DRILL DI COTONE"/>
+<Content contentId="S6DD533DPD0101itcn2" contentTypeId="DOCUMENT" contentName="ProductDesIT" dataResourceId="S6DD533DPD0101itds2" localeString="it_IT" mimeTypeId="text/html"/>
+<DataResource dataResourceId="S6DD533DPD0101ends2" dataResourceTypeId="ELECTRONIC_TEXT" localeString="en_US" mimeTypeId="text/html"/>
+<ElectronicText dataResourceId="S6DD533DPD0101ends2" textData="COCOON MINI DRESS FEATURING A V NECKLINE AND SHORT WIDE SLEEVES AND SIDE POCKETS WITH CRYSTAL FLORAL HANDMADE EMBROIDERY*COTTON DRILL"/>
+<Content contentId="S6DD533DPD0101encn2" contentTypeId="DOCUMENT" contentName="ProductDesEN" dataResourceId="S6DD533DPD0101ends2" localeString="en_US" mimeTypeId="text/html"/>
+<ContentAssoc contentId="S6DD533DPD0101itcn2" contentIdTo="S6DD533DPD0101encn2" contentAssocTypeId="ALTERNATE_LOCALE" fromDate="2000-01-01 00:00:00.000"/>
+<ProductContent productId="S6DD533DPD0101" contentId="S6DD533DPD0101itcn2" productContentTypeId="DESCRIPTION" fromDate="2000-01-01 00:00:00.000"/>
+<DataResource dataResourceId="S6DD533DPD0101itds3" dataResourceTypeId="ELECTRONIC_TEXT" localeString="it_IT" mimeTypeId="text/html"/>
+<ElectronicText dataResourceId="S6DD533DPD0101itds3" textData="MINI ABITO COCOON CON SCOLLO A V E MANICHE CORTE AMPIE E TASCHE SUL FIANCO CON RICAMO A MANO FLOREALE IN CRISTALLI*DRILL DI COTONE"/>
+<Content contentId="S6DD533DPD0101itcn3" contentTypeId="DOCUMENT" contentName="ProductLongDesIT" dataResourceId="S6DD533DPD0101itds3" localeString="it_IT" mimeTypeId="text/html"/>
+<DataResource dataResourceId="S6DD533DPD0101ends3" dataResourceTypeId="ELECTRONIC_TEXT" localeString="en_US" mimeTypeId="text/html"/>
+<ElectronicText dataResourceId="S6DD533DPD0101ends3" textData="COCOON MINI DRESS FEATURING A V NECKLINE AND SHORT WIDE SLEEVES AND SIDE POCKETS WITH CRYSTAL FLORAL HANDMADE EMBROIDERY*COTTON DRILL"/>
+<Content contentId="S6DD533DPD0101encn3" contentTypeId="DOCUMENT" contentName="ProductLongDesEN" dataResourceId="S6DD533DPD0101ends3" localeString="en_US" mimeTypeId="text/html"/>
+<ContentAssoc contentId="S6DD533DPD0101itcn3" contentIdTo="S6DD533DPD0101encn3" contentAssocTypeId="ALTERNATE_LOCALE" fromDate="2000-01-01 00:00:00.000"/>
+<ProductContent productId="S6DD533DPD0101" contentId="S6DD533DPD0101itcn3" productContentTypeId="LONG_DESCRIPTION" fromDate="2000-01-01 00:00:00.000"/>
+<DataResource dataResourceId="S6DD533DPD0101itds4" dataResourceTypeId="ELECTRONIC_TEXT" localeString="it_IT" mimeTypeId="text/html"/>
+<ElectronicText dataResourceId="S6DD533DPD0101itds4" textData=" 99% COTONE 1% ELASTAN&lt;BR&gt;RICAMO: 100% VETRO"/>
+<Content contentId="S6DD533DPD0101itcn4" contentTypeId="DOCUMENT" contentName="CompoIT" dataResourceId="S6DD533DPD0101itds4" localeString="it_IT" mimeTypeId="text/html"/>
+<DataResource dataResourceId="S6DD533DPD0101ends4" dataResourceTypeId="ELECTRONIC_TEXT" localeString="en_US" mimeTypeId="text/html"/>
+<ElectronicText dataResourceId="S6DD533DPD0101ends4" textData=" 99% COTTON 1% ELASTHANE&lt;BR&gt;EMBROIDERY: 100% GLASS"/>
+<Content contentId="S6DD533DPD0101encn4" contentTypeId="DOCUMENT" contentName="ProductNameEN" dataResourceId="S6DD533DPD0101ends4" localeString="en_US" mimeTypeId="text/html"/>
+<ContentAssoc contentId="S6DD533DPD0101itcn4" contentIdTo="S6DD533DPD0101encn4" contentAssocTypeId="ALTERNATE_LOCALE" fromDate="2000-01-01 00:00:00.000"/>
+<ProductContent productId="S6DD533DPD0101" contentId="S6DD533DPD0101itcn4" productContentTypeId="INGREDIENTS" fromDate="2000-01-01 00:00:00.000"/>
+<DataResource dataResourceId="S6DD533DPD01011_ds" dataResourceTypeId="SHORT_TEXT" mimeTypeId="text/html" objectInfo="/images/product/DESPHEMMES/colors/D0101.jpg"/>
+<Content contentId="S6DD533DPD0101_1" contentTypeId="DOCUMENT" dataResourceId="S6DD533DPD01011_ds"/>
+<ProductContent productId="S6DD533DPD0101" contentId="S6DD533DPD0101_1" productContentTypeId="ADDITIONAL_IMAGE_1" fromDate="2000-01-01 00:00:00.000"/>
+<DataResource dataResourceId="S6DD533DPD01012_ds" dataResourceTypeId="SHORT_TEXT" mimeTypeId="text/html" objectInfo="/images/product/DESPHEMMES/S6/S6DD533DP.D0101-B.jpg"/>
+<Content contentId="S6DD533DPD0101_2" contentTypeId="DOCUMENT" dataResourceId="S6DD533DPD01012_ds"/>
+<ProductContent productId="S6DD533DPD0101" contentId="S6DD533DPD0101_2" productContentTypeId="ADDITIONAL_IMAGE_2" fromDate="2000-01-01 00:00:00.000"/>
+<DataResource dataResourceId="S6DD533DPD01013_ds" dataResourceTypeId="SHORT_TEXT" mimeTypeId="text/html" objectInfo="/images/product/DESPHEMMES/S6/S6DD533DP.D0101-C.jpg"/>
+<Content contentId="S6DD533DPD0101_3" contentTypeId="DOCUMENT" dataResourceId="S6DD533DPD01013_ds"/>
+<ProductContent productId="S6DD533DPD0101" contentId="S6DD533DPD0101_3" productContentTypeId="ADDITIONAL_IMAGE_3" fromDate="2000-01-01 00:00:00.000"/>
+<DataResource dataResourceId="S6DD533DPD01014_ds" dataResourceTypeId="SHORT_TEXT" mimeTypeId="text/html" objectInfo="/images/product/DESPHEMMES/S6/S6DD533DP.D0101-D.jpg"/>
+<Content contentId="S6DD533DPD0101_4" contentTypeId="DOCUMENT" dataResourceId="S6DD533DPD01014_ds"/>
+<ProductContent productId="S6DD533DPD0101" contentId="S6DD533DPD0101_4" productContentTypeId="ADDITIONAL_IMAGE_4" fromDate="2000-01-01 00:00:00.000"/>
+<ProductCategoryMember productCategoryId="021" productId="S6DD533DPD0101" fromDate="2000-01-01 00:00:00.000"/>
+<ProductCategoryMember productCategoryId="S6-021" productId="S6DD533DPD0101" fromDate="2000-01-01 00:00:00.000"/>
+<Product productId="S6DD533DPD0101.38" productTypeId="FINISHED_GOOD" isVirtual="N" returnable="Y" isVariant="Y" billOfMaterialLevel="0" mpSizeType="7" />
+<GoodIdentification productId="S6DD533DPD0101.38" goodIdentificationTypeId="EAN" idValue="2000001913833" />
+<ProductFeatureAppl productId="S6DD533DPD0101" productFeatureId="38" productFeatureApplTypeId="SELECTABLE_FEATURE" sequenceNum="1" fromDate="2000-01-01 00:00:00.000" />
+<ProductFeatureAppl productId="S6DD533DPD0101" productFeatureId="D0101" productFeatureApplTypeId="STANDARD_FEATURE" sequenceNum="1" fromDate="2000-01-01 00:00:00.000" />
+<ProductFeatureAppl productId="S6DD533DPD0101.38" productFeatureId="38" productFeatureApplTypeId="STANDARD_FEATURE" fromDate="2000-01-01 00:00:00.000" />
+<ProductFeatureAppl productId="S6DD533DPD0101.38" productFeatureId="D0101" productFeatureApplTypeId="STANDARD_FEATURE" fromDate="2000-01-01 00:00:00.000" />
+<ProductAssoc productIdTo="S6DD533DPD0101.38" productId="S6DD533DPD0101" fromDate="2000-01-01 00:00:00.000" productAssocTypeId="PRODUCT_VARIANT"/>
+<ProductFacility productId="S6DD533DPD0101.38" facilityId="10000"/>
+<ProductFacility productId="S6DD533DPD0101" facilityId="10000"/>
+<Product productId="S6DD533DPD0101.40" productTypeId="FINISHED_GOOD" isVirtual="N" returnable="Y" isVariant="Y" billOfMaterialLevel="0" mpSizeType="7" />
+<GoodIdentification productId="S6DD533DPD0101.40" goodIdentificationTypeId="EAN" idValue="2000001884621" />
+<ProductFeatureAppl productId="S6DD533DPD0101" productFeatureId="40" productFeatureApplTypeId="SELECTABLE_FEATURE" sequenceNum="2" fromDate="2000-01-01 00:00:00.000" />
+<ProductFeatureAppl productId="S6DD533DPD0101" productFeatureId="D0101" productFeatureApplTypeId="STANDARD_FEATURE" sequenceNum="2" fromDate="2000-01-01 00:00:00.000" />
+<ProductFeatureAppl productId="S6DD533DPD0101.40" productFeatureId="40" productFeatureApplTypeId="STANDARD_FEATURE" fromDate="2000-01-01 00:00:00.000" />
+<ProductFeatureAppl productId="S6DD533DPD0101.40" productFeatureId="D0101" productFeatureApplTypeId="STANDARD_FEATURE" fromDate="2000-01-01 00:00:00.000" />
+<ProductAssoc productIdTo="S6DD533DPD0101.40" productId="S6DD533DPD0101" fromDate="2000-01-01 00:00:00.000" productAssocTypeId="PRODUCT_VARIANT"/>
+<ProductFacility productId="S6DD533DPD0101.40" facilityId="10000"/>
+<ProductFacility productId="S6DD533DPD0101" facilityId="10000"/>
+<Product productId="S6DD533DPD0101.42" productTypeId="FINISHED_GOOD" isVirtual="N" returnable="Y" isVariant="Y" billOfMaterialLevel="0" mpSizeType="7" />
+<GoodIdentification productId="S6DD533DPD0101.42" goodIdentificationTypeId="EAN" idValue="2000001913840" />
+<ProductFeatureAppl productId="S6DD533DPD0101" productFeatureId="42" productFeatureApplTypeId="SELECTABLE_FEATURE" sequenceNum="3" fromDate="2000-01-01 00:00:00.000" />
+<ProductFeatureAppl productId="S6DD533DPD0101" productFeatureId="D0101" productFeatureApplTypeId="STANDARD_FEATURE" sequenceNum="3" fromDate="2000-01-01 00:00:00.000" />
+<ProductFeatureAppl productId="S6DD533DPD0101.42" productFeatureId="42" productFeatureApplTypeId="STANDARD_FEATURE" fromDate="2000-01-01 00:00:00.000" />
+<ProductFeatureAppl productId="S6DD533DPD0101.42" productFeatureId="D0101" productFeatureApplTypeId="STANDARD_FEATURE" fromDate="2000-01-01 00:00:00.000" />
+<ProductAssoc productIdTo="S6DD533DPD0101.42" productId="S6DD533DPD0101" fromDate="2000-01-01 00:00:00.000" productAssocTypeId="PRODUCT_VARIANT"/>
+<ProductFacility productId="S6DD533DPD0101.42" facilityId="10000"/>
+<ProductFacility productId="S6DD533DPD0101" facilityId="10000"/>
+<Product productId="S6DD533DPD0101.44" productTypeId="FINISHED_GOOD" isVirtual="N" returnable="Y" isVariant="Y" billOfMaterialLevel="0" mpSizeType="7" />
+<GoodIdentification productId="S6DD533DPD0101.44" goodIdentificationTypeId="EAN" idValue="2000001913857" />
+<ProductFeatureAppl productId="S6DD533DPD0101" productFeatureId="44" productFeatureApplTypeId="SELECTABLE_FEATURE" sequenceNum="4" fromDate="2000-01-01 00:00:00.000" />
+<ProductFeatureAppl productId="S6DD533DPD0101" productFeatureId="D0101" productFeatureApplTypeId="STANDARD_FEATURE" sequenceNum="4" fromDate="2000-01-01 00:00:00.000" />
+<ProductFeatureAppl productId="S6DD533DPD0101.44" productFeatureId="44" productFeatureApplTypeId="STANDARD_FEATURE" fromDate="2000-01-01 00:00:00.000" />
+<ProductFeatureAppl productId="S6DD533DPD0101.44" productFeatureId="D0101" productFeatureApplTypeId="STANDARD_FEATURE" fromDate="2000-01-01 00:00:00.000" />
+<ProductAssoc productIdTo="S6DD533DPD0101.44" productId="S6DD533DPD0101" fromDate="2000-01-01 00:00:00.000" productAssocTypeId="PRODUCT_VARIANT"/>
+<ProductFacility productId="S6DD533DPD0101.44" facilityId="10000"/>
+<ProductFacility productId="S6DD533DPD0101" facilityId="10000"/>
+<Product productId="S6DD533DPD0101.46" productTypeId="FINISHED_GOOD" isVirtual="N" returnable="Y" isVariant="Y" billOfMaterialLevel="0" mpSizeType="7" />
+<GoodIdentification productId="S6DD533DPD0101.46" goodIdentificationTypeId="EAN" idValue="2000001965191" />
+<ProductFeatureAppl productId="S6DD533DPD0101" productFeatureId="46" productFeatureApplTypeId="SELECTABLE_FEATURE" sequenceNum="5" fromDate="2000-01-01 00:00:00.000" />
+<ProductFeatureAppl productId="S6DD533DPD0101" productFeatureId="D0101" productFeatureApplTypeId="STANDARD_FEATURE" sequenceNum="5" fromDate="2000-01-01 00:00:00.000" />
+<ProductFeatureAppl productId="S6DD533DPD0101.46" productFeatureId="46" productFeatureApplTypeId="STANDARD_FEATURE" fromDate="2000-01-01 00:00:00.000" />
+<ProductFeatureAppl productId="S6DD533DPD0101.46" productFeatureId="D0101" productFeatureApplTypeId="STANDARD_FEATURE" fromDate="2000-01-01 00:00:00.000" />
+<ProductAssoc productIdTo="S6DD533DPD0101.46" productId="S6DD533DPD0101" fromDate="2000-01-01 00:00:00.000" productAssocTypeId="PRODUCT_VARIANT"/>
+<ProductFacility productId="S6DD533DPD0101.46" facilityId="10000"/>
+<ProductFacility productId="S6DD533DPD0101" facilityId="10000"/>
+<Product productId="S6DD533DPD0101.48" productTypeId="FINISHED_GOOD" isVirtual="N" returnable="Y" isVariant="Y" billOfMaterialLevel="0" mpSizeType="7" />
+<GoodIdentification productId="S6DD533DPD0101.48" goodIdentificationTypeId="EAN" idValue="D533DPD01016" />
+<ProductFeatureAppl productId="S6DD533DPD0101" productFeatureId="48" productFeatureApplTypeId="SELECTABLE_FEATURE" sequenceNum="6" fromDate="2000-01-01 00:00:00.000" />
+<ProductFeatureAppl productId="S6DD533DPD0101" productFeatureId="D0101" productFeatureApplTypeId="STANDARD_FEATURE" sequenceNum="6" fromDate="2000-01-01 00:00:00.000" />
+<ProductFeatureAppl productId="S6DD533DPD0101.48" productFeatureId="48" productFeatureApplTypeId="STANDARD_FEATURE" fromDate="2000-01-01 00:00:00.000" />
+<ProductFeatureAppl productId="S6DD533DPD0101.48" productFeatureId="D0101" productFeatureApplTypeId="STANDARD_FEATURE" fromDate="2000-01-01 00:00:00.000" />
+<ProductAssoc productIdTo="S6DD533DPD0101.48" productId="S6DD533DPD0101" fromDate="2000-01-01 00:00:00.000" productAssocTypeId="PRODUCT_VARIANT"/>
+<ProductFacility productId="S6DD533DPD0101.48" facilityId="10000"/>
+<ProductFacility productId="S6DD533DPD0101" facilityId="10000"/>
+<ProductPrice productId="S6DD533DPD0101" productPriceTypeId="LIST_PRICE" productPricePurposeId="PURCHASE" currencyUomId="EUR" productStoreGroupId="10000" fromDate="2000-01-01 00:00:00.000" price="729.00" taxPercentage="0.220000" taxInPrice="Y" />
+<ProductPrice productId="S6DD533DPD0101" productPriceTypeId="LIST_PRICE" productPricePurposeId="PURCHASE" currencyUomId="EUR" productStoreGroupId="10001" fromDate="2000-01-01 00:00:00.000" price="729.00" taxPercentage="0.220000" taxInPrice="Y" />
+<ProductPrice productId="S6DD533DPD0101" productPriceTypeId="SPECIAL_PROMO_PRICE" productPricePurposeId="PURCHASE" currencyUomId="EUR" productStoreGroupId="10000" fromDate="2000-01-01 00:00:00.000" price="729.00" taxPercentage="0.220000" taxInPrice="Y" />
+<ProductPrice productId="S6DD533DPD0101" productPriceTypeId="SPECIAL_PROMO_PRICE" productPricePurposeId="PURCHASE" currencyUomId="EUR" productStoreGroupId="10001" fromDate="2000-01-01 00:00:00.000" price="729.00" taxPercentage="0.220000" taxInPrice="Y" />
+<ProductCategory productCategoryId="S6-023" productCategoryTypeId="CATALOG_CATEGORY" categoryName=""/>
+<DataResource dataResourceId="S6-023itds" dataResourceTypeId="ELECTRONIC_TEXT" localeString="it_IT" mimeTypeId="text/html"/>
+<ElectronicText dataResourceId="S6-023itds" textData="OUTERWEAR"/>
+<Content contentId="S6-023itcn" contentTypeId="DOCUMENT" contentName="CategoryNameIT" dataResourceId="S6-023itds" localeString="it_IT" mimeTypeId="text/html"/>
+<DataResource dataResourceId="S6-023ends" dataResourceTypeId="ELECTRONIC_TEXT" localeString="en_US" mimeTypeId="text/html"/>
+<ElectronicText dataResourceId="S6-023ends" textData="TOP "/>
+<Content contentId="S6-023encn" contentTypeId="DOCUMENT" contentName="CategoryNameEN" dataResourceId="S6-023ends" localeString="en_US" mimeTypeId="text/html"/>
+<ContentAssoc contentId="S6-023itcn" contentIdTo="S6-023encn" contentAssocTypeId="ALTERNATE_LOCALE" fromDate="2000-01-01 00:00:00.000"/>
+<ProductCategoryContent productCategoryId="S6-023" contentId="S6-023itcn" prodCatContentTypeId="CATEGORY_NAME" fromDate="2000-01-01 00:00:00.000"/>
+<ProductCategoryContent productCategoryId="S6-023" contentId="S6-023encn" prodCatContentTypeId="CATEGORY_NAME" fromDate="2000-01-01 00:00:00.000"/>
+<ProductCategoryContent productCategoryId="S6-023" contentId="S6-023itcn" prodCatContentTypeId="ALTERNATIVE_URL" fromDate="2000-01-01 00:00:00.000"/>
+<ProductCategoryContent productCategoryId="S6-023" contentId="S6-023encn" prodCatContentTypeId="ALTERNATIVE_URL" fromDate="2000-01-01 00:00:00.000"/>
+<ProductCategoryRollup productCategoryId="S6-023" parentProductCategoryId="DESPHEMMES" fromDate="2000-01-01 00:00:00.000"/>
+<ProductCategory productCategoryId="023" productCategoryTypeId="CATALOG_CATEGORY" categoryName=""/>
+<DataResource dataResourceId="023itds" dataResourceTypeId="ELECTRONIC_TEXT" localeString="it_IT" mimeTypeId="text/html"/>
+<ElectronicText dataResourceId="023itds" textData="OUTERWEAR"/>
+<Content contentId="023itcn" contentTypeId="DOCUMENT" contentName="CategoryNameIT" dataResourceId="023itds" localeString="it_IT" mimeTypeId="text/html"/>
+<DataResource dataResourceId="023ends" dataResourceTypeId="ELECTRONIC_TEXT" localeString="en_US" mimeTypeId="text/html"/>
+<ElectronicText dataResourceId="023ends" textData="TOP "/>
+<Content contentId="023encn" contentTypeId="DOCUMENT" contentName="CategoryNameEN" dataResourceId="023ends" localeString="en_US" mimeTypeId="text/html"/>
+<ContentAssoc contentId="023itcn" contentIdTo="023encn" contentAssocTypeId="ALTERNATE_LOCALE" fromDate="2000-01-01 00:00:00.000"/>
+<ProductCategoryContent productCategoryId="023" contentId="023itcn" prodCatContentTypeId="CATEGORY_NAME" fromDate="2000-01-01 00:00:00.000"/>
+<ProductCategoryContent productCategoryId="023" contentId="023encn" prodCatContentTypeId="CATEGORY_NAME" fromDate="2000-01-01 00:00:00.000"/>
+<ProductCategoryContent productCategoryId="023" contentId="023itcn" prodCatContentTypeId="ALTERNATIVE_URL" fromDate="2000-01-01 00:00:00.000"/>
+<ProductCategoryContent productCategoryId="023" contentId="023encn" prodCatContentTypeId="ALTERNATIVE_URL" fromDate="2000-01-01 00:00:00.000"/>
+<ProductCategoryRollup productCategoryId="023" parentProductCategoryId="DESPHEMMES" fromDate="2000-01-01 00:00:00.000"/>
+<Product productId="S6DD608DDD0101" productTypeId="FINISHED_GOOD" comments="OFF WHITE" internalName="" productName="" primaryProductCategoryId="023" description="" largeImageUrl="/images/product/DESPHEMMES/S6/S6DD608DD.D0101-A.jpg" mediumImageUrl="/images/product/DESPHEMMES/S6/S6DD608DD.D0101-A.jpg" smallImageUrl="/images/product/DESPHEMMES/S6/S6DD608DD.D0101-A.jpg" longDescription="" mpSizeType="7" isVirtual="Y" isVariant="N" returnable="Y">
+</Product>
+<ProductAttribute productId="S6DD608DDD0101" attrName="IS_CARRYOVER" attrValue="N"/>
+<ProductAttribute productId="S6DD608DDD0101" attrName="IS_CUSTOM" attrValue="N"/>
+<ProductCategoryMember productCategoryId="SEEALL" productId="S6DD608DDD0101" fromDate="2000-01-01 00:00:00.000"/>
+<DataResource dataResourceId="S6DD608DDD0101itds1" dataResourceTypeId="ELECTRONIC_TEXT" localeString="it_IT" mimeTypeId="text/html"/>
+<ElectronicText dataResourceId="S6DD608DDD0101itds1" textData="FITTED DENIM BLAZER"/>
+<Content contentId="S6DD608DDD0101itcn1" contentTypeId="DOCUMENT" contentName="ProductNameIT" dataResourceId="S6DD608DDD0101itds1" localeString="it_IT" mimeTypeId="text/html"/>
+<DataResource dataResourceId="S6DD608DDD0101ends1" dataResourceTypeId="ELECTRONIC_TEXT" localeString="en_US" mimeTypeId="text/html"/>
+<ElectronicText dataResourceId="S6DD608DDD0101ends1" textData="FITTED DENIM BLAZER"/>
+<Content contentId="S6DD608DDD0101encn1" contentTypeId="DOCUMENT" contentName="ProductNameEN" dataResourceId="S6DD608DDD0101ends1" localeString="en_US" mimeTypeId="text/html"/>
+<ContentAssoc contentId="S6DD608DDD0101itcn1" contentIdTo="S6DD608DDD0101encn1" contentAssocTypeId="ALTERNATE_LOCALE" fromDate="2000-01-01 00:00:00.000"/>
+<ProductContent productId="S6DD608DDD0101" contentId="S6DD608DDD0101itcn1" productContentTypeId="PRODUCT_NAME" fromDate="2000-01-01 00:00:00.000"/>
+<ProductContent productId="S6DD608DDD0101" contentId="S6DD608DDD0101itcn1" productContentTypeId="ALTERNATIVE_URL" fromDate="2000-01-01 00:00:00.000"/>
+<DataResource dataResourceId="S6DD608DDD0101itds2" dataResourceTypeId="ELECTRONIC_TEXT" localeString="it_IT" mimeTypeId="text/html"/>
+<ElectronicText dataResourceId="S6DD608DDD0101itds2" textData="BLAZER STRUTTURATO DENIM CON TASCA A TOPPA CON PINCES DAVANTI E DIETRO E BOTTONI LOGATI*RICAMO ALL-OVER PERLE A GOCCIA E CRISTALLI FATTO A MANO*DRILL DI COTONE"/>
+<Content contentId="S6DD608DDD0101itcn2" contentTypeId="DOCUMENT" contentName="ProductDesIT" dataResourceId="S6DD608DDD0101itds2" localeString="it_IT" mimeTypeId="text/html"/>
+<DataResource dataResourceId="S6DD608DDD0101ends2" dataResourceTypeId="ELECTRONIC_TEXT" localeString="en_US" mimeTypeId="text/html"/>
+<ElectronicText dataResourceId="S6DD608DDD0101ends2" textData="FITTED DENIM BLAZER FEATURING PATCH POCKET WITH FRONT AND BACK DARTS AND BRANDED METAL BUTTONS*HANDMADE EMBROIDERY WITH TEARDROP PEARLS AND CRYSTALS*COTTON DRILL"/>
+<Content contentId="S6DD608DDD0101encn2" contentTypeId="DOCUMENT" contentName="ProductDesEN" dataResourceId="S6DD608DDD0101ends2" localeString="en_US" mimeTypeId="text/html"/>
+<ContentAssoc contentId="S6DD608DDD0101itcn2" contentIdTo="S6DD608DDD0101encn2" contentAssocTypeId="ALTERNATE_LOCALE" fromDate="2000-01-01 00:00:00.000"/>
+<ProductContent productId="S6DD608DDD0101" contentId="S6DD608DDD0101itcn2" productContentTypeId="DESCRIPTION" fromDate="2000-01-01 00:00:00.000"/>
+<DataResource dataResourceId="S6DD608DDD0101itds3" dataResourceTypeId="ELECTRONIC_TEXT" localeString="it_IT" mimeTypeId="text/html"/>
+<ElectronicText dataResourceId="S6DD608DDD0101itds3" textData="BLAZER STRUTTURATO DENIM CON TASCA A TOPPA CON PINCES DAVANTI E DIETRO E BOTTONI LOGATI*RICAMO ALL-OVER PERLE A GOCCIA E CRISTALLI FATTO A MANO*DRILL DI COTONE"/>
+<Content contentId="S6DD608DDD0101itcn3" contentTypeId="DOCUMENT" contentName="ProductLongDesIT" dataResourceId="S6DD608DDD0101itds3" localeString="it_IT" mimeTypeId="text/html"/>
+<DataResource dataResourceId="S6DD608DDD0101ends3" dataResourceTypeId="ELECTRONIC_TEXT" localeString="en_US" mimeTypeId="text/html"/>
+<ElectronicText dataResourceId="S6DD608DDD0101ends3" textData="FITTED DENIM BLAZER FEATURING PATCH POCKET WITH FRONT AND BACK DARTS AND BRANDED METAL BUTTONS*HANDMADE EMBROIDERY WITH TEARDROP PEARLS AND CRYSTALS*COTTON DRILL"/>
+<Content contentId="S6DD608DDD0101encn3" contentTypeId="DOCUMENT" contentName="ProductLongDesEN" dataResourceId="S6DD608DDD0101ends3" localeString="en_US" mimeTypeId="text/html"/>
+<ContentAssoc contentId="S6DD608DDD0101itcn3" contentIdTo="S6DD608DDD0101encn3" contentAssocTypeId="ALTERNATE_LOCALE" fromDate="2000-01-01 00:00:00.000"/>
+<ProductContent productId="S6DD608DDD0101" contentId="S6DD608DDD0101itcn3" productContentTypeId="LONG_DESCRIPTION" fromDate="2000-01-01 00:00:00.000"/>
+<DataResource dataResourceId="S6DD608DDD0101itds4" dataResourceTypeId="ELECTRONIC_TEXT" localeString="it_IT" mimeTypeId="text/html"/>
+<ElectronicText dataResourceId="S6DD608DDD0101itds4" textData=" 99% COTONE 1% ELASTAN&lt;BR&gt;RICAMO: 100% VETRO"/>
+<Content contentId="S6DD608DDD0101itcn4" contentTypeId="DOCUMENT" contentName="CompoIT" dataResourceId="S6DD608DDD0101itds4" localeString="it_IT" mimeTypeId="text/html"/>
+<DataResource dataResourceId="S6DD608DDD0101ends4" dataResourceTypeId="ELECTRONIC_TEXT" localeString="en_US" mimeTypeId="text/html"/>
+<ElectronicText dataResourceId="S6DD608DDD0101ends4" textData=" 99% COTTON 1% ELASTHANE&lt;BR&gt;EMBROIDERY: 100% GLASS"/>
+<Content contentId="S6DD608DDD0101encn4" contentTypeId="DOCUMENT" contentName="ProductNameEN" dataResourceId="S6DD608DDD0101ends4" localeString="en_US" mimeTypeId="text/html"/>
+<ContentAssoc contentId="S6DD608DDD0101itcn4" contentIdTo="S6DD608DDD0101encn4" contentAssocTypeId="ALTERNATE_LOCALE" fromDate="2000-01-01 00:00:00.000"/>
+<ProductContent productId="S6DD608DDD0101" contentId="S6DD608DDD0101itcn4" productContentTypeId="INGREDIENTS" fromDate="2000-01-01 00:00:00.000"/>
+<DataResource dataResourceId="S6DD608DDD01011_ds" dataResourceTypeId="SHORT_TEXT" mimeTypeId="text/html" objectInfo="/images/product/DESPHEMMES/colors/D0101.jpg"/>
+<Content contentId="S6DD608DDD0101_1" contentTypeId="DOCUMENT" dataResourceId="S6DD608DDD01011_ds"/>
+<ProductContent productId="S6DD608DDD0101" contentId="S6DD608DDD0101_1" productContentTypeId="ADDITIONAL_IMAGE_1" fromDate="2000-01-01 00:00:00.000"/>
+<DataResource dataResourceId="S6DD608DDD01012_ds" dataResourceTypeId="SHORT_TEXT" mimeTypeId="text/html" objectInfo="/images/product/DESPHEMMES/S6/S6DD608DD.D0101-B.jpg"/>
+<Content contentId="S6DD608DDD0101_2" contentTypeId="DOCUMENT" dataResourceId="S6DD608DDD01012_ds"/>
+<ProductContent productId="S6DD608DDD0101" contentId="S6DD608DDD0101_2" productContentTypeId="ADDITIONAL_IMAGE_2" fromDate="2000-01-01 00:00:00.000"/>
+<DataResource dataResourceId="S6DD608DDD01013_ds" dataResourceTypeId="SHORT_TEXT" mimeTypeId="text/html" objectInfo="/images/product/DESPHEMMES/S6/S6DD608DD.D0101-C.jpg"/>
+<Content contentId="S6DD608DDD0101_3" contentTypeId="DOCUMENT" dataResourceId="S6DD608DDD01013_ds"/>
+<ProductContent productId="S6DD608DDD0101" contentId="S6DD608DDD0101_3" productContentTypeId="ADDITIONAL_IMAGE_3" fromDate="2000-01-01 00:00:00.000"/>
+<DataResource dataResourceId="S6DD608DDD01014_ds" dataResourceTypeId="SHORT_TEXT" mimeTypeId="text/html" objectInfo="/images/product/DESPHEMMES/S6/S6DD608DD.D0101-D.jpg"/>
+<Content contentId="S6DD608DDD0101_4" contentTypeId="DOCUMENT" dataResourceId="S6DD608DDD01014_ds"/>
+<ProductContent productId="S6DD608DDD0101" contentId="S6DD608DDD0101_4" productContentTypeId="ADDITIONAL_IMAGE_4" fromDate="2000-01-01 00:00:00.000"/>
+<ProductCategoryMember productCategoryId="023" productId="S6DD608DDD0101" fromDate="2000-01-01 00:00:00.000"/>
+<ProductCategoryMember productCategoryId="S6-023" productId="S6DD608DDD0101" fromDate="2000-01-01 00:00:00.000"/>
+<Product productId="S6DD608DDD0101.38" productTypeId="FINISHED_GOOD" isVirtual="N" returnable="Y" isVariant="Y" billOfMaterialLevel="0" mpSizeType="7" />
+<GoodIdentification productId="S6DD608DDD0101.38" goodIdentificationTypeId="EAN" idValue="D608DDD01011" />
+<ProductFeatureAppl productId="S6DD608DDD0101" productFeatureId="38" productFeatureApplTypeId="SELECTABLE_FEATURE" sequenceNum="1" fromDate="2000-01-01 00:00:00.000" />
+<ProductFeatureAppl productId="S6DD608DDD0101" productFeatureId="D0101" productFeatureApplTypeId="STANDARD_FEATURE" sequenceNum="1" fromDate="2000-01-01 00:00:00.000" />
+<ProductFeatureAppl productId="S6DD608DDD0101.38" productFeatureId="38" productFeatureApplTypeId="STANDARD_FEATURE" fromDate="2000-01-01 00:00:00.000" />
+<ProductFeatureAppl productId="S6DD608DDD0101.38" productFeatureId="D0101" productFeatureApplTypeId="STANDARD_FEATURE" fromDate="2000-01-01 00:00:00.000" />
+<ProductAssoc productIdTo="S6DD608DDD0101.38" productId="S6DD608DDD0101" fromDate="2000-01-01 00:00:00.000" productAssocTypeId="PRODUCT_VARIANT"/>
+<ProductFacility productId="S6DD608DDD0101.38" facilityId="10000"/>
+<ProductFacility productId="S6DD608DDD0101" facilityId="10000"/>
+<Product productId="S6DD608DDD0101.40" productTypeId="FINISHED_GOOD" isVirtual="N" returnable="Y" isVariant="Y" billOfMaterialLevel="0" mpSizeType="7" />
+<GoodIdentification productId="S6DD608DDD0101.40" goodIdentificationTypeId="EAN" idValue="2000001888803" />
+<ProductFeatureAppl productId="S6DD608DDD0101" productFeatureId="40" productFeatureApplTypeId="SELECTABLE_FEATURE" sequenceNum="2" fromDate="2000-01-01 00:00:00.000" />
+<ProductFeatureAppl productId="S6DD608DDD0101" productFeatureId="D0101" productFeatureApplTypeId="STANDARD_FEATURE" sequenceNum="2" fromDate="2000-01-01 00:00:00.000" />
+<ProductFeatureAppl productId="S6DD608DDD0101.40" productFeatureId="40" productFeatureApplTypeId="STANDARD_FEATURE" fromDate="2000-01-01 00:00:00.000" />
+<ProductFeatureAppl productId="S6DD608DDD0101.40" productFeatureId="D0101" productFeatureApplTypeId="STANDARD_FEATURE" fromDate="2000-01-01 00:00:00.000" />
+<ProductAssoc productIdTo="S6DD608DDD0101.40" productId="S6DD608DDD0101" fromDate="2000-01-01 00:00:00.000" productAssocTypeId="PRODUCT_VARIANT"/>
+<ProductFacility productId="S6DD608DDD0101.40" facilityId="10000"/>
+<ProductFacility productId="S6DD608DDD0101" facilityId="10000"/>
+<Product productId="S6DD608DDD0101.42" productTypeId="FINISHED_GOOD" isVirtual="N" returnable="Y" isVariant="Y" billOfMaterialLevel="0" mpSizeType="7" />
+<GoodIdentification productId="S6DD608DDD0101.42" goodIdentificationTypeId="EAN" idValue="2000001965283" />
+<ProductFeatureAppl productId="S6DD608DDD0101" productFeatureId="42" productFeatureApplTypeId="SELECTABLE_FEATURE" sequenceNum="3" fromDate="2000-01-01 00:00:00.000" />
+<ProductFeatureAppl productId="S6DD608DDD0101" productFeatureId="D0101" productFeatureApplTypeId="STANDARD_FEATURE" sequenceNum="3" fromDate="2000-01-01 00:00:00.000" />
+<ProductFeatureAppl productId="S6DD608DDD0101.42" productFeatureId="42" productFeatureApplTypeId="STANDARD_FEATURE" fromDate="2000-01-01 00:00:00.000" />
+<ProductFeatureAppl productId="S6DD608DDD0101.42" productFeatureId="D0101" productFeatureApplTypeId="STANDARD_FEATURE" fromDate="2000-01-01 00:00:00.000" />
+<ProductAssoc productIdTo="S6DD608DDD0101.42" productId="S6DD608DDD0101" fromDate="2000-01-01 00:00:00.000" productAssocTypeId="PRODUCT_VARIANT"/>
+<ProductFacility productId="S6DD608DDD0101.42" facilityId="10000"/>
+<ProductFacility productId="S6DD608DDD0101" facilityId="10000"/>
+<Product productId="S6DD608DDD0101.44" productTypeId="FINISHED_GOOD" isVirtual="N" returnable="Y" isVariant="Y" billOfMaterialLevel="0" mpSizeType="7" />
+<GoodIdentification productId="S6DD608DDD0101.44" goodIdentificationTypeId="EAN" idValue="2000001965290" />
+<ProductFeatureAppl productId="S6DD608DDD0101" productFeatureId="44" productFeatureApplTypeId="SELECTABLE_FEATURE" sequenceNum="4" fromDate="2000-01-01 00:00:00.000" />
+<ProductFeatureAppl productId="S6DD608DDD0101" productFeatureId="D0101" productFeatureApplTypeId="STANDARD_FEATURE" sequenceNum="4" fromDate="2000-01-01 00:00:00.000" />
+<ProductFeatureAppl productId="S6DD608DDD0101.44" productFeatureId="44" productFeatureApplTypeId="STANDARD_FEATURE" fromDate="2000-01-01 00:00:00.000" />
+<ProductFeatureAppl productId="S6DD608DDD0101.44" productFeatureId="D0101" productFeatureApplTypeId="STANDARD_FEATURE" fromDate="2000-01-01 00:00:00.000" />
+<ProductAssoc productIdTo="S6DD608DDD0101.44" productId="S6DD608DDD0101" fromDate="2000-01-01 00:00:00.000" productAssocTypeId="PRODUCT_VARIANT"/>
+<ProductFacility productId="S6DD608DDD0101.44" facilityId="10000"/>
+<ProductFacility productId="S6DD608DDD0101" facilityId="10000"/>
+<Product productId="S6DD608DDD0101.46" productTypeId="FINISHED_GOOD" isVirtual="N" returnable="Y" isVariant="Y" billOfMaterialLevel="0" mpSizeType="7" />
+<GoodIdentification productId="S6DD608DDD0101.46" goodIdentificationTypeId="EAN" idValue="2000001965306" />
+<ProductFeatureAppl productId="S6DD608DDD0101" productFeatureId="46" productFeatureApplTypeId="SELECTABLE_FEATURE" sequenceNum="5" fromDate="2000-01-01 00:00:00.000" />
+<ProductFeatureAppl productId="S6DD608DDD0101" productFeatureId="D0101" productFeatureApplTypeId="STANDARD_FEATURE" sequenceNum="5" fromDate="2000-01-01 00:00:00.000" />
+<ProductFeatureAppl productId="S6DD608DDD0101.46" productFeatureId="46" productFeatureApplTypeId="STANDARD_FEATURE" fromDate="2000-01-01 00:00:00.000" />
+<ProductFeatureAppl productId="S6DD608DDD0101.46" productFeatureId="D0101" productFeatureApplTypeId="STANDARD_FEATURE" fromDate="2000-01-01 00:00:00.000" />
+<ProductAssoc productIdTo="S6DD608DDD0101.46" productId="S6DD608DDD0101" fromDate="2000-01-01 00:00:00.000" productAssocTypeId="PRODUCT_VARIANT"/>
+<ProductFacility productId="S6DD608DDD0101.46" facilityId="10000"/>
+<ProductFacility productId="S6DD608DDD0101" facilityId="10000"/>
+<Product productId="S6DD608DDD0101.48" productTypeId="FINISHED_GOOD" isVirtual="N" returnable="Y" isVariant="Y" billOfMaterialLevel="0" mpSizeType="7" />
+<GoodIdentification productId="S6DD608DDD0101.48" goodIdentificationTypeId="EAN" idValue="D608DDD01016" />
+<ProductFeatureAppl productId="S6DD608DDD0101" productFeatureId="48" productFeatureApplTypeId="SELECTABLE_FEATURE" sequenceNum="6" fromDate="2000-01-01 00:00:00.000" />
+<ProductFeatureAppl productId="S6DD608DDD0101" productFeatureId="D0101" productFeatureApplTypeId="STANDARD_FEATURE" sequenceNum="6" fromDate="2000-01-01 00:00:00.000" />
+<ProductFeatureAppl productId="S6DD608DDD0101.48" productFeatureId="48" productFeatureApplTypeId="STANDARD_FEATURE" fromDate="2000-01-01 00:00:00.000" />
+<ProductFeatureAppl productId="S6DD608DDD0101.48" productFeatureId="D0101" productFeatureApplTypeId="STANDARD_FEATURE" fromDate="2000-01-01 00:00:00.000" />
+<ProductAssoc productIdTo="S6DD608DDD0101.48" productId="S6DD608DDD0101" fromDate="2000-01-01 00:00:00.000" productAssocTypeId="PRODUCT_VARIANT"/>
+<ProductFacility productId="S6DD608DDD0101.48" facilityId="10000"/>
+<ProductFacility productId="S6DD608DDD0101" facilityId="10000"/>
+<ProductPrice productId="S6DD608DDD0101" productPriceTypeId="LIST_PRICE" productPricePurposeId="PURCHASE" currencyUomId="EUR" productStoreGroupId="10000" fromDate="2000-01-01 00:00:00.000" price="675.00" taxPercentage="0.220000" taxInPrice="Y" />
+<ProductPrice productId="S6DD608DDD0101" productPriceTypeId="LIST_PRICE" productPricePurposeId="PURCHASE" currencyUomId="EUR" productStoreGroupId="10001" fromDate="2000-01-01 00:00:00.000" price="675.00" taxPercentage="0.220000" taxInPrice="Y" />
+<ProductPrice productId="S6DD608DDD0101" productPriceTypeId="SPECIAL_PROMO_PRICE" productPricePurposeId="PURCHASE" currencyUomId="EUR" productStoreGroupId="10000" fromDate="2000-01-01 00:00:00.000" price="675.00" taxPercentage="0.220000" taxInPrice="Y" />
+<ProductPrice productId="S6DD608DDD0101" productPriceTypeId="SPECIAL_PROMO_PRICE" productPricePurposeId="PURCHASE" currencyUomId="EUR" productStoreGroupId="10001" fromDate="2000-01-01 00:00:00.000" price="675.00" taxPercentage="0.220000" taxInPrice="Y" />
+</entity-engine-xml>
