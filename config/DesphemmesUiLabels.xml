@@ -98,6 +98,11 @@ under the License.
         <value xml:lang="en">New In</value>
     </property>
 
+    <property key="Knitwear">
+        <value xml:lang="it">Knitwear</value>
+        <value xml:lang="en">Knitwear</value>
+    </property>
+
     <property key="SeeAll">
         <value xml:lang="it">Shop SS26</value>
         <value xml:lang="en">Shop SS26</value>

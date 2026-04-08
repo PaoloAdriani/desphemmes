@@ -84,6 +84,7 @@
     <#include "homepage/categoryRow01.ftl" />
     <#include "homepage/categoryRow02.ftl" />
     <#include "homepage/categoryRow03.ftl" />
+    <#include "homepage/categoryRow04.ftl" />
 
 
 </#macro>
