@@ -18,7 +18,7 @@
                 ============================================= -->
                 <nav class="primary-menu with-arrows me-lg-0 order-lg-3 order-5">
 
-                    <!-- Menu Left -->
+                    <!-- Menu Right -->
                     <form method="post"
                           name="chooseLanguage"
                           action="<@ofbizUrl>setSessionLocale</@ofbizUrl>"
@@ -143,6 +143,7 @@
 
                     <!-- Menu Left -->
                     <ul class="menu-container">
+                        <li class="menu-item"><a class="menu-link upper" href="#"><div>${SystemLabelMap.NewIn}</div></a></li>
                          <li class="menu-item mega-menu mega-menu-small"><a class="menu-link upper" href="#"><div>Shop</div></a>
                             <div class="mega-menu-content mega-menu-style-2">
                                 <div class="container">
@@ -161,8 +162,7 @@
                             </div>
                          </li>
 
-                        <li class="menu-item"><a class="menu-link upper" href="<@ofbizUrl>campaign</@ofbizUrl>"><div>${SystemLabelMap.Campaign}</div></a></li>
-                        <#--<li class="menu-item"><a class="menu-link upper" href="<@ofbizUrl>stores</@ofbizUrl>"><div>${SystemLabelMap.Stores}</div></a></li>-->
+                        <li class="menu-item"><a class="menu-link upper" href="https://www.desphemmes.com"><div>${SystemLabelMap.Brand}</div></a></li>
                     </ul>
 
                 </nav><!-- #primary-menu end -->

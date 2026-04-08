@@ -73,11 +73,21 @@ under the License.
         <value xml:lang="en">Crystals</value>
     </property>
 
+    <property key="NewIn">
+        <value xml:lang="it">New In</value>
+        <value xml:lang="en">New In</value>
+    </property>
+
     <property key="Fitness">
         <value xml:lang="it">Fitness</value>
         <value xml:lang="en">Fitness</value>
     </property>
     <!-- END MENU VOICES -->
+
+    <property key="Brand">
+        <value xml:lang="it">Brand</value>
+        <value xml:lang="en">Brand</value>
+    </property>
 
     <property key="Campaign">
         <value xml:lang="it">Campaign</value>
