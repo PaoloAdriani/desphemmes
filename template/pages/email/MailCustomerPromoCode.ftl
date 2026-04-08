@@ -1178,7 +1178,7 @@
                                                                     </p>
                                                                     <#-- @giulio Promo Need Help -->
                                                                     <p style="font-family: &quot;Montserrat&quot;, Arial, sans-serif; font-size: 12px; text-align: center;">
-                                                                      ${emailLabelMap.PromoCodeNeedHelp} <a href="mailto:customercare@desphemmes.it">customercare@desphemmes.it</a>
+                                                                      ${emailLabelMap.PromoCodeNeedHelp} <a href="mailto:customercare@shopdesphemmes.com">customercare@shopdesphemmes.com</a>
                                                                     </p>
                                                                 </div>
                                                             </td>

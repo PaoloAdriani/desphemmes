@@ -1,0 +1,36 @@
+<div class="row">
+    <div class="col-6 p-0">
+        <a class="category-banner-link" href="<@ofbizCatalogAltUrl productCategoryId="NEWIN"/>">
+            <picture>
+                <!-- mobile -->
+                <source media="(max-width: 768px)" srcset="<@ofbizContentUrl>${assetspath}/images/homepage/mobile/newin_mob.jpg</@ofbizContentUrl>">
+
+                <!-- tablet -->
+                <source media="(max-width: 1200px)" srcset="<@ofbizContentUrl>${assetspath}/images/homepage/newin_desk.jpg</@ofbizContentUrl>">
+
+                <!-- fallback desktop -->
+                <img src="<@ofbizContentUrl>${assetspath}/images/homepage/newin_desk.jpg</@ofbizContentUrl>" class="banner-img" alt="New In">
+            </picture>
+            <div class="banner-caption">
+                <h2 class="banner-title font-sz-large text-uppercase text-white" data-animate="fadeInUp">${SystemLabelMap.NewIn}</h2>
+            </div>
+        </a>
+    </div>
+    <div class="col-6 p-0">
+        <a class="category-banner-link" href="<@ofbizCatalogAltUrl productCategoryId="SEEALL"/>">
+            <picture>
+                <!-- mobile -->
+                <source media="(max-width: 768px)" srcset="<@ofbizContentUrl>${assetspath}/images/homepage/mobile/seeall_mob.jpg</@ofbizContentUrl>">
+
+                <!-- tablet -->
+                <source media="(max-width: 1200px)" srcset="<@ofbizContentUrl>${assetspath}/images/homepage/seeall_desk.jpg</@ofbizContentUrl>">
+
+                <!-- fallback desktop -->
+                <img src="<@ofbizContentUrl>${assetspath}/images/homepage/seeall_desk.jpg</@ofbizContentUrl>" class="banner-img" alt="See All">
+            </picture>
+            <div class="banner-caption">
+                <h2 class="banner-title font-sz-large text-uppercase text-white" data-animate="fadeInUp">${SystemLabelMap.SeeAll}</h2>
+            </div>
+        </a>
+    </div>
+</div>

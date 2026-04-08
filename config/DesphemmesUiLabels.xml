@@ -63,6 +63,26 @@ under the License.
         <value xml:lang="en">Bikini Slip</value>
     </property>
 
+    <property key="Bottoms">
+        <value xml:lang="it">Bottoms</value>
+        <value xml:lang="en">Bottoms</value>
+    </property>
+
+    <property key="Tops">
+        <value xml:lang="it">Tops</value>
+        <value xml:lang="en">Tops</value>
+    </property>
+
+    <property key="Outerwear">
+        <value xml:lang="it">Outerwear</value>
+        <value xml:lang="en">Outerwear</value>
+    </property>
+
+    <property key="Dresses">
+        <value xml:lang="it">Dresses</value>
+        <value xml:lang="en">Dresses</value>
+    </property>
+
     <property key="Swimsuit">
         <value xml:lang="it">Interi</value>
         <value xml:lang="en">Swimsuit</value>
@@ -76,6 +96,11 @@ under the License.
     <property key="NewIn">
         <value xml:lang="it">New In</value>
         <value xml:lang="en">New In</value>
+    </property>
+
+    <property key="SeeAll">
+        <value xml:lang="it">Shop SS26</value>
+        <value xml:lang="en">Shop SS26</value>
     </property>
 
     <property key="Fitness">

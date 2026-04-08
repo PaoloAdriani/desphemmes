@@ -1191,7 +1191,7 @@
 
                                                                 <div class="text" id="u5">
                                                                     <p style="font-family: &quot;Montserrat&quot;, Arial, sans-serif; font-size: 12px; text-align: center;">${emailLabelMap.OrderConfirmationNeedHelp} <#-- LABEL -->
-                                                                        <br> ${emailLabelMap.OrderConfirmationAtAddress} <a href="mailto:customercare@desphemmes.it">customercare@desphemmes.it</a>
+                                                                        <br> ${emailLabelMap.OrderConfirmationAtAddress} <a href="mailto:customercare@shopdesphemmes.com">customercare@shopdesphemmes.com</a>
                                                                     </p>
                                                                 </div>
                                                             </td>

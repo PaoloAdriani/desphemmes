@@ -80,10 +80,10 @@
 
 <#macro page_body>
 
-    <#include "homepage/sliderTop007.ftl" />
-    <#include "homepage/sliderDresses021.ftl" />
-    <#include "homepage/sliderBottoms022.ftl" />
-    <#include "homepage/sliderOuterwear023.ftl" />
+    <#include "homepage/sliderNewIn.ftl" />
+    <#include "homepage/categoryRow01.ftl" />
+    <#include "homepage/categoryRow02.ftl" />
+    <#include "homepage/categoryRow03.ftl" />
 
 
 </#macro>

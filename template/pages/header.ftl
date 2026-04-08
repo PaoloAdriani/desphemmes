@@ -143,7 +143,7 @@
 
                     <!-- Menu Left -->
                     <ul class="menu-container">
-                        <li class="menu-item"><a class="menu-link upper" href="#"><div>${SystemLabelMap.NewIn}</div></a></li>
+                        <li class="menu-item"><a class="menu-link upper" href="<@ofbizCatalogAltUrl productCategoryId="NEWIN"/>"><div>${SystemLabelMap.NewIn}</div></a></li>
                          <li class="menu-item mega-menu mega-menu-small"><a class="menu-link upper" href="#"><div>Shop</div></a>
                             <div class="mega-menu-content mega-menu-style-2">
                                 <div class="container">

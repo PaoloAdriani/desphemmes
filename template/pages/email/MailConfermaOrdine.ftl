@@ -1677,7 +1677,7 @@
                                                             <td class="mcnTextContent" style="padding: 0px 18px 40px 0px; font-family: &quot;Montserrat&quot;, Arial, sans-serif; font-size: 12px; text-align: left;" valign="top">
 
                                                               <p style="font-family: &quot;Montserrat&quot;, sans-serif; font-size: 12px;">${emailLabelMap.PerQualsiasiRichiesta}</p>
-                                                              <a href="mailto:customercare@desphemmes.it" >customercare@desphemmes.it</a>
+                                                              <a href="mailto:customercare@shopdesphemmes.com" >customercare@shopdesphemmes.com</a>
                                                                 <p style="font-family: &quot;Montserrat&quot;, Arial, sans-serif; font-size: 12px; text-align: left;">${emailLabelMap.OrderConfirmationBye},
                                                                     <br> ${emailLabelMap.NewsletterTeam}</p>
 
