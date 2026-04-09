@@ -1,35 +1,35 @@
 <div class="row">
     <div class="col-6 p-0">
-        <a class="category-banner-link" href="<@ofbizCatalogAltUrl productCategoryId="S6-022"/>">
+        <a class="category-banner-link" href="<@ofbizCatalogAltUrl productCategoryId="SEEALL"/>">
             <picture>
                 <!-- mobile -->
-                <source media="(max-width: 768px)" srcset="<@ofbizContentUrl>${assetspath}/images/homepage/mobile/bottoms022_mob.jpg</@ofbizContentUrl>">
+                <source media="(max-width: 768px)" srcset="<@ofbizContentUrl>${assetspath}/images/homepage/mobile/seeall_mob.jpg</@ofbizContentUrl>">
 
                 <!-- tablet -->
-                <source media="(max-width: 1200px)" srcset="<@ofbizContentUrl>${assetspath}/images/homepage/bottoms022_desk.jpg</@ofbizContentUrl>">
+                <source media="(max-width: 1200px)" srcset="<@ofbizContentUrl>${assetspath}/images/homepage/seeall_desk.jpg</@ofbizContentUrl>">
 
                 <!-- fallback desktop -->
-                <img src="<@ofbizContentUrl>${assetspath}/images/homepage/bottoms022_desk.jpg</@ofbizContentUrl>" class="banner-img" alt="Bottoms">
+                <img src="<@ofbizContentUrl>${assetspath}/images/homepage/seeall_desk.jpg</@ofbizContentUrl>" class="banner-img" alt="See All">
             </picture>
             <div class="banner-caption">
-                <h2 class="banner-title font-sz-large text-uppercase text-white" data-animate="fadeInUp">${SystemLabelMap.Bottoms}</h2>
+                <h2 class="banner-title font-sz-large text-uppercase text-white" data-animate="fadeInUp">${SystemLabelMap.SeeAll}</h2>
             </div>
         </a>
     </div>
     <div class="col-6 p-0">
-        <a class="category-banner-link" href="<@ofbizCatalogAltUrl productCategoryId="S6-007"/>">
+        <a class="category-banner-link" href="<@ofbizCatalogAltUrl productCategoryId="S6-021"/>">
             <picture>
                 <!-- mobile -->
-                <source media="(max-width: 768px)" srcset="<@ofbizContentUrl>${assetspath}/images/homepage/mobile/top007_mob.jpg</@ofbizContentUrl>">
+                <source media="(max-width: 768px)" srcset="<@ofbizContentUrl>${assetspath}/images/homepage/mobile/dresses021_mob.jpg</@ofbizContentUrl>">
 
                 <!-- tablet -->
-                <source media="(max-width: 1200px)" srcset="<@ofbizContentUrl>${assetspath}/images/homepage/top007_desk.jpg</@ofbizContentUrl>">
+                <source media="(max-width: 1200px)" srcset="<@ofbizContentUrl>${assetspath}/images/homepage/dresses021_desk.jpg</@ofbizContentUrl>">
 
                 <!-- fallback desktop -->
-                <img src="<@ofbizContentUrl>${assetspath}/images/homepage/top007_desk.jpg</@ofbizContentUrl>" class="banner-img" alt="Top">
+                <img src="<@ofbizContentUrl>${assetspath}/images/homepage/dresses021_desk.jpg</@ofbizContentUrl>" class="banner-img" alt="Dresses">
             </picture>
             <div class="banner-caption">
-                <h2 class="banner-title font-sz-large text-uppercase text-white" data-animate="fadeInUp">${SystemLabelMap.Tops}</h2>
+                <h2 class="banner-title font-sz-large text-uppercase text-white" data-animate="fadeInUp">${SystemLabelMap.Dresses}</h2>
             </div>
         </a>
     </div>

@@ -25,9 +25,9 @@
 
 @font-face {
   font-family: 'HelveticaNeue';
-  src: url('/dp_it/assets/canvas/fonts/HelveticaNeue_bold.woff2') format('woff2'),
-  url('/dp_it/assets/canvas/fonts/HelveticaNeue_bold.woff') format('woff'),
-  url('/dp_it/assets/canvas/fonts/HelveticaNeue_bold.ttf') format('truetype');
+  src: url('/dp_it/assets/canvas/fonts/HelveticaNeue_medium.woff2') format('woff2'),
+  url('/dp_it/assets/canvas/fonts/HelveticaNeue_medium.woff') format('woff'),
+  url('/dp_it/assets/canvas/fonts/HelveticaNeue_medium.ttf') format('truetype');
   font-weight: 700;
   font-style: normal;
   font-display: swap;
