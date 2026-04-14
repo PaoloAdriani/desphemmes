@@ -1,10 +1,10 @@
 <!-- Footer
 ============================================= -->
-<footer id="footer" class="bg-color dark border-0">
+<footer id="footer" class="border-0">
 	<div class="container-fluid">
 		<!-- Footer Widgets
 		============================================= -->
-		<div class="footer-widgets-wrap pb-5">
+		<div class="footer-widgets-wrap p-2">
 			<div class="row">
                 <#--
                 <div class="col-lg-2 col-md-4 col-6">
@@ -27,7 +27,7 @@
 				<div class="col-lg-3 col-md-4 col-6">
 					<div class="widget">
 						<h4 class="ls-0 mb-3 text-transform-none">Servizio clienti</h4>
-						<ul class="list-unstyled iconlist ms-0">
+						<ul class="list-unstyled iconlist m-0">
 							<#--<li><a href="<@ofbizUrl>shipping</@ofbizUrl>" class="upper">${SystemLabelMap.Shipping}</a></li>-->
 							<#--<li><a href="<@ofbizUrl>returns</@ofbizUrl>" class="upper">${SystemLabelMap.Returns}</a></li>-->
 							<li><a href="<@ofbizUrl>sizeguide</@ofbizUrl>" class="upper">${SystemLabelMap.SizeGuide}</a></li>
@@ -39,7 +39,7 @@
 				<div class="col-lg-3 col-md-4 col-6">
 					<div class="widget">
 						<h4 class="ls-0 mb-3 text-transform-none">Area Legale</h4>
-						<ul class="list-unstyled iconlist ms-0">
+						<ul class="list-unstyled iconlist m-0">
 							<li><a href="<@ofbizUrl>salesconditions</@ofbizUrl>" class="upper">${SystemLabelMap.SalesConditions}</a></li>
 							<li><a href="<@ofbizUrl>privacy</@ofbizUrl>" class="upper">${SystemLabelMap.PrivacyPolicy}</a></li>
 							<li><a href="<@ofbizUrl>cookie</@ofbizUrl>" class="upper">${SystemLabelMap.CookieManagement}</a></li>
@@ -49,7 +49,7 @@
 				<div class="col-lg-3 col-md-4 col-6">
 					<div class="widget">
 						<h4 class="ls-0 mb-3 text-transform-none">Corporate</h4>
-						<ul class="list-unstyled iconlist ms-0">
+						<ul class="list-unstyled iconlist m-0">
 							<li><a href="https://www.desphemmes.com" class="upper" target="_blank">${SystemLabelMap.Brand}</a></li>
 
 						</ul>

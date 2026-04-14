@@ -18,6 +18,15 @@ body, html {
     font-weight: 400;
 }
 
+footer, #copyrights {
+    background-color: #f4f4f4!important;
+    color: #000!important;
+}
+
+.logo-h-small {
+    height: 50px!important;
+}
+
 .font-regular {
     font-weight: 400!important;
 }
@@ -81,12 +90,20 @@ select[name="newLocale"] {
     color: inherit;
 }
 
+a.button-login {
+    background-color: transparent!important;
+    color: #000!important;
+    padding: 5px!important;
+    text-transform: uppercase;
+    transition: all ease 0.5s;
+}
+
 .slider-caption h2{
     text-transform: uppercase;
 }
 
 .upper {
-    font-weight: bold;
+    /*font-weight: bold;*/
     text-transform: uppercase;
 }
 

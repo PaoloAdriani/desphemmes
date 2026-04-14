@@ -9,7 +9,7 @@
                 ============================================= -->
                 <div id="logo" class="me-lg-auto me-0 order-lg-2 col-lg-auto">
                     <a href="<@ofbizUrl>index</@ofbizUrl>">
-                        <img class="logo-default" srcset="<@ofbizContentUrl>${assetspath}/images/logo.png</@ofbizContentUrl>, <@ofbizContentUrl>${assetspath}/images/logo.png</@ofbizContentUrl> 2x" src="<@ofbizContentUrl>${assetspath}/images/logo.png</@ofbizContentUrl>" alt="Des Phemmes Logo">
+                        <img class="logo-default logo-h-small" srcset="<@ofbizContentUrl>${assetspath}/images/logo.png</@ofbizContentUrl>, <@ofbizContentUrl>${assetspath}/images/logo.png</@ofbizContentUrl> 2x" src="<@ofbizContentUrl>${assetspath}/images/logo.png</@ofbizContentUrl>" alt="Des Phemmes Logo">
                         <img class="logo-mobile" srcset="<@ofbizContentUrl>${assetspath}/images/logo.png</@ofbizContentUrl>, <@ofbizContentUrl>${assetspath}/images/logo.png</@ofbizContentUrl> 2x" src="<@ofbizContentUrl>${assetspath}/images/logo.png</@ofbizContentUrl>" alt="Des Phemmes Logo">
                     </a>
                 </div><!-- #logo end -->
@@ -36,10 +36,38 @@
                     <#include "common/shippingCountries.ftl" />
 
                     <ul class="menu-container">
-                        <i class="bi-flag" style="font-size: 20px;"></i>
+                        <div class="mx-2 d-flex align-items-center">
+                        <#--<i class="bi-flag" style="font-size: 20px;"></i>&nbsp;-->
+
+                        <#assign availableLocales = Static["org.apache.ofbiz.base.util.UtilMisc"].availableLocales()/>
+                        <#list availableLocales as availableLocale>
+                            <#if (availableLocale == "it_IT") || (availableLocale == "en_US")>
+
+                                <#assign langAttr = availableLocale.toString()?replace("_", "-")>
+                                <#assign langDir = "ltr">
+                                <#if "ar.iw"?contains(langAttr?substring(0, 2))>
+                                    <#assign langDir = "rtl">
+                                </#if>
+
+                                <a class=" <#if locale.toString() = availableLocale.toString()>font-bold</#if> upper"
+                                   href="#"
+                                   lang="${langAttr}"
+                                   dir="${langDir}"
+                                   data-locale="${availableLocale.toString()}" data-locale-l="${locale.toString()}">
+                                    <div>
+                                        ${availableLocale.getDisplayName(availableLocale)?substring(0, 2)}
+                                    </div>
+                                </a>
+                                <#if availableLocale?has_next>&nbsp;|&nbsp;</#if>
+
+                            </#if>
+
+                        </#list>
+                        </div>
+
+<#--
                         <li class="menu-item">
 
-                            <!-- Lingua attuale visibile -->
                             <a class="menu-link upper" href="#">
                                 <div>
                                     ${locale.getDisplayName(locale)?substring(0, 2)}
@@ -75,9 +103,10 @@
 
                             </ul>
                         </li>
+                        -->
 
                         <!-- Nazione spedizione attuale visibile -->
-                        <i class="bi-truck" style="font-size: 20px;"></i>
+                        <i class="bi-globe" style="font-size: 20px;"></i>
                         <li class="menu-item">
                             <a class="menu-link upper" href="#">
                                 <div>
@@ -108,9 +137,9 @@
                     <!-- Top Login
                     ============================================= -->
                     <#if userLogin?has_content && userLogin.userLoginId != "anonymous">
-                        <div id="top-account" class="header-misc-icon px-3">
+                        <div id="top-account" class="header-misc-icon px-1">
                             <div class="dropdown mx-3 me-lg-0">
-                                <a href="#" class="btn btn-secondary btn-sm dropdown-toggle" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="true"><i class="uil uil-user"></i></a>
+                                <a href="#" class="btn btn-secondary btn-sm dropdown-toggle" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="true">My Account</a>
                                 <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenu1">
                                     <a class="dropdown-item text-start" href="<@ofbizUrl>viewprofile</@ofbizUrl>">${SystemLabelMap.CommonProfile}</a>
                                     <a class="dropdown-item text-start" href="<@ofbizUrl>returnList</@ofbizUrl>">${SystemLabelMap.CommonReturns}</a>
@@ -121,8 +150,10 @@
                             </div>
                         </div>
                     <#else>
-                        <div id="top-account" class="header-misc-icon px-3">
-                            <a href="<@ofbizUrl>${checkLoginUrl}</@ofbizUrl>"><i class="bi-people" style="font-size: 20px;"></i></a>
+                        <div id="top-account" class="header-misc-icon px-1">
+                            <div class="dropdown me-lg-0">
+                                <a class="button-login" href="<@ofbizUrl>${checkLoginUrl}</@ofbizUrl>">Sign-In</a>
+                            </div>
                         </div><!-- #top-search end -->
                     </#if>
 
@@ -143,7 +174,7 @@
 
                     <!-- Menu Left -->
                     <ul class="menu-container">
-                        <li class="menu-item"><a class="menu-link upper" href="<@ofbizCatalogAltUrl productCategoryId="NEWIN"/>"><div>${SystemLabelMap.NewIn}</div></a></li>
+                        <li class="menu-item"><a class="menu-link upper" href="<@ofbizCatalogAltUrl productCategoryId="SEEALL"/>"><div>${SystemLabelMap.SeeAll}</div></a></li>
                          <li class="menu-item mega-menu mega-menu-small"><a class="menu-link upper" href="#"><div>Shop</div></a>
                             <div class="mega-menu-content mega-menu-style-2">
                                 <div class="container">
@@ -161,6 +192,7 @@
                                 </div>
                             </div>
                          </li>
+                        <li class="menu-item"><a class="menu-link upper" href="<@ofbizCatalogAltUrl productCategoryId="FW-SEEALL"/>"><div>${SystemLabelMap.SeeAllWinterFall}</div></a></li>
 
                         <li class="menu-item"><a class="menu-link upper" href="https://www.desphemmes.com" target="_blank"><div>${SystemLabelMap.Brand}</div></a></li>
                     </ul>

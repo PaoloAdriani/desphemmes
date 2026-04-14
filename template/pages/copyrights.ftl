@@ -1,6 +1,6 @@
 <!-- Copyrights
 	============================================= -->
-<div id="copyrights">
+<div id="copyrights p-1">
 	<div class="container-fluid">
 		<div class="row justify-content-between align-items-center">
 			<div class="col-md-2">

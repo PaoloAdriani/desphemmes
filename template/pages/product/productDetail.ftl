@@ -25,7 +25,7 @@
             }
 
             .color-dot.active img{
-              border:2px solid #000;
+              border:1px solid #000;
             }
 
             .product-colors {
@@ -246,8 +246,9 @@
                               <ol class="breadcrumb">
                                 <li class="breadcrumb-item"><a href="<@ofbizUrl>index</@ofbizUrl>">Home</a></li>
                                 <#if productCategory?has_content>
+                                    <#assign prcatCntWrapper = Static["org.apache.ofbiz.product.category.CategoryContentWrapper"].makeCategoryContentWrapper(productCategory, request) />
                                   <li class="breadcrumb-item">
-                                    <a href="<@ofbizCatalogAltUrl productCategoryId=categoryId/>">${title!}</a>
+                                    <a href="<@ofbizCatalogAltUrl productCategoryId=categoryId/>">${prcatCntWrapper.get("CATEGORY_NAME", "html")!}</a>
                                   </li>
                                 </#if>
                               </ol>
@@ -393,7 +394,7 @@
                                                     <input type="button" value="+" class="plus">
                                                 </div>
 
-                                                <a name="addToCartDisabled" class="add-to-cart button m-0 upper" style="background-color: red; cursor: not-allowed; pointer-events: none;" disabled="disabled">${SystemLabelMap.OutOfStock}</a>
+                                                <a name="addToCartDisabled" class="add-to-cart button m-0 upper border border-dark" style="background-color: white; color: #000; cursor: not-allowed; pointer-events: none;" disabled="disabled">${SystemLabelMap.OutOfStock}</a>
 
                                                 <#assign inStock = false />
                                             </#if><#-- end variantTree?? && (variantTree.size() &gt; 0 -->
@@ -435,7 +436,7 @@
                                         <i class="toggle-open uil uil-minus"></i>
                                     </div>
                                     <div class="toggle-title upper">
-                                        ${SystemLabelMap.ArticleInfo}
+                                        ${SystemLabelMap.ArticleDescription}
                                     </div>
                                 </div>
                                 <div class="toggle-content toggle-content-padding">

@@ -17,13 +17,12 @@
            	<div class="container">
            		<div class="page-title-row">
            			<div class="page-title-content">
-           				<h1 class="text-uppercase">Guida alle taglie</h1>
-           				<#--<span>Contact Us</span>-->
+           				<h1 class="text-uppercase">${SystemLabelMap.SizeGuide}</h1>
            			</div>
            			<nav aria-label="breadcrumb">
            				<ol class="breadcrumb">
            					<li class="breadcrumb-item"><a href="<@ofbizUrl>index</@ofbizUrl>">Home</a></li>
-           					<li class="breadcrumb-item active" aria-current="page">Guida alle taglie</li>
+           					<li class="breadcrumb-item active" aria-current="page">${SystemLabelMap.SizeGuide}</li>
            				</ol>
            		    </nav>
            		</div>

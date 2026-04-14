@@ -55,11 +55,11 @@
 
          .banner-caption {
              position: absolute;
-             inset: 0;
+             inset: 0 0 0 1.1rem;
              display: flex;
-             align-items: center;
-             justify-content: center;
-             text-align: center;
+             align-items: flex-start;
+             justify-content: flex-start;
+             text-align: left;
              color: white;
              pointer-events: none;
          }
@@ -80,10 +80,11 @@
 
 <#macro page_body>
 
-    <#include "homepage/sliderNewIn.ftl" />
+    <#include "homepage/bannerHome01.ftl" />
     <#include "homepage/categoryRow01.ftl" />
     <#include "homepage/categoryRow02.ftl" />
     <#include "homepage/categoryRow03.ftl" />
+    <#include "homepage/bannerHome02.ftl" />
     <#--<#include "homepage/categoryRow04.ftl" />-->
 
 

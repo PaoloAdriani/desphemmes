@@ -15,9 +15,9 @@
 /* @mpstyle Custom fonts */
 @font-face {
   font-family: 'HelveticaNeue';
-  src: url('/dp_it/assets/canvas/fonts/HelveticaNeue_regular.woff2') format('woff2'),
-  url('/dp_it/assets/canvas/fonts/HelveticaNeue_regular.woff') format('woff'),
-  url('/dp_it/assets/canvas/fonts/HelveticaNeue_regular.ttf') format('truetype');
+  src: url('/dp_it/assets/canvas/fonts/HelveticaNeueRoman.woff2') format('woff2'),
+  url('/dp_it/assets/canvas/fonts/HelveticaNeueRoman.woff') format('woff'),
+  url('/dp_it/assets/canvas/fonts/HelveticaNeueRoman.ttf') format('truetype');
   font-weight: 400;
   font-style: normal;
   font-display: swap;
@@ -25,9 +25,9 @@
 
 @font-face {
   font-family: 'HelveticaNeue';
-  src: url('/dp_it/assets/canvas/fonts/HelveticaNeue_medium.woff2') format('woff2'),
-  url('/dp_it/assets/canvas/fonts/HelveticaNeue_medium.woff') format('woff'),
-  url('/dp_it/assets/canvas/fonts/HelveticaNeue_medium.ttf') format('truetype');
+  src: url('/dp_it/assets/canvas/fonts/HelveticaNeueBold.woff2') format('woff2'),
+  url('/dp_it/assets/canvas/fonts/HelveticaNeueBold.woff') format('woff'),
+  url('/dp_it/assets/canvas/fonts/HelveticaNeueBold.ttf') format('truetype');
   font-weight: 700;
   font-style: normal;
   font-display: swap;

@@ -103,9 +103,24 @@ under the License.
         <value xml:lang="en">Knitwear</value>
     </property>
 
+    <property key="Coats">
+        <value xml:lang="it">Coats &amp; Jacket</value>
+        <value xml:lang="en">Coats &amp; Jacket</value>
+    </property>
+
+    <property key="Tailoring">
+        <value xml:lang="it">Tailoring</value>
+        <value xml:lang="en">Tailoring</value>
+    </property>
+
     <property key="SeeAll">
         <value xml:lang="it">Shop SS26</value>
         <value xml:lang="en">Shop SS26</value>
+    </property>
+
+    <property key="SeeAllWinterFall">
+        <value xml:lang="it">Shop FW25</value>
+        <value xml:lang="en">Shop FW25</value>
     </property>
 
     <property key="Fitness">
@@ -264,13 +279,18 @@ under the License.
         <value xml:lang="en">Article information</value>
     </property>
 
+    <property key="ArticleDescription">
+        <value xml:lang="it">Descrizione</value>
+        <value xml:lang="en">Description</value>
+    </property>
+
     <property key="ModelInfo">
-        <value xml:lang="it">Info modella</value>
-        <value xml:lang="en">Model information</value>
+        <value xml:lang="it">Taglia e vestibilità</value>
+        <value xml:lang="en">Size &amp; Fit</value>
     </property>
 
     <property key="ModelInfoDescription">
-        <value xml:lang="it">La modella è alta 1,78 mt e indossa una tg. 40 italiana.</value>
+        <value xml:lang="it">La modella è alta 178 cm e indossa una tg. 40 IT.</value>
         <value xml:lang="en">The model is 178 cm tall and wears an Italian size 40.</value>
     </property>
 
