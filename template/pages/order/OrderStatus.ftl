@@ -22,7 +22,7 @@ under the License.
 
 <!-- Document Title
 ============================================= -->
-<title>Des Phemmes | Sito Uffiicale</title>
+<title>DesPhemmes | Sito Uffiicale</title>
 
 </#macro>
 
@@ -33,9 +33,9 @@ under the License.
         <div class="container">
             <div class="card mb-0 upper">
                 <#if orderHeader?has_content>
-                    ${screens.render("component://fisico/widget/FisicoScreens.xml#orderheader")}
+                    ${screens.render("component://desphemmes/widget/DesphemmesScreens.xml#orderheader")}
                     <br />
-                    ${screens.render("component://fisico/widget/FisicoScreens.xml#orderitems")}
+                    ${screens.render("component://desphemmes/widget/DesphemmesScreens.xml#orderitems")}
                 <#else>
                   <h3>${SystemLabelMap.OrderSpecifiedNotFound}.</h3>
                 </#if>

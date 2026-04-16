@@ -34,8 +34,8 @@ under the License.
       <div class="card mb-0">
         <h2>${SystemLabelMap.EcommerceOrderConfirmation}</h2>
         <#if orderHeader?has_content>
-          ${screens.render("component://fisico/widget/FisicoScreens.xml#orderheader")}
-          ${screens.render("component://fisico/widget/FisicoScreens.xml#orderitems")}
+          ${screens.render("component://desphemmes/widget/DesphemmesScreens.xml#orderheader")}
+          ${screens.render("component://desphemmes/widget/DesphemmesScreens.xml#orderitems")}
           <div class="row justify-content-end align-items-center py-2 col-mb-30 col-md-offset-4">
             <a href="<@ofbizUrl>index</@ofbizUrl>" class="button button-small button-3d button-black m-0 upper">${SystemLabelMap.EcommerceContinueShopping}</a>
           </div>

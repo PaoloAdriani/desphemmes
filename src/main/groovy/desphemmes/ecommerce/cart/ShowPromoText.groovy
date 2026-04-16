@@ -21,7 +21,7 @@ package desphemmes.ecommerce.cart
 import org.apache.ofbiz.base.util.UtilMisc
 import org.apache.ofbiz.order.shoppingcart.product.ProductPromoWorker
 
-promoShowLimit = 3
+promoShowLimit = 100
 
 //Get Promo Text Data
 productPromosAll = ProductPromoWorker.getStoreProductPromos(delegator, dispatcher, request)

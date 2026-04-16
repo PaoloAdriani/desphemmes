@@ -1446,9 +1446,9 @@
                                                                                   </#if>
                                                                                 </#list>
                                                                                 <#if currentShippingAmount != 0 >    
-                                                                                    <#assign freeShippingThreshold = 150>
+                                                                                    <#assign freeShippingThreshold = 500>
 
-                                                                                    <#if orderSubTotal >= freeShippingThreshold>
+                                                                                    <#if (orderSubTotal >= freeShippingThreshold)>
                                                                                         ${emailLabelMap.OrderConfirmationShipEst}
 
                                                                                         <span style="color:#28a745; font-weight:bold;">
@@ -1534,7 +1534,7 @@
                                                 <#list orderShippingAddressList as shippingAddress>
                                                   <#assign postalAddress = delegator.findOne("PostalAddress", Static["org.apache.ofbiz.base.util.UtilMisc"].toMap("contactMechId", shippingAddress.contactMechId), false) />
                                                   <#assign country = delegator.findOne("Geo", Static["org.apache.ofbiz.base.util.UtilMisc"].toMap("geoId", postalAddress.countryGeoId), false) />
-                                                  <#if postalAddress.stateProvinceGeoId?has_content && postalAddress.stateProvinceGeoId?contains("-") >
+                                                  <#if postalAddress.stateProvinceGeoId?? && postalAddress.stateProvinceGeoId?has_content && postalAddress.stateProvinceGeoId?contains("-") >
                                                         <#assign province = postalAddress.stateProvinceGeoId?keep_after("-") />
                                                     <#else>
                                                         <#assign province = postalAddress.stateProvinceGeoId! />

@@ -36,9 +36,9 @@
 
         <#if cart?? && (cart.size() > 0)>
 
-          ${screens.render("component://fisico/widget/FisicoScreens.xml#orderheader")}
+          ${screens.render("component://desphemmes/widget/DesphemmesScreens.xml#orderheader")}
           <br/>
-          ${screens.render("component://fisico/widget/FisicoScreens.xml#orderitems")}
+          ${screens.render("component://desphemmes/widget/DesphemmesScreens.xml#orderitems")}
 
           <div class="row">
             <div class="col-12 d-flex justify-content-end">

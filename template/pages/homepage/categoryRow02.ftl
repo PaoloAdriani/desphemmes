@@ -1,5 +1,5 @@
 <div class="row">
-    <div class="col-6 p-0">
+    <div class="col-md-6 col-sm-12 p-0">
         <a class="category-banner-link" href="<@ofbizCatalogAltUrl productCategoryId="S6-007"/>">
             <picture>
                 <!-- mobile -->
@@ -16,7 +16,7 @@
             </div>
         </a>
     </div>
-    <div class="col-6 p-0">
+    <div class="col-md-6 col-sm-12 p-0">
         <a class="category-banner-link" href="<@ofbizCatalogAltUrl productCategoryId="S6-024"/>">
             <picture>
                 <!-- mobile -->
