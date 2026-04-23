@@ -24,33 +24,29 @@
                     </div>
                 </div>
                 -->
-				<div class="col-lg-3 col-md-4 col-6">
+				<div class="col-4 d-flex justify-content-md-end">
 					<div class="widget">
-						<h4 class="ls-0 mb-3 text-transform-none">Servizio clienti</h4>
+						<h4 class="ls-0 mb-3 text-transform-none footerlinks-title">Servizio clienti</h4>
 						<ul class="list-unstyled iconlist m-0">
-							<#--<li><a href="<@ofbizUrl>shipping</@ofbizUrl>" class="upper">${SystemLabelMap.Shipping}</a></li>-->
-							<#--<li><a href="<@ofbizUrl>returns</@ofbizUrl>" class="upper">${SystemLabelMap.Returns}</a></li>-->
-							<li><a href="<@ofbizUrl>sizeguide</@ofbizUrl>" class="upper">${SystemLabelMap.SizeGuide}</a></li>
-							<#--<li><a href="<@ofbizUrl>contacts</@ofbizUrl>" class="upper">${SystemLabelMap.Contacts}</a></li>-->
-							<#--<li><a href="<@ofbizUrl>faq</@ofbizUrl>" class="upper">${SystemLabelMap.Faq}</a></li>-->
+							<li class="footerlink"><a href="<@ofbizUrl>sizeguide</@ofbizUrl>" class="upper">${SystemLabelMap.SizeGuide}</a></li>
 						</ul>
 					</div>
 				</div>
-				<div class="col-lg-3 col-md-4 col-6">
+				<div class="col-4 d-flex justify-content-md-center">
 					<div class="widget">
-						<h4 class="ls-0 mb-3 text-transform-none">Area Legale</h4>
+						<h4 class="ls-0 mb-3 text-transform-none footerlinks-title">Area Legale</h4>
 						<ul class="list-unstyled iconlist m-0">
-							<li><a href="<@ofbizUrl>salesconditions</@ofbizUrl>" class="upper">${SystemLabelMap.SalesConditions}</a></li>
-							<li><a href="<@ofbizUrl>privacy</@ofbizUrl>" class="upper">${SystemLabelMap.PrivacyPolicy}</a></li>
-							<li><a href="<@ofbizUrl>cookie</@ofbizUrl>" class="upper">${SystemLabelMap.CookieManagement}</a></li>
+							<li class="footerlink"><a href="<@ofbizUrl>salesconditions</@ofbizUrl>" class="upper">${SystemLabelMap.SalesConditions}</a></li>
+							<li class="footerlink"><a href="<@ofbizUrl>privacy</@ofbizUrl>" class="upper">${SystemLabelMap.PrivacyPolicy}</a></li>
+							<li class="footerlink"><a href="<@ofbizUrl>cookie</@ofbizUrl>" class="upper">${SystemLabelMap.CookieManagement}</a></li>
 						</ul>
 					</div>
 				</div>
-				<div class="col-lg-3 col-md-4 col-6">
+				<div class="col-4 d-flex justify-content-md-start">
 					<div class="widget">
-						<h4 class="ls-0 mb-3 text-transform-none">Corporate</h4>
+						<h4 class="ls-0 mb-3 text-transform-none footerlinks-title">Corporate</h4>
 						<ul class="list-unstyled iconlist m-0">
-							<li><a href="https://www.desphemmes.com" class="upper" target="_blank">${SystemLabelMap.Brand}</a></li>
+							<li class="footerlink"><a href="https://www.desphemmes.com" class="upper" target="_blank">${SystemLabelMap.Brand}</a></li>
 
 						</ul>
 					</div>

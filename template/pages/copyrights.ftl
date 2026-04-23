@@ -1,18 +1,18 @@
 <!-- Copyrights
 	============================================= -->
-<div id="copyrights p-1">
+<div id="copyrights" class="p-1 m-1">
 	<div class="container-fluid">
 		<div class="row justify-content-between align-items-center">
-			<div class="col-md-2">
-					Copyrights &copy; 2026 All Rights Reserved by Mpstyle S.r.l.<br>
-				<br>
-				<div class="d-flex align-items-center gap-2">
+			<div class="col-md-2 col-sm-12 footerlink copyright-text">
+					Copyrights &copy; 2026 All Rights Reserved by Mpstyle S.r.l.<br><br>
+
+				<div class="d-flex justify-content-md-start justify-content-center gap-2">
 					<#include "footer/language.ftl" />
 					<#include "footer/country.ftl" />
 				</div>
 			</div>
-			<div class="col-md-6 d-md-flex flex-md-column align-items-md-end mt-4 mt-md-0">
-				<ul class="list-unstyled d-flex flex-row mb-2">
+			<div class="col-md-6 col-sm-12 d-md-flex flex-md-column align-items-md-end mt-md-0">
+				<ul class="list-unstyled d-flex flex-row justify-content-md-end justify-content-center mb-2">
 					<li class="me-2"><img src="<@ofbizContentUrl>${assetspath}/store/xmas/images/cards/visa.svg</@ofbizContentUrl>" alt="Visa" width="34"></li>
 					<li class="me-2"><img src="<@ofbizContentUrl>${assetspath}/store/xmas/images/cards/mc.svg</@ofbizContentUrl>" alt="Master Card" width="34"></li>
 					<li class="me-2"><img src="<@ofbizContentUrl>${assetspath}/store/xmas/images/cards/ae.svg</@ofbizContentUrl>" alt="American Express" width="34"></li>

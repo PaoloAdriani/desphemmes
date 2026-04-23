@@ -22,6 +22,10 @@ h1,h2,h3,h4,h5,h6 {
     font-weight: 700!important;
 }
 
+#wrapper {
+ overflow-x: hidden;
+ }
+
 footer, #copyrights {
     background-color: #f4f4f4!important;
     color: #000!important;
@@ -61,6 +65,10 @@ footer, #copyrights {
 
 .font-sz-xsmall {
     font-size: 0.75rem!important;
+}
+
+.font-sz-xxsmall {
+    font-size: 0.6rem!important;
 }
 
 .font-sz-medium {
@@ -176,6 +184,11 @@ a.button-login {
     color: inherit;
 }
 
+.footerlink {
+    font-size: 0.875rem!important;
+}
+
+
  @media (max-width: 768px) {
 
      .content-wrap {
@@ -215,6 +228,20 @@ a.button-login {
 
      .banner-caption .banner-title {
          font-size: 1rem!important;
+     }
+
+     .footerlinks-title {
+         font-size: 0.875rem!important;
+         text-align: center;
+     }
+
+     .footerlink {
+         font-size: 0.6rem!important;
+         text-align: center;
+     }
+
+     .copyright-text {
+         text-align: center;
      }
 
  }
