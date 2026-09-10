@@ -114,6 +114,7 @@ if (orderHeader) {
     if (productStore) isDemoStore = !"N".equals(productStore.isDemoStore)
 
     orderReadHelper = new OrderReadHelper(orderHeader)
+    customerEmail = orderReadHelper.getOrderEmailString();
     orderItems = orderReadHelper.getOrderItems()
     orderAdjustments = orderReadHelper.getAdjustments()
     orderHeaderAdjustments = orderReadHelper.getOrderHeaderAdjustments()
@@ -194,6 +195,8 @@ if (orderHeader) {
     context.orderItemShipGroups = orderItemShipGroups
     context.headerAdjustmentsToShow = headerAdjustmentsToShow
     context.currencyUomId = orderReadHelper.getCurrency()
+
+    context.customerEmail = customerEmail
 
     context.orderShippingTotal = orderShippingTotal
     context.orderTaxTotal = orderTaxTotal

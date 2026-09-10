@@ -69,6 +69,9 @@ under the License.
               window.dataLayer = window.dataLayer || [];
               dataLayer.push({
                 event: "purchase",
+                user_data: {
+                    email_address: '${customerEmail!''}',
+                },
                 ecommerce: {
                   transaction_id: "${orderId}",
                   value: ${orderGrandTotal?c},
